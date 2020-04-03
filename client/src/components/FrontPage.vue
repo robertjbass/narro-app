@@ -77,11 +77,12 @@ footer {
 
 .body-white {
   background-color: #fafafa;
-  padding: 40px;
+  padding: 25px;
 }
 
 .body-blue {
   background-color: #e4eefc;
+  padding: 25px;
 }
 
 hr {

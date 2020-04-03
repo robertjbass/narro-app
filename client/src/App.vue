@@ -83,10 +83,12 @@ footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  height: 60px;
+  height: 50px;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 .spacer {
-  height: 40px;
+  height: 50px;
 }
 </style>

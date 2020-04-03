@@ -1,8 +1,8 @@
 <template>
   <Footer class="footer">
     <!-- <span class="design-gradient"> -->
-    <span>
-      <div class="resource-buffer">Resources</div>
+    <div class="footer-width">
+      <!-- <div class="resource-buffer">Resources</div> -->
       <ul>
         <li v-for="resource in resources" :key="resource.id">
           <a
@@ -14,7 +14,7 @@
           </a>
         </li>
       </ul>
-    </span>
+    </div>
   </Footer>
 </template>
 
@@ -46,17 +46,27 @@ export default {
 </script>
 
 <style scoped>
+ul {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-self: center;
+}
 li {
   display: inline-block;
   list-style-type: none;
-  justify-content: space-evenly;
+  /* justify-content: space-between; */
+}
+.footer-width {
+  /* width: 100%; */
+  align-content: space-evenly;
 }
 
-.resource-buffer {
+/* .resource-buffer {
   padding-top: 5px;
-  /* padding-right: 1000px; */
   width: 100%;
-}
+  align-content: center;
+} */
 
 a {
   color: darkorange;
@@ -88,9 +98,8 @@ h1 {
 }
 
 /* .design-gradient, */
-footer {
+.footer {
   background-image: linear-gradient(to top right, #edeafb, #fde3ef);
-  text-align: start;
   font-weight: bold;
   display: flex;
   justify-content: center;
