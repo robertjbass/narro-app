@@ -18,6 +18,18 @@
         </div>
       </div>
     </div>
+    <div class="blue-highlight">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum
+      molestiae vitae expedita. Voluptatibus, incidunt? Tenetur sunt delectus
+      velit voluptatibus quas magni ab. Mollitia aliquam velit optio cum
+      provident voluptatem!
+    </div>
+    <div class="light-blue-highlight">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum
+      molestiae vitae expedita. Voluptatibus, incidunt? Tenetur sunt delectus
+      velit voluptatibus quas magni ab. Mollitia aliquam velit optio cum
+      provident voluptatem!
+    </div>
     <div class="salmon-highlight">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aperiam
       accusantium rerum odio autem nobis illum dolor vel molestias? Veniam quo
@@ -185,7 +197,7 @@ a h3 {
 }
 
 .blue-highlight {
-  background-color: #f6f6f6;
+  background-color: #e5effd;
 }
 
 .light-blue-highlight {
