@@ -5,16 +5,31 @@
       <h3>{{ subtext }}</h3>
       <div class="gradient-box">
         <div class="purple-gradient">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ex
-          quas alias cum repellat nobis, nemo modi suscipit molestiae? Quidem
-          cupiditate atque dolores obcaecati harum dolorum laborum, inventore
-          nobis voluptatibus!
+          <ServiceCard service="Airtable" description="Airtable is a"
+            ><img
+              class="logo-image"
+              src="https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png"
+              alt="Airtable"
+          /></ServiceCard>
         </div>
         <div class="orange-gradient">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
-          tempora quae saepe expedita, ut ipsum totam possimus dicta consectetur
-          reiciendis ab quia, a labore, repellendus repellat aliquam officia
-          maiores aliquid.
+          <ServiceCard service="Zapier" description="We love Zapier"
+            ><img
+              class="logo-image"
+              src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
+              alt="Zapier"
+          /></ServiceCard>
+        </div>
+
+        <div class="orange-gradient-2">
+          <ServiceCard service="1234" description="qbc"
+            ><img class="logo-image" src="" alt=""
+          /></ServiceCard>
+        </div>
+        <div class="purple-gradient-2">
+          <ServiceCard service="456" description="def"
+            ><img class="logo-image" src="" alt=""
+          /></ServiceCard>
         </div>
       </div>
     </div>
@@ -25,7 +40,7 @@
       provident voluptatem!
     </div>
     <div class="light-blue-highlight">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum
+      a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum
       molestiae vitae expedita. Voluptatibus, incidunt? Tenetur sunt delectus
       velit voluptatibus quas magni ab. Mollitia aliquam velit optio cum
       provident voluptatem!
@@ -45,11 +60,11 @@
 </template>
 
 <script>
+import ServiceCard from "@/components/ServiceCard.vue";
 export default {
-  name: "FrontPage",
-  props: {
-    headline: String,
-    subtext: String
+  name: "front-page",
+  components: {
+    ServiceCard
   }
 };
 </script>
@@ -61,7 +76,6 @@ export default {
   display: block;
   box-sizing: border-box;
 }
-
 header {
   align-items: stretch;
   display: grid;
@@ -74,7 +88,10 @@ header {
 
 .gradient-box {
   display: flex;
-  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 footer {
@@ -166,8 +183,12 @@ a h3 {
   border-radius: 1rem;
   padding: 10px;
   border: 10px;
-  margin-left: 10px;
+  margin: 0 5px 10px 5px;
   box-shadow: 5px 5px;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
 }
 
 .purple-gradient {
@@ -175,8 +196,36 @@ a h3 {
   border-radius: 1rem;
   padding: 10px;
   border: 10px;
-  margin-right: 10px;
+  margin: 0 5px 10px 5px;
   box-shadow: 5px 5px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.purple-gradient-2 {
+  background-image: linear-gradient(to top right, #d7d7f9, #fdc6dc);
+  border-radius: 1rem;
+  padding: 10px;
+  border: 10px;
+  margin: 0 5px 10px 5px;
+  box-shadow: 5px 5px;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.orange-gradient-2 {
+  background-image: linear-gradient(to top right, #ffefce, #ffa38c);
+  border-radius: 1rem;
+  padding: 10px;
+  border: 10px;
+  margin: 0 5px 10px 5px;
+  box-shadow: 5px 5px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
 .design-gradient {
