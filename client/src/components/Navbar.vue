@@ -190,19 +190,4 @@ h3 {
   padding: 40px 20px 50px;
   overflow: hidden;
 }
-
-/* unused */
-
-/* top-area
-background
-#fafafa
-gray-lines-design
-#e6e6e6
-gray-lines-around-boxes
-#e2e2e2
-workspace-canvas-background
-#f2f2f2
-built-in-app
-dark
-#666666 */
 </style>

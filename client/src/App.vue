@@ -54,11 +54,12 @@ export default {
   color: #2c3e50;
   font-size: 2em;
   text-decoration: none;
+  background-color: #f3f8ff;
 }
 
 #nav a.router-link-exact-active {
   color: #136bf5;
-  background-color: #f2f2f2;
+  background-color: #fde3ef;
 }
 
 hr {
