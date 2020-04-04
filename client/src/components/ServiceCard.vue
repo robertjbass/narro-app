@@ -1,11 +1,16 @@
 <template>
-  <div>
-    <h1>
-      {{ service }}
-    </h1>
-
-    <slot class="image-slot"></slot>
-    <p>{{ description }}</p>
+  <div class="card-wrapper">
+    <div class="service-banner">
+      <h1>
+        {{ service }}
+      </h1>
+      <div class="image-slot">
+        <slot class="logo-image"></slot>
+      </div>
+      <!-- </div>
+    <div> -->
+    </div>
+    <div class="description">{{ description }}</div>
   </div>
 </template>
 
@@ -109,6 +114,16 @@ a h3 {
   max-width: 100%;
 }
 .image-slot {
-  align-self: center;
+  height: auto;
+  margin-bottom: 10%;
+}
+/* .description {
+  position: relative;
+  bottom: 0px;
+} */
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 </style>

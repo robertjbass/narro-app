@@ -2,7 +2,15 @@
   <div id="app">
     <div id="nav">
       <div class="logo-box">
-        <div class="logo" align="left">Ν▶</div>
+        <!-- <div class="logo" align="left">Ν▶</div> -->
+        <div class="logo" align="left">
+          <img
+            class="logo-img"
+            src="./assets/Narro Logo Clear.png"
+            alt="Ν▶"
+            align="left"
+          />
+        </div>
         <div class="company-name">Narro Automation</div>
       </div>
       <Navbar>
@@ -57,12 +65,21 @@ export default {
 hr {
   margin: 0px;
 }
-.logo {
+/* .logo {
   color: #fd7622;
   font-weight: 900;
   font-size: 3rem;
   text-decoration-line: line-through;
   text-decoration-style: wavy;
+} */
+.logo-img {
+  height: 40px;
+  color: #fd7622;
+  font-weight: 900;
+  font-size: 3rem;
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+  padding: 10px;
 }
 .logo-box {
   display: flex;

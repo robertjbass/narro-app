@@ -3,8 +3,8 @@
     <div class="body-white">
       <h1>{{ headline }}</h1>
       <h3>{{ subtext }}</h3>
-      <div class="gradient-box">
-        <div class="purple-gradient">
+      <div class="gradient-boxes">
+        <div class="service-box purple-gradient">
           <ServiceCard service="Airtable" description="Airtable is a"
             ><img
               class="logo-image"
@@ -12,7 +12,7 @@
               alt="Airtable"
           /></ServiceCard>
         </div>
-        <div class="orange-gradient">
+        <div class="service-box orange-gradient">
           <ServiceCard service="Zapier" description="We love Zapier"
             ><img
               class="logo-image"
@@ -21,13 +21,13 @@
           /></ServiceCard>
         </div>
 
-        <div class="orange-gradient-2">
-          <ServiceCard service="1234" description="qbc"
+        <div class="service-box purple-gradient">
+          <ServiceCard service="456" description="def"
             ><img class="logo-image" src="" alt=""
           /></ServiceCard>
         </div>
-        <div class="purple-gradient-2">
-          <ServiceCard service="456" description="def"
+        <div class="service-box orange-gradient">
+          <ServiceCard service="1234" description="qbc"
             ><img class="logo-image" src="" alt=""
           /></ServiceCard>
         </div>
@@ -71,7 +71,6 @@ export default {
 
 <style scoped>
 * {
-  font-family: sans-serif;
   font-family: "Open Sans", Helvetica, arial, sans-serif;
   display: block;
   box-sizing: border-box;
@@ -85,33 +84,11 @@ header {
   background-color: #ffffff;
   border-bottom: 1px solid rgb(230, 230, 230);
 }
-
-.gradient-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-footer {
-  order: 3;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #f1f4f5;
-  border-top: 1px solid #f1f4f5;
+.logo-image {
   align-items: center;
 }
-
-.body-white {
-  background-color: #fafafa;
-  padding: 25px;
-}
-
-.body-blue {
-  background-color: #e4eefc;
-  padding: 25px;
+.logo {
+  color: #fd7622;
 }
 
 hr {
@@ -124,7 +101,6 @@ a {
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -133,7 +109,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -148,12 +123,68 @@ h3 {
 a h3 {
   color: #136bf5;
 }
-
-/* dark-orange-logo */
-.logo {
-  color: #fd7622;
+.gradient-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
+.service-box {
+  background-image: linear-gradient(to top right, #ffefce, #ffa38c);
+  border-radius: 1rem;
+  padding: 10px;
+  border: 10px;
+  margin: 0 5px 10px 5px;
+  box-shadow: 5px 5px;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.orange-gradient {
+  background-image: linear-gradient(to top right, #ffefce, #ffa38c);
+}
+
+.purple-gradient {
+  background-image: linear-gradient(to top right, #d7d7f9, #fdc6dc);
+}
+
+.body-white {
+  background-color: #fafafa;
+  padding: 25px;
+}
+
+.body-blue {
+  background-color: #e4eefc;
+  padding: 25px;
+}
+.salmon-highlight {
+  background-color: #ffe1d5;
+}
+
+.blue-highlight {
+  background-color: #e5effd;
+}
+
+.light-blue-highlight {
+  background-color: #f3f8ff;
+}
+
+footer {
+  order: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f1f4f5;
+  border-top: 1px solid #f1f4f5;
+  align-items: center;
+}
+/* .design-gradient {
+    background-image: linear-gradient(to top right, #edeafb, #fde3ef);
+  }
 .btn-blue {
   background-color: #3b5999;
   color: #ffffff;
@@ -167,71 +198,9 @@ a h3 {
   background-color: #fc4700;
   color: #ffffff;
 }
-
-.text-box {
-  /* placeholder-text */
-  color: #8c8c8c;
-  border-color: #e6e6e6;
-}
-
 .h3-background {
   background-color: #f2f2f2;
 }
-
-.orange-gradient {
-  background-image: linear-gradient(to top right, #ffefce, #ffa38c);
-  border-radius: 1rem;
-  padding: 10px;
-  border: 10px;
-  margin: 0 5px 10px 5px;
-  box-shadow: 5px 5px;
-  width: 40%;
-
-  display: flex;
-  justify-content: center;
-}
-
-.purple-gradient {
-  background-image: linear-gradient(to top right, #d7d7f9, #fdc6dc);
-  border-radius: 1rem;
-  padding: 10px;
-  border: 10px;
-  margin: 0 5px 10px 5px;
-  box-shadow: 5px 5px;
-  width: 40%;
-  display: flex;
-  justify-content: center;
-}
-
-.purple-gradient-2 {
-  background-image: linear-gradient(to top right, #d7d7f9, #fdc6dc);
-  border-radius: 1rem;
-  padding: 10px;
-  border: 10px;
-  margin: 0 5px 10px 5px;
-  box-shadow: 5px 5px;
-  width: 40%;
-
-  display: flex;
-  justify-content: center;
-}
-
-.orange-gradient-2 {
-  background-image: linear-gradient(to top right, #ffefce, #ffa38c);
-  border-radius: 1rem;
-  padding: 10px;
-  border: 10px;
-  margin: 0 5px 10px 5px;
-  box-shadow: 5px 5px;
-  width: 40%;
-  display: flex;
-  justify-content: center;
-}
-
-.design-gradient {
-  background-image: linear-gradient(to top right, #edeafb, #fde3ef);
-}
-
 .subtext-area {
   display: flex;
   flex-direction: column;
@@ -239,18 +208,6 @@ a h3 {
   padding: 50px 20px 40px 20px;
   width: 100%;
   background-color: #ffffff;
-}
-
-.salmon-highlight {
-  background-color: #ffe1d5;
-}
-
-.blue-highlight {
-  background-color: #e5effd;
-}
-
-.light-blue-highlight {
-  background-color: #f3f8ff;
 }
 
 .orange-app {
@@ -279,7 +236,7 @@ a h3 {
   border-color: #666666;
 }
 
-/* fake screenshot */
+fake screenshot
 .dots {
   background-color: #c4c4c4;
   border-radius: 50%;
@@ -287,7 +244,7 @@ a h3 {
   max-width: 2px;
 }
 
-/* fake-browser-bar */
+fake-browser-bar
 .browser {
   background-color: #e6e9eb;
   border-radius: 2em;
@@ -295,7 +252,7 @@ a h3 {
   max-width: 40%;
 }
 
-/* switch-turned-off */
+switch-turned-off
 .switch-outer {
   background-color: #666666;
   border-radius: 20%;
@@ -303,11 +260,16 @@ a h3 {
   max-width: 100px;
 }
 
-/* section header */
+placeholder-text
+.text-box {
+  color: #8c8c8c;
+  border-color: #e6e6e6;
+}
+
+salmon
 .learn-more {
-  /* salmon */
-  background-color: #ffe1d5;
+background-color: #ffe1d5;
   padding: 40px 20px 50px;
   overflow: hidden;
-}
+}  */
 </style>
