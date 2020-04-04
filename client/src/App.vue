@@ -46,7 +46,6 @@ export default {
   max-width: 100%;
 }
 #nav {
-  /* padding: 30px 0px 0px 0px; */
   border-bottom: thick;
 }
 
@@ -65,13 +64,7 @@ export default {
 hr {
   margin: 0px;
 }
-/* .logo {
-  color: #fd7622;
-  font-weight: 900;
-  font-size: 3rem;
-  text-decoration-line: line-through;
-  text-decoration-style: wavy;
-} */
+
 .logo-img {
   height: 40px;
   color: #fd7622;

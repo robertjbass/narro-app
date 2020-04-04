@@ -4,6 +4,15 @@
       <h1>{{ headline }}</h1>
       <h3>{{ subtext }}</h3>
       <div class="gradient-boxes">
+        <div class="service-box orange-gradient">
+          <ServiceCard service="Zapier" description="We love Zapier"
+            ><img
+              class="logo-image"
+              src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
+              alt="Zapier"
+          /></ServiceCard>
+        </div>
+
         <div class="service-box purple-gradient">
           <ServiceCard service="Airtable" description="Airtable is a"
             ><img
@@ -12,12 +21,10 @@
               alt="Airtable"
           /></ServiceCard>
         </div>
+
         <div class="service-box orange-gradient">
-          <ServiceCard service="Zapier" description="We love Zapier"
-            ><img
-              class="logo-image"
-              src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
-              alt="Zapier"
+          <ServiceCard service="1234" description="qbc"
+            ><img class="logo-image" src="" alt=""
           /></ServiceCard>
         </div>
 
@@ -84,12 +91,6 @@ header {
   background-color: #ffffff;
   border-bottom: 1px solid rgb(230, 230, 230);
 }
-.logo-image {
-  align-items: center;
-}
-.logo {
-  color: #fd7622;
-}
 
 hr {
   color: #e6e6e6;
@@ -123,12 +124,11 @@ h3 {
 a h3 {
   color: #136bf5;
 }
-.gradient-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
+.logo-image {
+  align-items: center;
+}
+.logo {
+  color: #fd7622;
 }
 
 .service-box {
@@ -136,14 +136,25 @@ a h3 {
   border-radius: 1rem;
   padding: 10px;
   border: 10px;
-  margin: 0 5px 10px 5px;
+  /* margin: 0 5px 10px 5px; */
+  margin: 0 1% 2% 1%;
   box-shadow: 5px 5px;
-  width: 200px;
+  width: 300px;
+  max-width: 30%;
+  flex-grow: 1;
   display: flex;
   text-align: center;
   justify-content: space-between;
 }
 
+.gradient-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+}
 .orange-gradient {
   background-image: linear-gradient(to top right, #ffefce, #ffa38c);
 }
