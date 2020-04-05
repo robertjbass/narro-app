@@ -55,18 +55,10 @@ ul {
 li {
   display: inline-block;
   list-style-type: none;
-  /* justify-content: space-between; */
 }
 .footer-width {
-  /* width: 100%; */
   align-content: space-evenly;
 }
-
-/* .resource-buffer {
-  padding-top: 5px;
-  width: 100%;
-  align-content: center;
-} */
 
 a {
   color: darkorange;
@@ -97,14 +89,17 @@ h1 {
   box-shadow: 5px 5px;
 }
 
-/* .design-gradient, */
 .footer {
-  background-image: linear-gradient(to top right, #edeafb, #fde3ef);
+  /* background-image: linear-gradient(to top right, #edeafb, #fde3ef); */
+  background-color: #e5effd;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  border-radius: 0.5rem 0.5rem 0 0;
+  /* border-radius: 0.5rem 0.5rem 0 0; */
   text-align: left;
+  border-top-color: #000000;
+  border-top-style: solid;
+  border-top-width: 1px;
 }
 
 .fake-app {

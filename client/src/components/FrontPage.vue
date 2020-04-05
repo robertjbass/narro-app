@@ -19,23 +19,20 @@
       inventore ad tempore, voluptatum sapiente, quas hic quisquam iure nesciunt
       dolorem fugiat quibusdam amet doloremque. Temporibus rerum iste ducimus
       totam tenetur assumenda eos, consequuntur in illum quae necessitatibus
-      magnam vero ad labore doloremque alias! Illum exercitationem, natus veniam
-      dolor rerum optio temporibus ratione non ullam nobis, nihil inventore
-      accusantium! Autem modi eveniet, est corporis voluptatibus aspernatur
-      accusantium. Doloribus cupiditate esse debitis dicta, praesentium ex qui!
-      Tempora perspiciatis consequuntur, quae facilis in, dicta fugit corporis
-      sunt quia ducimus, at obcaecati! Minus culpa autem, recusandae laborum
-      consequuntur modi voluptate? Amet rerum, omnis inventore illo eveniet sint
-      neque soluta, eum perferendis iure minima aperiam deleniti!
+      magnam vero ad labore doloremque alias!
     </div>
     <div class="gradient-boxes">
       <div class="service-box zapier-gradient">
-        <ServiceCard service="Zapier" description="We love Zapier"
-          ><img
-            class="logo-image"
-            src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
-            alt="Zapier"
-        /></ServiceCard>
+        <h4>
+          <ServiceCard
+            service="Zapier"
+            description="We 🧡 Zapier! When a single salaried employee costs tens of thousands of dollars, as does proprietary software. As certified Zapier experts, we help you to scale your business and lower overhead by removing the human intervention from your processes."
+            ><img
+              class="logo-image"
+              src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
+              alt="Zapier"
+          /></ServiceCard>
+        </h4>
       </div>
 
       <div class="service-box airtable-gradient">
@@ -49,7 +46,7 @@
       </div>
 
       <div class="service-box mysql-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="MySQL" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/24d21be435e0c140d7fcc4369892c15e/e60b612e/MySQLBannerClear.png"
@@ -58,7 +55,7 @@
       </div>
 
       <div class="service-box slack-gradient">
-        <ServiceCard service="456" description="def"
+        <ServiceCard service="Slack" description="def"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png"
@@ -67,7 +64,7 @@
       </div>
 
       <div class="service-box vue-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Vue.JS" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/d90803371969873c31cb64ddf0181e0c/15c43c78/VueJSBanner.png"
@@ -76,7 +73,7 @@
       </div>
 
       <div class="service-box copper-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Copper" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png"
@@ -85,7 +82,7 @@
       </div>
 
       <div class="service-box coda-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Coda" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/2fc0673bda9f5b009ace325c4929475d/3beaefd1/coda-logo.png"
@@ -94,7 +91,7 @@
       </div>
 
       <div class="service-box google-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="GSuite" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png"
@@ -103,25 +100,25 @@
       </div>
 
       <div class="service-box outfunnel-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Outfunnel" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/15a09bcdf75a2974f532926fe9eec4c1/bc5589a2/OutfunnelBanner.png"
-            alt="OutFunnel"
+            alt="Outfunnel"
         /></ServiceCard>
       </div>
 
       <div class="service-box reply-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Reply.io" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/2e9ed0ff5e68c765cec98e00b458b90c/36bead68/reply-io.png"
-            alt="ReplyIO"
+            alt="Reply.io"
         /></ServiceCard>
       </div>
 
       <div class="service-box typeform-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Typeform" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/382bcba414684e6d125d79144ef0c8c5/5b465c24/typeform.svg"
@@ -130,16 +127,16 @@
       </div>
 
       <div class="service-box mailparser-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Mailparser.io" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/2e555ec8a27c1ff25aee28f5cc23d9b0/58ea928a/MailparserBanner2.png"
-            alt="MailParser"
+            alt="Mailparser.io"
         /></ServiceCard>
       </div>
 
       <div class="service-box dropbox-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Dropbox" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/d97e1645d03505eb774612be01804ab3/a3b60b00/dropbox.png"
@@ -149,7 +146,7 @@
       </div>
 
       <div class="service-box docusign-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="DocuSign" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png"
@@ -158,7 +155,7 @@
       </div>
 
       <div class="service-box css-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="CSS/HTML" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png"
@@ -167,16 +164,16 @@
       </div>
 
       <div class="service-box node-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Node.JS" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/812ad17e355312275f41e48672d6f59c/8dc9713d/node-banner.png"
-            alt="NodeJS"
+            alt="Node.JS"
         /></ServiceCard>
       </div>
 
       <div class="service-box csharp-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="C# .NET" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/83e6f705bd29c8e202ee9ee1a74abc19/be3fa076/Csharp.png"
@@ -185,7 +182,7 @@
       </div>
 
       <div class="service-box javascript-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="JavaScript" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/c8fa8668764fb5831c65770bb7c3b8d3/120aca07/javascript.png"
@@ -194,7 +191,7 @@
       </div>
 
       <div class="service-box slite-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="Slite" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png"
@@ -203,7 +200,7 @@
       </div>
 
       <div class="service-box qbo-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="QuickBooks Online" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/bf7b3fd0c943dd553f7fe38668898455/865bc1ad/qbo-banner.png"
@@ -212,7 +209,7 @@
       </div>
 
       <div class="service-box postgres-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="PostgreSQL" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/b21a39073f412ccc9659e2d6232ff418/50cecf5e/PostgreSQL.png"
@@ -221,7 +218,7 @@
       </div>
 
       <div class="service-box mongodb-gradient">
-        <ServiceCard service="1234" description="qbc"
+        <ServiceCard service="MongoDB" description="qbc"
           ><img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/79798127af31055601111b7de6338dd1/a4f7fd5c/MongoDBBanner.png"
@@ -230,7 +227,7 @@
       </div>
 
       <div class="service-box docparser-gradient">
-        <ServiceCard service="1234" description="qbc">
+        <ServiceCard service="Docparser" description="qbc">
           <img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/8750dbf58d4b026025a1401ecd636e88/053a55c6/DocparserBanner.png"
@@ -240,7 +237,7 @@
       </div>
 
       <div class="service-box webhooks-gradient">
-        <ServiceCard service="1234" description="qbc">
+        <ServiceCard service="Webhooks" description="qbc">
           <img
             class="logo-image"
             src="https://dl.airtable.com/.attachments/44cf41563c5e08c730eeaadb4220bf0b/0a02c875/webhooks.png"
@@ -416,11 +413,11 @@ a h3 {
 }
 
 .dropbox-gradient {
-  background-image: linear-gradient(to top right, #08175350, #007ee550);
+  background-image: linear-gradient(to top right, #194ba050, #007ee550);
 }
 
 .docusign-gradient {
-  background-image: linear-gradient(to top right, #1d1d1e50, #194ba050);
+  background-image: linear-gradient(to top right, #007ee550, #194ba050);
 }
 
 .css-gradient {
@@ -480,8 +477,12 @@ a h3 {
   background-color: #ffe1d5;
 }
 
-.blue-highlight {
+/* .blue-highlight {
   background-color: #e5effd;
+} */
+
+.blue-highlight {
+  background-image: linear-gradient(to bottom, #e5effd, #fafafa);
 }
 
 .light-blue-highlight {
