@@ -8,7 +8,9 @@
         <slot class="logo-image"></slot>
       </div>
     </div>
-    <div class="description">{{ description }}</div>
+    <h4>
+      <div class="description">{{ description }}</div>
+    </h4>
   </div>
 </template>
 
@@ -23,6 +25,7 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
   font-family: "Open Sans", Helvetica, arial, sans-serif;
   display: block;
@@ -45,6 +48,7 @@ a {
   color: #9bd5ff;
 }
 h1 {
+  font-family: "Indie Flower", cursive;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -64,6 +68,7 @@ h3 {
 a h3 {
   color: #136bf5;
 }
+
 /* dark-orange-logo */
 .logo {
   color: #fd7622;
@@ -79,19 +84,27 @@ a h3 {
   max-width: 100%;
 }
 .image-slot {
+  width: 100%;
   height: auto;
-  margin-bottom: 10%;
+  /* margin-bottom: 5px; */
+}
+
+.service-banner {
+  justify-content: center;
 }
 .card-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* 
+
 .description {
+  font-family: "Indie Flower", cursive;
   position: relative;
   bottom: 0px;
-} 
+  text-align: left;
+}
+/*
 .btn-blue {
   background-color: #3b5999;
   color: #ffffff;
