@@ -104,23 +104,4 @@ a h3 {
   bottom: 0px;
   text-align: left;
 }
-/*
-.btn-blue {
-  background-color: #3b5999;
-  color: #ffffff;
-}
-.btn-black {
-  background-color: #000000;
-  color: #ffffff;
-}
-.btn-orange {
-  background-color: #fc4700;
-  color: #ffffff;
-}
-.text-box {
-  placeholder-text 
-  color: #8c8c8c;
-  border-color: #e6e6e6;
-}
-*/
 </style>

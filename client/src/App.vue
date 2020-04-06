@@ -4,19 +4,21 @@
       <div class="logo-box">
         <!-- <div class="logo" align="left">Ν▶</div> -->
         <div class="logo" align="left">
-          <img
-            class="logo-img"
-            src="./assets/Narro Logo Clear.png"
-            alt="Ν▶"
-            align="left"
-          />
+          <a href="/">
+            <img
+              class="logo-img"
+              src="./assets/Narro Logo Clear.png"
+              alt="Ν▶"
+              align="left"
+            />
+          </a>
         </div>
         <div class="company-name">Narro Automation</div>
       </div>
       <Navbar>
         <router-link to="/">Home</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/tbd">Other</router-link>
+        <router-link to="/contact">Contact</router-link>
+        <router-link to="/services">Services</router-link>
       </Navbar>
       <hr />
     </div>

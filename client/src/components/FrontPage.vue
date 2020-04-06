@@ -1,18 +1,16 @@
 <template>
   <div class="front-page">
     <div class="body-white">
-      <h1>{{ headline }}</h1>
-      <h3>{{ subtext }}</h3>
-    </div>
-    <div class="blue-highlight">
-      For a complete list of services we integrate with,
-      <a href="https://zapier.com/apps" target="blank">
-        Services that integrate with Zapier</a
-      >
-      <a href="https://www.integromat.com/en/integrations" target="blank">
-        Services that integrate with Integromat</a
-      >
-      <h1>Things that we're quite fond of:</h1>
+      <!-- <a href="https://airtable.com/shrfNLJSFZcoWlMdY" target="blank"
+        >Contact Us</a
+      > -->
+      <div class="top">
+        <h1>{{ headline }}</h1>
+        <h3>{{ subtext }}</h3>
+      </div>
+      <div class="blue-highlight">
+        <h1>Things that we're quite fond of:</h1>
+      </div>
     </div>
     <div class="gradient-boxes">
       <div class="service-box zapier-gradient">
@@ -381,7 +379,7 @@
       </div>
     </div>
 
-    <div class="light-blue-highlight">
+    <!-- <div class="light-blue-highlight">
       a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum
       molestiae vitae expedita. Voluptatibus, incidunt? Tenetur sunt delectus
       velit voluptatibus quas magni ab. Mollitia aliquam velit optio cum
@@ -397,7 +395,7 @@
       nostrum! Sed quae similique illo voluptatum excepturi ratione at deserunt
       quaerat dolor, aliquid culpa iste alias facilis quia temporibus
       exercitationem?
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -420,6 +418,8 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 * {
   /* font-family: "Open Sans", Helvetica, arial, sans-serif; */
   display: block;
@@ -442,7 +442,15 @@ hr {
 }
 
 a {
-  color: #9bd5ff;
+  text-decoration: none;
+  color: darkorange;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 5px;
+  width: 120px;
+  margin: auto;
+  text-align: right;
 }
 
 h1 {
@@ -463,6 +471,7 @@ h2 {
 
 h3 {
   color: #666666;
+  margin-bottom: 0;
 }
 
 a h3 {
@@ -628,7 +637,7 @@ a h3 {
 
 .body-white {
   background-color: #fafafa;
-  padding: 25px;
+  padding: 25px 25px 0 25px;
 }
 
 /* .body-blue {
@@ -643,8 +652,8 @@ a h3 {
   background-color: #e5effd;
 } */
 
-.blue-highlight {
-  background-image: linear-gradient(to bottom, #e5effd, #fafafa);
+.top {
+  background-image: linear-gradient(to bottom, #e5effd, #ffffff);
 }
 
 .light-blue-highlight {
