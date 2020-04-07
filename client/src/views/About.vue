@@ -2,32 +2,39 @@
   <div class="about-us">
     <div class="body-white">
       <div class="top">
-        <h1>Request Information</h1>
+        <h1>Automation Information</h1>
       </div>
     </div>
     <h3>Case Study: Ashland Development<br /></h3>
+    <img
+      class="zapier-expert"
+      src="@/assets/images/zapier-expert.png"
+      alt="Zapier Expert"
+    />
 
     <div class="content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad placeat
-      incidunt esse sunt exercitationem blanditiis, iure qui unde recusandae,
-      ipsa nam maxime nesciunt quia consectetur fugiat voluptate! Esse optio
-      laudantium sit consequuntur explicabo repellendus harum, dolore quos
-      sapiente saepe autem labore suscipit hic error, reiciendis vero assumenda,
-      dolorem velit accusantium ex adipisci? Esse nemo aspernatur sequi
-      architecto quasi iste fugiat. Pariatur quia iure tempora eius sint
-      molestiae nemo laborum quis excepturi perspiciatis voluptatem nulla,
-      adipisci nostrum rerum doloribus aut temporibus nobis dolore! Dignissimos
-      blanditiis doloribus alias aliquam necessitatibus modi quam cupiditate
-      laboriosam, saepe fugiat ratione repellendus laudantium sed. Labore
-      placeat, sit iusto eum harum accusamus, provident quo repudiandae
-      voluptatum laboriosam quisquam eos laborum eveniet! Aliquid, recusandae
-      facilis quas harum totam, voluptatem consequatur exercitationem ipsum ipsa
-      dignissimos dolore magnam sint deserunt tempore laborum obcaecati
-      provident. Maxime quisquam excepturi distinctio corrupti quo. Quas
-      veritatis, quos in reprehenderit expedita temporibus blanditiis illum iste
-      nostrum, alias vitae numquam eaque repellendus consectetur porro iusto id
-      officia officiis nesciunt sapiente quo. Possimus nam atque soluta eos ut
-      voluptate repellendus vel, perferendis magnam, cumque ipsum eveniet
+      A call center with was servicing accounts for a number of different
+      lenders. The accounts receivable software appeared to be from the 90s and
+      did not have any custom integration abilities. consectetur adipisicing
+      elit. Ad placeat incidunt esse sunt exercitationem blanditiis, iure qui
+      unde recusandae, ipsa nam maxime nesciunt quia consectetur fugiat
+      voluptate! Esse optio laudantium sit consequuntur explicabo repellendus
+      harum, dolore quos sapiente saepe autem labore suscipit hic error,
+      reiciendis vero assumenda, dolorem velit accusantium ex adipisci? Esse
+      nemo aspernatur sequi architecto quasi iste fugiat. Pariatur quia iure
+      tempora eius sint molestiae nemo laborum quis excepturi perspiciatis
+      voluptatem nulla, adipisci nostrum rerum doloribus aut temporibus nobis
+      dolore! Dignissimos blanditiis doloribus alias aliquam necessitatibus modi
+      quam cupiditate laboriosam, saepe fugiat ratione repellendus laudantium
+      sed. Labore placeat, sit iusto eum harum accusamus, provident quo
+      repudiandae voluptatum laboriosam quisquam eos laborum eveniet! Aliquid,
+      recusandae facilis quas harum totam, voluptatem consequatur exercitationem
+      ipsum ipsa dignissimos dolore magnam sint deserunt tempore laborum
+      obcaecati provident. Maxime quisquam excepturi distinctio corrupti quo.
+      Quas veritatis, quos in reprehenderit expedita temporibus blanditiis illum
+      iste nostrum, alias vitae numquam eaque repellendus consectetur porro
+      iusto id officia officiis nesciunt sapiente quo. Possimus nam atque soluta
+      eos ut voluptate repellendus vel, perferendis magnam, cumque ipsum eveniet
       consequatur saepe, ipsam dolorem illum aperiam fugiat veritatis animi
       nostrum! Incidunt explicabo similique quo tempore alias ex pariatur
       voluptatem unde ea.
@@ -82,7 +89,10 @@ export default {
   margin: auto;
   text-align: center;
 }
-
+.zapier-expert {
+  width: 50%;
+  margin: auto;
+}
 header {
   align-items: stretch;
   display: grid;

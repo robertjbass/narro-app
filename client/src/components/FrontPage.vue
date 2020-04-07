@@ -21,11 +21,7 @@
               alt="Zapier"
             />
           </div>
-          <img
-            class="medium-logo-image"
-            src="@/assets/images/zapier-expert.png"
-            alt="Zapier Expert"
-        /></ServiceCard>
+        </ServiceCard>
       </div>
 
       <div class="service-box airtable-gradient">
