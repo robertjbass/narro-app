@@ -103,5 +103,6 @@ a h3 {
   position: relative;
   bottom: 0px;
   text-align: left;
+  font-size: 18px;
 }
 </style>

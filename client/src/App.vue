@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <a
+      class="contact-us"
+      href="https://airtable.com/shrCDJbvIga3NMRZS"
+      target="blank"
+      >Contact Us</a
+    >
     <div id="nav">
       <div class="logo-box">
         <!-- <div class="logo" align="left">Ν▶</div> -->
@@ -17,30 +23,32 @@
       </div>
       <Navbar>
         <router-link to="/">Home</router-link>
-        <router-link to="/contact">Contact</router-link>
+        <router-link to="/about">About Us</router-link>
         <router-link to="/services">Services</router-link>
       </Navbar>
       <hr />
     </div>
     <router-view />
     <div class="spacer"></div>
-    <Footer />
+    <FooterBar />
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue";
-import Footer from "@/components/Footer.vue";
+import FooterBar from "@/components/FooterBar.vue";
 export default {
   name: "app",
   components: {
     Navbar,
-    Footer
+    FooterBar
   }
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -103,5 +111,17 @@ footer {
 }
 .spacer {
   height: 50px;
+}
+
+.contact-us {
+  text-decoration: none;
+  color: darkorange;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 5px;
+  width: 100%;
+  margin: auto;
+  background-color: inherit;
 }
 </style>

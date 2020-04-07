@@ -1,22 +1,57 @@
 <template>
-  <div class="contact">
+  <div class="about-us">
     <div class="body-white">
-      <!-- <a href="https://airtable.com/shrfNLJSFZcoWlMdY" target="blank"
-        >Contact Us</a
-      > -->
       <div class="top">
         <h1>Request Information</h1>
       </div>
+    </div>
+    <h3>Case Study: Ashland Development<br /></h3>
+
+    <div class="content">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad placeat
+      incidunt esse sunt exercitationem blanditiis, iure qui unde recusandae,
+      ipsa nam maxime nesciunt quia consectetur fugiat voluptate! Esse optio
+      laudantium sit consequuntur explicabo repellendus harum, dolore quos
+      sapiente saepe autem labore suscipit hic error, reiciendis vero assumenda,
+      dolorem velit accusantium ex adipisci? Esse nemo aspernatur sequi
+      architecto quasi iste fugiat. Pariatur quia iure tempora eius sint
+      molestiae nemo laborum quis excepturi perspiciatis voluptatem nulla,
+      adipisci nostrum rerum doloribus aut temporibus nobis dolore! Dignissimos
+      blanditiis doloribus alias aliquam necessitatibus modi quam cupiditate
+      laboriosam, saepe fugiat ratione repellendus laudantium sed. Labore
+      placeat, sit iusto eum harum accusamus, provident quo repudiandae
+      voluptatum laboriosam quisquam eos laborum eveniet! Aliquid, recusandae
+      facilis quas harum totam, voluptatem consequatur exercitationem ipsum ipsa
+      dignissimos dolore magnam sint deserunt tempore laborum obcaecati
+      provident. Maxime quisquam excepturi distinctio corrupti quo. Quas
+      veritatis, quos in reprehenderit expedita temporibus blanditiis illum iste
+      nostrum, alias vitae numquam eaque repellendus consectetur porro iusto id
+      officia officiis nesciunt sapiente quo. Possimus nam atque soluta eos ut
+      voluptate repellendus vel, perferendis magnam, cumque ipsum eveniet
+      consequatur saepe, ipsam dolorem illum aperiam fugiat veritatis animi
+      nostrum! Incidunt explicabo similique quo tempore alias ex pariatur
+      voluptatem unde ea.
+      <br />
+
       <div class="blue-highlight">
-        <iframe
-          class="airtable-embed airtable-dynamic-height"
-          src="https://airtable.com/embed/shrfNLJSFZcoWlMdY?backgroundColor=purple"
-          frameborder="0"
-          onmousewheel=""
-          width="100%"
-          height="1550"
-          style="background: transparent; border: 1px solid #ccc;"
-        ></iframe>
+        <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank"
+          >Request a Review</a
+        >
+        <hr />
+        <h3><u>Address</u></h3>
+        <div class="address">
+          Narro, LLC<br />244 Highland Pkwy #112 <br />Buffalo, NY 14223
+        </div>
+
+        <h3><u>Phone</u></h3>
+        <div class="email">
+          ‪info@narro.app
+        </div>
+
+        <h3><u>Phone</u></h3>
+        <div class="phone">
+          ‪716.256.3060‬
+        </div>
       </div>
     </div>
   </div>
@@ -32,12 +67,20 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 * {
-  /* font-family: "Open Sans", Helvetica, arial, sans-serif; */
   display: block;
   box-sizing: border-box;
 }
 .top {
   background-image: linear-gradient(to bottom, #e5effd, #ffffff);
+}
+.content {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
 }
 
 header {
@@ -62,9 +105,9 @@ a {
   font-weight: 900;
   font-family: "Indie Flower", cursive;
   padding-top: 5px;
-  width: 120px;
+  width: 250px;
   margin: auto;
-  text-align: right;
+  text-align: center;
 }
 
 h1 {
@@ -73,6 +116,8 @@ h1 {
   line-height: 30px;
   color: rgb(0, 0, 0);
   text-align: center;
+  margin-top: 0;
+  line-height: 70px;
 }
 
 h2 {
@@ -90,6 +135,15 @@ h3 {
 
 a h3 {
   color: #136bf5;
+}
+u {
+  text-align: left;
+}
+.address,
+.email,
+.phone {
+  font-family: monospace;
+  text-align: left;
 }
 
 .logo {
@@ -251,7 +305,7 @@ a h3 {
 
 .body-white {
   background-color: #fafafa;
-  padding: 25px 25px 0 25px;
+  border: 25px 25px 0 25px;
 }
 
 .salmon-highlight {

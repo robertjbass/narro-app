@@ -1,15 +1,12 @@
 <template>
   <div class="front-page">
     <div class="body-white">
-      <!-- <a href="https://airtable.com/shrfNLJSFZcoWlMdY" target="blank"
-        >Contact Us</a
-      > -->
       <div class="top">
         <h1>{{ headline }}</h1>
         <h3>{{ subtext }}</h3>
-      </div>
-      <div class="blue-highlight">
-        <h1>Things that we're quite fond of:</h1>
+        <div class="blue-highlight">
+          <h2 class="things">Things that we're quite fond of:</h2>
+        </div>
       </div>
     </div>
     <div class="gradient-boxes">
@@ -22,8 +19,13 @@
               class="logo-image"
               src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
               alt="Zapier"
-            /></div
-        ></ServiceCard>
+            />
+          </div>
+          <img
+            class="medium-logo-image"
+            src="@/assets/images/zapier-expert.png"
+            alt="Zapier Expert"
+        /></ServiceCard>
       </div>
 
       <div class="service-box airtable-gradient">
@@ -67,12 +69,20 @@
           description="Integromat is called 'The glue of the internet'. It is a powerful tool for automating manual processes and connecting services. We wouldn't be an Integromat partner if we didn't love it."
         >
           <div class="image-wrap">
-            <img
-              class="logo-image"
-              src="https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png"
-              alt="Integromat"
-            /></div
-        ></ServiceCard>
+            <span class="integromat-partner">
+              <img
+                class="integromat-partner-logo"
+                src="https://dl.airtable.com/.attachments/27c6f6528acaffec0fb9e37688a82f4d/7af237e7/integromat-logo.png"
+                alt="Integromat"
+              />
+              <img
+                class="medium-logo-image"
+                src="https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG"
+                alt="Integromat Partner"
+              />
+            </span>
+          </div>
+        </ServiceCard>
       </div>
 
       <div class="service-box slack-gradient">
@@ -378,24 +388,6 @@
         ></ServiceCard>
       </div>
     </div>
-
-    <!-- <div class="light-blue-highlight">
-      a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum
-      molestiae vitae expedita. Voluptatibus, incidunt? Tenetur sunt delectus
-      velit voluptatibus quas magni ab. Mollitia aliquam velit optio cum
-      provident voluptatem!
-    </div>
-    <div class="salmon-highlight">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aperiam
-      accusantium rerum odio autem nobis illum dolor vel molestias? Veniam quo
-      quis voluptatem facilis laudantium error ex delectus nihil deleniti!
-    </div>
-    <div class="body-white">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, omnis
-      nostrum! Sed quae similique illo voluptatum excepturi ratione at deserunt
-      quaerat dolor, aliquid culpa iste alias facilis quia temporibus
-      exercitationem?
-    </div> -->
   </div>
 </template>
 
@@ -426,6 +418,18 @@ export default {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: darkorange;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 5px;
+  width: 120px;
+  margin: auto;
+  text-align: right;
+}
+
 header {
   align-items: stretch;
   display: grid;
@@ -441,41 +445,40 @@ hr {
   margin: 0%;
 }
 
-a {
-  text-decoration: none;
-  color: darkorange;
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Indie Flower", cursive;
-  padding-top: 5px;
-  width: 120px;
-  margin: auto;
-  text-align: right;
-}
-
 h1 {
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
   color: rgb(0, 0, 0);
   text-align: center;
+  margin-top: 0;
+  line-height: 70px;
 }
 
 h2 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  color: rgb(102, 102, 102);
-  text-align: center;
+  color: #666666;
+  margin-top: 30px;
 }
 
 h3 {
-  color: #666666;
-  margin-bottom: 0;
+  color: #333333;
+  margin: 0;
 }
 
 a h3 {
   color: #136bf5;
+}
+
+.things {
+  text-decoration: none;
+  color: #666666;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 5px;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .logo {
@@ -484,18 +487,33 @@ a h3 {
 
 .small-logo-image {
   width: 20%;
-  padding-top: 20px;
+  margin: auto;
+}
+
+.medium-logo-image {
+  width: 60%;
+  padding: 0px;
   margin: auto;
 }
 
 .image-wrap {
-  width: 50%;
+  width: 80%;
   align-content: center;
   text-align: center;
   justify-content: space-evenly;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.integromat-partner-logo {
+  width: 40%;
+  padding: 0px;
+  margin: auto;
+}
+.integromat-partner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .image-slot {
   justify-content: space-evenly;
@@ -525,8 +543,9 @@ a h3 {
   margin: 0px;
   padding: 0px;
   justify-content: space-around;
-  padding-top: 30px;
+  padding: 30px 30px 0 30px;
 }
+
 .orange-gradient {
   background-image: linear-gradient(to top right, #ffefce, #ffa38c);
 }
@@ -637,7 +656,7 @@ a h3 {
 
 .body-white {
   background-color: #fafafa;
-  padding: 25px 25px 0 25px;
+  border: 25px 25px 0 25px;
 }
 
 /* .body-blue {

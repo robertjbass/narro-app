@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: "footer",
+  name: "FooterBar",
   data() {
     return {
       resources: [
