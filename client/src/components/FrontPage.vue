@@ -389,26 +389,6 @@ hr {
   align-content: center;
 }
 
-/* h1 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 30px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  margin-top: 0;
-  line-height: 70px;
-}
-
-h2 {
-  color: #666666;
-  margin-top: 30px;
-}
-
-h3 {
-  color: #333333;
-  margin: 0;
-} */
-
 a.h3 {
   color: #136bf5;
 }
