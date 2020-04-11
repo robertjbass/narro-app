@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style scoped>
+* {
+  font-family: monospace;
+}
 footer {
   position: fixed;
   left: 0px;

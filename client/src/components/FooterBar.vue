@@ -37,7 +37,7 @@ export default {
         {
           id: 3,
           platform: "Coda",
-          url: "www.coda.io/@bob"
+          url: "https://coda.io/@bob/v1-5-zapier-expert-page"
         }
       ]
     };

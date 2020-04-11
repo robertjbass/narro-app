@@ -7,6 +7,11 @@
           Don't see the technology you're looking to integrate with? No
           problem!<br />
         </h3>
+        <!-- TODO: FIX JSON DATA -->
+        <div class="list" v-for="service in services" v-bind:key="service.name">
+          <b>{{ service.name }}:</b> {{ service.description }}<br /><br />
+        </div>
+
         <h4>
           A good point of reference is whether or not you can find the services
           listed here:
@@ -32,7 +37,7 @@
           >
         </div>
         <div class="blue-highlight">
-          <h2 class="things">
+          <h2>
             These just happen to be some of our favorite technologies to work
             with...
           </h2>
@@ -47,20 +52,28 @@
   </div>
 </template>
 <script>
-export default {};
+import serviceList from "@/assets/json/services.json";
+export default {
+  name: "Services",
+  computed: {
+    services() {
+      return serviceList.services.map(services => {
+        return services;
+      });
+    }
+  }
+};
 </script>
 <style scoped>
-.things {
-  text-decoration: none;
-  color: #666666;
-  font-size: 40px;
-  font-weight: 900;
-  font-family: "Indie Flower", cursive;
-  padding-top: 5px;
-  margin: auto;
-  text-align: center;
-  padding: 25px;
+* {
+  font-family: monospace;
 }
+.list {
+  text-align: left;
+  max-width: 50%;
+  padding-left: 25%;
+}
+
 .airtable-embed {
   height: 2800px;
   border: 0px;

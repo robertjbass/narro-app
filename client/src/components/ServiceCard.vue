@@ -1,17 +1,16 @@
 <template>
-  <div class="card-wrapper">
-    <div class="service-banner">
-      <h1>
-        {{ service }}
-      </h1>
-      <div class="image-slot">
-        <slot class="logo-image"></slot>
-      </div>
-    </div>
-    <h4>
-      <div class="description">{{ description }}</div>
-    </h4>
+  <div
+    class="card-wrapper service-banner image-slot"
+    @mouseover="hover = true"
+    @mouseleave="hover = false"
+  >
+    <!-- <div class="service-banner"> -->
+    <!-- <div class="image-slot"> -->
+    <slot class="logo-image"></slot>
   </div>
+  <!-- </div> -->
+  <!-- <div class="description" v-show="hover">{{ description }}</div> -->
+  <!-- </div> -->
 </template>
 
 <script>
@@ -20,6 +19,11 @@ export default {
   props: {
     service: String,
     description: String
+  },
+  data() {
+    return {
+      hover: false
+    };
   }
 };
 </script>
@@ -82,10 +86,12 @@ a h3 {
 .logo-image {
   min-width: 100%;
   max-width: 100%;
+  /* max-height: 140px; */
 }
 .image-slot {
   width: 100%;
   height: auto;
+
   /* margin-bottom: 5px; */
 }
 
@@ -96,13 +102,18 @@ a h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: auto;
+  padding: 20px;
+  vertical-align: middle;
 }
 
 .description {
-  font-family: "Indie Flower", cursive;
+  /* font-family: "Indie Flower", cursive; */
   position: relative;
   bottom: 0px;
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
+  color: inherit;
+  font-family: monospace;
 }
 </style>
