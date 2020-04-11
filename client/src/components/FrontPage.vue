@@ -3,9 +3,9 @@
     <div class="body-white">
       <div class="top">
         <h1>{{ headline }}</h1>
-        <h3>{{ subtext }}</h3>
+        <h2>{{ subtext }}</h2>
         <div class="blue-highlight">
-          <h2 class="things">Things that we're quite fond of:</h2>
+          <h2 class="things">Technologies we love</h2>
         </div>
       </div>
     </div>
@@ -320,6 +320,14 @@
         ></ServiceCard>
       </div>
     </div>
+    <br /><br />
+    <hr />
+    <a
+      class="request"
+      href="https://airtable.com/shrCDJbvIga3NMRZS"
+      target="blank"
+      >Request a Review</a
+    >
   </div>
 </template>
 
@@ -376,10 +384,12 @@ header {
 
 hr {
   color: #e6e6e6;
-  margin: 0%;
+  width: 15%;
+  margin: auto;
+  align-content: center;
 }
 
-h1 {
+/* h1 {
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -397,10 +407,42 @@ h2 {
 h3 {
   color: #333333;
   margin: 0;
+} */
+
+a.h3 {
+  color: #136bf5;
 }
 
-a h3 {
-  color: #136bf5;
+h1 {
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+  line-height: 50px;
+}
+
+h2 {
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+h3 {
+  line-height: 24px;
+  color: #666666;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h4 {
+  line-height: 24px;
+  color: #66666690;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
 }
 
 .things {
@@ -732,6 +774,19 @@ a h3 {
 
 .light-blue-highlight {
   background-color: #f3f8ff;
+}
+
+.request {
+  text-decoration: none;
+  color: darkorange;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 5px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
 }
 
 footer {

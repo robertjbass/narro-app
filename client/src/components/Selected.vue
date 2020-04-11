@@ -16,11 +16,11 @@ export default {
       type: String
     }
   },
-  // data: function() {
-  //   return {
-  //     service: "Copper"
-  //   };
-  // },
+  data: function() {
+    return {
+      foo: "bar"
+    };
+  },
   methods: {
     selectedService(service) {
       // TODO: Find way to listen for which service is clicked

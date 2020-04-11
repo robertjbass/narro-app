@@ -3,6 +3,7 @@
     <div class="body-white">
       <div class="top">
         <h1>Automation Information</h1>
+        <h2>Your automation partner</h2>
       </div>
     </div>
     <!-- <h3>Case Study: Ashland Development<br /></h3> -->
@@ -115,24 +116,33 @@
       <br />
 
       <div class="blue-highlight">
-        <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank"
-          >Request a Review</a
-        >
-        <hr />
+        <!-- <hr /> -->
         <div class="address">
           <h3>
-            <u>Address</u> Narro, LLC<br />244 Highland Pkwy #112 <br />Buffalo,
-            NY 14223
+            Address
           </h3>
+          <h4>
+            Narro, LLC<br />244 Highland Pkwy #112 <br />Buffalo, NY 14223
+          </h4>
         </div>
 
         <div class="email">
-          <h3><u>Email</u> ‪info@narro.app</h3>
+          <h3>Email</h3>
+          <h4>‪info@narro.app</h4>
         </div>
 
         <div class="phone">
-          <h3><u>Phone</u> ‪716.256.3060‬</h3>
+          <h3>Phone</h3>
+          <h4>‪716.256.3060‬</h4>
         </div>
+        <br /><br />
+        <hr />
+        <a
+          class="request"
+          href="https://airtable.com/shrCDJbvIga3NMRZS"
+          target="blank"
+          >Request a Review</a
+        >
       </div>
     </div>
   </div>
@@ -191,7 +201,9 @@ header {
 
 hr {
   color: #e6e6e6;
-  margin: 0%;
+  width: 15%;
+  margin: auto;
+  align-content: center;
 }
 
 a {
@@ -206,32 +218,42 @@ a {
   text-align: center;
 }
 
+a.h3 {
+  color: #136bf5;
+}
+
 h1 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 30px;
-  color: rgb(0, 0, 0);
+  font-size: 36px;
+  color: #000000;
   text-align: center;
   margin-top: 0;
-  line-height: 70px;
+  line-height: 50px;
 }
 
 h2 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  color: rgb(102, 102, 102);
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
 h3 {
+  line-height: 24px;
   color: #666666;
-  margin-bottom: 0;
-  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-a h3 {
-  color: #136bf5;
+h4 {
+  line-height: 24px;
+  color: #999999;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  margin: auto;
+  margin-left: 30px;
 }
 u {
   text-align: left;
@@ -415,6 +437,10 @@ u {
 
 .light-blue-highlight {
   background-image: linear-gradient(to bottom, #e5effd, #ffffff);
+}
+
+.request {
+  font-size: 30px;
 }
 
 footer {

@@ -16,14 +16,14 @@
         "Web App",
         "All-In-One"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/6d294364b3abfbbb9d6affc35b8db10e/d1b1baa0/AirtableLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/6d294364b3abfbbb9d6affc35b8db10e/d1b1baa0/AirtableLogo.png\" alt=\"Airtable\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png\" alt=\"Airtable\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/e0acce36154b3c13f458f5437b2ec033/701e013f/AirtableExpert.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/e0acce36154b3c13f458f5437b2ec033/701e013f/AirtableExpert.png\" alt=\"Airtable\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/6d294364b3abfbbb9d6affc35b8db10e/d1b1baa0/AirtableLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/6d294364b3abfbbb9d6affc35b8db10e/d1b1baa0/AirtableLogo.png\" alt=\"Airtable\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png\" alt=\"Airtable\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/e0acce36154b3c13f458f5437b2ec033/701e013f/AirtableExpert.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/e0acce36154b3c13f458f5437b2ec033/701e013f/AirtableExpert.png\" alt=\"Airtable\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "airtable-forms",
@@ -37,14 +37,14 @@
         "Forms",
         "Spreadsheet"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/1ade001563f89d6151c85809f110c785/337c3d3d/AirtableFormsCropped.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/1ade001563f89d6151c85809f110c785/337c3d3d/AirtableFormsCropped.png\" alt=\"Airtable Forms\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/534807c3ce0e69895143202fd2703355/e5b5c3da/AirtableGradient.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/534807c3ce0e69895143202fd2703355/e5b5c3da/AirtableGradient.png\" alt=\"Airtable Forms\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/dda495ee26abfac8c22f8271614b8359/4ed0df2b/AirtableBlocks.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/dda495ee26abfac8c22f8271614b8359/4ed0df2b/AirtableBlocks.png\" alt=\"Airtable Forms\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/1ade001563f89d6151c85809f110c785/337c3d3d/AirtableFormsCropped.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/1ade001563f89d6151c85809f110c785/337c3d3d/AirtableFormsCropped.png\" alt=\"Airtable Forms\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/534807c3ce0e69895143202fd2703355/e5b5c3da/AirtableGradient.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/534807c3ce0e69895143202fd2703355/e5b5c3da/AirtableGradient.png\" alt=\"Airtable Forms\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/dda495ee26abfac8c22f8271614b8359/4ed0df2b/AirtableBlocks.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/dda495ee26abfac8c22f8271614b8359/4ed0df2b/AirtableBlocks.png\" alt=\"Airtable Forms\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "webhooks",
@@ -60,12 +60,12 @@
         "Website",
         "Back-End"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/7ca4e66fd411347c24d7aa4ab047c991/974a932f/APILogo1.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/7ca4e66fd411347c24d7aa4ab047c991/974a932f/APILogo1.png\" alt=\"API/Webhooks\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/44cf41563c5e08c730eeaadb4220bf0b/0a02c875/webhooks.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/44cf41563c5e08c730eeaadb4220bf0b/0a02c875/webhooks.png\" alt=\"API/Webhooks\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/7ca4e66fd411347c24d7aa4ab047c991/974a932f/APILogo1.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/7ca4e66fd411347c24d7aa4ab047c991/974a932f/APILogo1.png\" alt=\"API/Webhooks\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/44cf41563c5e08c730eeaadb4220bf0b/0a02c875/webhooks.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/44cf41563c5e08c730eeaadb4220bf0b/0a02c875/webhooks.png\" alt=\"API/Webhooks\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "c-sharp",
@@ -79,14 +79,14 @@
         "Programming Language",
         "Scripting"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/472216a69bb83a2d549b3cccd4da047c/b775e208/CsharpLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/472216a69bb83a2d549b3cccd4da047c/b775e208/CsharpLogo.png\" alt=\"C#\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/83e6f705bd29c8e202ee9ee1a74abc19/be3fa076/Csharp.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/83e6f705bd29c8e202ee9ee1a74abc19/be3fa076/Csharp.png\" alt=\"C#\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/a2d22a8212f2f2eac6b85db9bef7be25/f4ff0671/DotNetLogo.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/a2d22a8212f2f2eac6b85db9bef7be25/f4ff0671/DotNetLogo.png\" alt=\"C#\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/472216a69bb83a2d549b3cccd4da047c/b775e208/CsharpLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/472216a69bb83a2d549b3cccd4da047c/b775e208/CsharpLogo.png\" alt=\"C#\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/83e6f705bd29c8e202ee9ee1a74abc19/be3fa076/Csharp.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/83e6f705bd29c8e202ee9ee1a74abc19/be3fa076/Csharp.png\" alt=\"C#\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/a2d22a8212f2f2eac6b85db9bef7be25/f4ff0671/DotNetLogo.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/a2d22a8212f2f2eac6b85db9bef7be25/f4ff0671/DotNetLogo.png\" alt=\"C#\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "calendly",
@@ -101,12 +101,12 @@
         "Scheduling",
         "Planning"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/5c6ea96bb1ba707b98d22e9b69090805/505e6903/Calendly.jpeg",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/5c6ea96bb1ba707b98d22e9b69090805/505e6903/Calendly.jpeg\" alt=\"Calendly\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/8bb20e24ac5275e083941280e7d505f7/c156a58b/calendly-logo1.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/8bb20e24ac5275e083941280e7d505f7/c156a58b/calendly-logo1.png\" alt=\"Calendly\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/d1c19bc28cb55df0a4ef4e3646ae3991/52e9ff61/calendly-logo-clear.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/d1c19bc28cb55df0a4ef4e3646ae3991/52e9ff61/calendly-logo-clear.png\" alt=\"Calendly\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/8bb20e24ac5275e083941280e7d505f7/c156a58b/calendly-logo1.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/8bb20e24ac5275e083941280e7d505f7/c156a58b/calendly-logo1.png\" alt=\"Calendly\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "coda",
@@ -129,14 +129,14 @@
         "Publishing",
         "Documentation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/6388ac7885b158773aa0e3623d1d2d7e/72217b4e/CodaLogo1.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/6388ac7885b158773aa0e3623d1d2d7e/72217b4e/CodaLogo1.png\" alt=\"Coda\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/2fc0673bda9f5b009ace325c4929475d/3beaefd1/coda-logo.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/2fc0673bda9f5b009ace325c4929475d/3beaefd1/coda-logo.png\" alt=\"Coda\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/6593a988adb7f0ff90afc8ba60346728/6657459a/coda-banner.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/6593a988adb7f0ff90afc8ba60346728/6657459a/coda-banner.png\" alt=\"Coda\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/6388ac7885b158773aa0e3623d1d2d7e/72217b4e/CodaLogo1.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/6388ac7885b158773aa0e3623d1d2d7e/72217b4e/CodaLogo1.png\" alt=\"Coda\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/2fc0673bda9f5b009ace325c4929475d/3beaefd1/coda-logo.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/2fc0673bda9f5b009ace325c4929475d/3beaefd1/coda-logo.png\" alt=\"Coda\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/6593a988adb7f0ff90afc8ba60346728/6657459a/coda-banner.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/6593a988adb7f0ff90afc8ba60346728/6657459a/coda-banner.png\" alt=\"Coda\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "contacts-plus",
@@ -149,12 +149,12 @@
       "categories": [
         "Contact Management"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/7646637c53cf30bc8a15ae14988a0369/da53046c/ContactsPlus.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/7646637c53cf30bc8a15ae14988a0369/da53046c/ContactsPlus.png\" alt=\"Contacts Plus\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/18bca9f42a2c4f184ea43bcd104a3ca8/1cb20a6b/ContactsPlusBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/18bca9f42a2c4f184ea43bcd104a3ca8/1cb20a6b/ContactsPlusBanner.png\" alt=\"Contacts Plus\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/7646637c53cf30bc8a15ae14988a0369/da53046c/ContactsPlus.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/7646637c53cf30bc8a15ae14988a0369/da53046c/ContactsPlus.png\" alt=\"Contacts Plus\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/18bca9f42a2c4f184ea43bcd104a3ca8/1cb20a6b/ContactsPlusBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/18bca9f42a2c4f184ea43bcd104a3ca8/1cb20a6b/ContactsPlusBanner.png\" alt=\"Contacts Plus\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "copper",
@@ -171,12 +171,12 @@
         "Productivity",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/1d79797632d809a07b4c3fbd5e912c74/4dbbd48a/CopperLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/1d79797632d809a07b4c3fbd5e912c74/4dbbd48a/CopperLogo.png\" alt=\"Copper\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png\" alt=\"Copper\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/1d79797632d809a07b4c3fbd5e912c74/4dbbd48a/CopperLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/1d79797632d809a07b4c3fbd5e912c74/4dbbd48a/CopperLogo.png\" alt=\"Copper\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png\" alt=\"Copper\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "css-html",
@@ -191,14 +191,14 @@
         "Scripting",
         "Web App"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/dc22e61cf27976f9dd694c4a4875ea62/1d7b5b17/CSSandHTMLLogos.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/dc22e61cf27976f9dd694c4a4875ea62/1d7b5b17/CSSandHTMLLogos.png\" alt=\"CSS/HTML\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png\" alt=\"CSS/HTML\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/12e41b9934b45d106bfca42897096686/4d19e4ba/CSSHTMLJSBanner.jpg",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/12e41b9934b45d106bfca42897096686/4d19e4ba/CSSHTMLJSBanner.jpg\" alt=\"CSS/HTML\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/5cbd02a9dd39f66d9e616d8f064fd6ca/ffd606c6/css-html.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/5cbd02a9dd39f66d9e616d8f064fd6ca/ffd606c6/css-html.png\" alt=\"CSS/HTML\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png\" alt=\"CSS/HTML\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/12e41b9934b45d106bfca42897096686/4d19e4ba/CSSHTMLJSBanner.jpg",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/12e41b9934b45d106bfca42897096686/4d19e4ba/CSSHTMLJSBanner.jpg\" alt=\"CSS/HTML\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "database",
@@ -212,12 +212,12 @@
         "Database",
         "Service Type"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/97108ec510027c8c05e907de057c5639/b201524d/Database.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/97108ec510027c8c05e907de057c5639/b201524d/Database.png\" alt=\"Database\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/9220cf7f527393a5eee047b6667452f5/7b67d023/DBBanner.jpg",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/9220cf7f527393a5eee047b6667452f5/7b67d023/DBBanner.jpg\" alt=\"Database\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/97108ec510027c8c05e907de057c5639/b201524d/Database.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/97108ec510027c8c05e907de057c5639/b201524d/Database.png\" alt=\"Database\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/9220cf7f527393a5eee047b6667452f5/7b67d023/DBBanner.jpg",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/9220cf7f527393a5eee047b6667452f5/7b67d023/DBBanner.jpg\" alt=\"Database\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "dialpad",
@@ -231,12 +231,12 @@
         "VoIP",
         "Communication"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/779b015e1447edd2734dffc23ae56218/9b431844/DialpadLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/779b015e1447edd2734dffc23ae56218/9b431844/DialpadLogo.png\" alt=\"Dialpad\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/3ea64849d336f0c84fefb740f2adf0f2/4c75b4b7/DialpadBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/3ea64849d336f0c84fefb740f2adf0f2/4c75b4b7/DialpadBanner.png\" alt=\"Dialpad\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/779b015e1447edd2734dffc23ae56218/9b431844/DialpadLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/779b015e1447edd2734dffc23ae56218/9b431844/DialpadLogo.png\" alt=\"Dialpad\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/3ea64849d336f0c84fefb740f2adf0f2/4c75b4b7/DialpadBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/3ea64849d336f0c84fefb740f2adf0f2/4c75b4b7/DialpadBanner.png\" alt=\"Dialpad\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "docparser",
@@ -251,14 +251,14 @@
         "Integration",
         "Automation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/a2f09b04f725ed0c96f976281312d652/45ec65ba/DocparserLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/a2f09b04f725ed0c96f976281312d652/45ec65ba/DocparserLogo.png\" alt=\"Docparser\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/8750dbf58d4b026025a1401ecd636e88/053a55c6/DocparserBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/8750dbf58d4b026025a1401ecd636e88/053a55c6/DocparserBanner.png\" alt=\"Docparser\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/f57208c35b7e356520b728d24abde845/8482be97/DocparserCard.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/f57208c35b7e356520b728d24abde845/8482be97/DocparserCard.png\" alt=\"Docparser\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/a2f09b04f725ed0c96f976281312d652/45ec65ba/DocparserLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/a2f09b04f725ed0c96f976281312d652/45ec65ba/DocparserLogo.png\" alt=\"Docparser\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/8750dbf58d4b026025a1401ecd636e88/053a55c6/DocparserBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/8750dbf58d4b026025a1401ecd636e88/053a55c6/DocparserBanner.png\" alt=\"Docparser\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/f57208c35b7e356520b728d24abde845/8482be97/DocparserCard.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/f57208c35b7e356520b728d24abde845/8482be97/DocparserCard.png\" alt=\"Docparser\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "docusign",
@@ -271,12 +271,12 @@
       "categories": [
         "Electronic Signature"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/1b1ff054c22ac237a179246ff81f7c36/e48faf56/DocusignLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/1b1ff054c22ac237a179246ff81f7c36/e48faf56/DocusignLogo.png\" alt=\"DocuSign\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png\" alt=\"DocuSign\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/1b1ff054c22ac237a179246ff81f7c36/e48faf56/DocusignLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/1b1ff054c22ac237a179246ff81f7c36/e48faf56/DocusignLogo.png\" alt=\"DocuSign\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png\" alt=\"DocuSign\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "dropbox",
@@ -292,14 +292,14 @@
         "Teams",
         "Productivity"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/78c9e5bd1ef133a7e023b08d3bca391f/65745955/DropboxLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/78c9e5bd1ef133a7e023b08d3bca391f/65745955/DropboxLogo.png\" alt=\"Dropbox\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/d97e1645d03505eb774612be01804ab3/a3b60b00/dropbox.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/d97e1645d03505eb774612be01804ab3/a3b60b00/dropbox.png\" alt=\"Dropbox\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png\" alt=\"Dropbox\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/78c9e5bd1ef133a7e023b08d3bca391f/65745955/DropboxLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/78c9e5bd1ef133a7e023b08d3bca391f/65745955/DropboxLogo.png\" alt=\"Dropbox\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/d97e1645d03505eb774612be01804ab3/a3b60b00/dropbox.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/d97e1645d03505eb774612be01804ab3/a3b60b00/dropbox.png\" alt=\"Dropbox\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png\" alt=\"Dropbox\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "excel",
@@ -313,12 +313,12 @@
         "Spreadsheet",
         "Microsoft"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/b76e35fb4017c64bf8bb5892e8f64a38/620d0a15/ExcelLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/b76e35fb4017c64bf8bb5892e8f64a38/620d0a15/ExcelLogo.png\" alt=\"Excel\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/e69c24232d59ed3116c5914a82091e5f/8eb7112a/ExcelBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/e69c24232d59ed3116c5914a82091e5f/8eb7112a/ExcelBanner.png\" alt=\"Excel\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/b76e35fb4017c64bf8bb5892e8f64a38/620d0a15/ExcelLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/b76e35fb4017c64bf8bb5892e8f64a38/620d0a15/ExcelLogo.png\" alt=\"Excel\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/e69c24232d59ed3116c5914a82091e5f/8eb7112a/ExcelBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/e69c24232d59ed3116c5914a82091e5f/8eb7112a/ExcelBanner.png\" alt=\"Excel\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "expressjs",
@@ -332,14 +332,14 @@
         "Web Framework",
         "Web App"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/7fe3706dcd492712a14a146a7d31a6c5/f6aa361c/ExpressJSLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/7fe3706dcd492712a14a146a7d31a6c5/f6aa361c/ExpressJSLogo.png\" alt=\"ExpressJS\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/c0dd90facb030da524b88843deaa9699/1dc7dd5e/ExpressJSBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/c0dd90facb030da524b88843deaa9699/1dc7dd5e/ExpressJSBanner.png\" alt=\"ExpressJS\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/8fd1ca9b637451b420e4768a93697458/a15f30f5/JavaScriptLogo.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/8fd1ca9b637451b420e4768a93697458/a15f30f5/JavaScriptLogo.png\" alt=\"ExpressJS\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/7fe3706dcd492712a14a146a7d31a6c5/f6aa361c/ExpressJSLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/7fe3706dcd492712a14a146a7d31a6c5/f6aa361c/ExpressJSLogo.png\" alt=\"ExpressJS\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/c0dd90facb030da524b88843deaa9699/1dc7dd5e/ExpressJSBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/c0dd90facb030da524b88843deaa9699/1dc7dd5e/ExpressJSBanner.png\" alt=\"ExpressJS\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/8fd1ca9b637451b420e4768a93697458/a15f30f5/JavaScriptLogo.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/8fd1ca9b637451b420e4768a93697458/a15f30f5/JavaScriptLogo.png\" alt=\"ExpressJS\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "gmail",
@@ -354,14 +354,14 @@
         "Communication",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/748f5503b56143a7afef4efb2b291afe/61039563/GmailLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/748f5503b56143a7afef4efb2b291afe/61039563/GmailLogo.png\" alt=\"Gmail\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/43296f18cabb3772a0bd59467a241709/526b0ef6/GmailBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/43296f18cabb3772a0bd59467a241709/526b0ef6/GmailBanner.png\" alt=\"Gmail\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Gmail\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/748f5503b56143a7afef4efb2b291afe/61039563/GmailLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/748f5503b56143a7afef4efb2b291afe/61039563/GmailLogo.png\" alt=\"Gmail\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/43296f18cabb3772a0bd59467a241709/526b0ef6/GmailBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/43296f18cabb3772a0bd59467a241709/526b0ef6/GmailBanner.png\" alt=\"Gmail\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Gmail\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-calendar",
@@ -377,14 +377,14 @@
         "Scheduling",
         "Planning"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/a628e65b821bc44765fd7437b4cdec11/36b9375b/GoogleCalendar.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/a628e65b821bc44765fd7437b4cdec11/36b9375b/GoogleCalendar.png\" alt=\"Google Calendar\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/7f8d067d8bc83f181f0135947ba9b647/66dc18d5/CalendarBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/7f8d067d8bc83f181f0135947ba9b647/66dc18d5/CalendarBanner.png\" alt=\"Google Calendar\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Calendar\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/a628e65b821bc44765fd7437b4cdec11/36b9375b/GoogleCalendar.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/a628e65b821bc44765fd7437b4cdec11/36b9375b/GoogleCalendar.png\" alt=\"Google Calendar\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/7f8d067d8bc83f181f0135947ba9b647/66dc18d5/CalendarBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/7f8d067d8bc83f181f0135947ba9b647/66dc18d5/CalendarBanner.png\" alt=\"Google Calendar\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Calendar\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-contacts",
@@ -398,14 +398,14 @@
         "Contact Management",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/9a2cb9eda0b4c8d5e77f8a18b17d5862/aff49d51/GoogleContacts.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/9a2cb9eda0b4c8d5e77f8a18b17d5862/aff49d51/GoogleContacts.png\" alt=\"Google Contacts\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/a50d178c1ea1ed22dd77eef66325c37f/9f36f0f7/Contacts.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/a50d178c1ea1ed22dd77eef66325c37f/9f36f0f7/Contacts.png\" alt=\"Google Contacts\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Contacts\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/9a2cb9eda0b4c8d5e77f8a18b17d5862/aff49d51/GoogleContacts.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/9a2cb9eda0b4c8d5e77f8a18b17d5862/aff49d51/GoogleContacts.png\" alt=\"Google Contacts\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/a50d178c1ea1ed22dd77eef66325c37f/9f36f0f7/Contacts.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/a50d178c1ea1ed22dd77eef66325c37f/9f36f0f7/Contacts.png\" alt=\"Google Contacts\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Contacts\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-docs",
@@ -419,14 +419,14 @@
         "Document Creation",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/8e4408543da611156b4858ccd6834a47/f5eb2afd/GoogleDocs3.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/8e4408543da611156b4858ccd6834a47/f5eb2afd/GoogleDocs3.png\" alt=\"Google Docs\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/ca2d88c79a98bfc4f41578f3ed31a649/4ad569dd/GDocsBanner.jpg",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/ca2d88c79a98bfc4f41578f3ed31a649/4ad569dd/GDocsBanner.jpg\" alt=\"Google Docs\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Docs\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/8e4408543da611156b4858ccd6834a47/f5eb2afd/GoogleDocs3.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/8e4408543da611156b4858ccd6834a47/f5eb2afd/GoogleDocs3.png\" alt=\"Google Docs\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/ca2d88c79a98bfc4f41578f3ed31a649/4ad569dd/GDocsBanner.jpg",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/ca2d88c79a98bfc4f41578f3ed31a649/4ad569dd/GDocsBanner.jpg\" alt=\"Google Docs\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Docs\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-drive",
@@ -441,14 +441,14 @@
         "Document Creation",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/18415dc4d4e22e9ce7c323396e6d8033/aedfebbb/GoogleDrive.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/18415dc4d4e22e9ce7c323396e6d8033/aedfebbb/GoogleDrive.png\" alt=\"Google Drive\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/5c3cd51b1a94526807b240aae25d28b4/3f487aee/GDriveBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/5c3cd51b1a94526807b240aae25d28b4/3f487aee/GDriveBanner.png\" alt=\"Google Drive\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Drive\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/18415dc4d4e22e9ce7c323396e6d8033/aedfebbb/GoogleDrive.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/18415dc4d4e22e9ce7c323396e6d8033/aedfebbb/GoogleDrive.png\" alt=\"Google Drive\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/5c3cd51b1a94526807b240aae25d28b4/3f487aee/GDriveBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/5c3cd51b1a94526807b240aae25d28b4/3f487aee/GDriveBanner.png\" alt=\"Google Drive\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Drive\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-forms",
@@ -462,14 +462,14 @@
         "Forms",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/9e0ec8260aa2aa58c6a31a66fb3c0bdd/a864d86f/GoogleForms.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/9e0ec8260aa2aa58c6a31a66fb3c0bdd/a864d86f/GoogleForms.png\" alt=\"Google Forms\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/f586d8ad1523b3cefb35525460a8d2df/8c73409b/GForms.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/f586d8ad1523b3cefb35525460a8d2df/8c73409b/GForms.png\" alt=\"Google Forms\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Forms\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/9e0ec8260aa2aa58c6a31a66fb3c0bdd/a864d86f/GoogleForms.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/9e0ec8260aa2aa58c6a31a66fb3c0bdd/a864d86f/GoogleForms.png\" alt=\"Google Forms\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/f586d8ad1523b3cefb35525460a8d2df/8c73409b/GForms.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/f586d8ad1523b3cefb35525460a8d2df/8c73409b/GForms.png\" alt=\"Google Forms\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"Google Forms\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-keep",
@@ -483,12 +483,12 @@
         "Planning",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/18965279fea1500388d70ebc37488ebf/216fbf2e/KeepLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/18965279fea1500388d70ebc37488ebf/216fbf2e/KeepLogo.png\" alt=\"Google Keep\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/ca92dceaa246c79977c321c5241a1be0/415fd049/KeepBanner.jpg",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/ca92dceaa246c79977c321c5241a1be0/415fd049/KeepBanner.jpg\" alt=\"Google Keep\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/18965279fea1500388d70ebc37488ebf/216fbf2e/KeepLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/18965279fea1500388d70ebc37488ebf/216fbf2e/KeepLogo.png\" alt=\"Google Keep\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/ca92dceaa246c79977c321c5241a1be0/415fd049/KeepBanner.jpg",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/ca92dceaa246c79977c321c5241a1be0/415fd049/KeepBanner.jpg\" alt=\"Google Keep\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "google-sheets",
@@ -503,12 +503,12 @@
         "Teams",
         "Document Creation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/a276076a975af6f6b500ed931ca77379/f0f504c4/sheets.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/a276076a975af6f6b500ed931ca77379/f0f504c4/sheets.png\" alt=\"Google Sheets\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/88eaf025b1a09632e989459a39d1f0e0/bab2739a/Sheets-Banner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/88eaf025b1a09632e989459a39d1f0e0/bab2739a/Sheets-Banner.png\" alt=\"Google Sheets\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/a276076a975af6f6b500ed931ca77379/f0f504c4/sheets.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/a276076a975af6f6b500ed931ca77379/f0f504c4/sheets.png\" alt=\"Google Sheets\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/88eaf025b1a09632e989459a39d1f0e0/bab2739a/Sheets-Banner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/88eaf025b1a09632e989459a39d1f0e0/bab2739a/Sheets-Banner.png\" alt=\"Google Sheets\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "gsuite",
@@ -531,14 +531,14 @@
         "Contact Management",
         "Calendar"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"GSuite\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png\" alt=\"GSuite\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"GSuite\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"GSuite\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png\" alt=\"GSuite\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png\" alt=\"GSuite\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "integromat",
@@ -552,14 +552,14 @@
         "Automation",
         "Back-End"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/27c6f6528acaffec0fb9e37688a82f4d/7af237e7/integromat-logo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/27c6f6528acaffec0fb9e37688a82f4d/7af237e7/integromat-logo.png\" alt=\"Integromat\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png\" alt=\"Integromat\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG\" alt=\"Integromat\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/27c6f6528acaffec0fb9e37688a82f4d/7af237e7/integromat-logo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/27c6f6528acaffec0fb9e37688a82f4d/7af237e7/integromat-logo.png\" alt=\"Integromat\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png\" alt=\"Integromat\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG\" alt=\"Integromat\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "javascript",
@@ -574,14 +574,14 @@
         "Scripting",
         "Web App"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/e116d3ea9682de90ca355c2e2f98ee3f/e867a123/JavaScriptLogo2.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/e116d3ea9682de90ca355c2e2f98ee3f/e867a123/JavaScriptLogo2.png\" alt=\"JavaScript\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/c8fa8668764fb5831c65770bb7c3b8d3/120aca07/javascript.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/c8fa8668764fb5831c65770bb7c3b8d3/120aca07/javascript.png\" alt=\"JavaScript\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/bec4477ec65b7ab36722f17a481fc554/f991af77/JavaScriptLogo.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/bec4477ec65b7ab36722f17a481fc554/f991af77/JavaScriptLogo.png\" alt=\"JavaScript\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/e116d3ea9682de90ca355c2e2f98ee3f/e867a123/JavaScriptLogo2.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/e116d3ea9682de90ca355c2e2f98ee3f/e867a123/JavaScriptLogo2.png\" alt=\"JavaScript\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/c8fa8668764fb5831c65770bb7c3b8d3/120aca07/javascript.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/c8fa8668764fb5831c65770bb7c3b8d3/120aca07/javascript.png\" alt=\"JavaScript\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/bec4477ec65b7ab36722f17a481fc554/f991af77/JavaScriptLogo.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/bec4477ec65b7ab36722f17a481fc554/f991af77/JavaScriptLogo.png\" alt=\"JavaScript\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "linux",
@@ -596,12 +596,12 @@
         "Web App",
         "Server"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/7583164de5539b6419727c3dc157d706/e572ed0a/linux-logo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/7583164de5539b6419727c3dc157d706/e572ed0a/linux-logo.png\" alt=\"Linux\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/cdbb7b2cdcf49a57ca0bd5756b59fbca/0420c021/linuxbanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/cdbb7b2cdcf49a57ca0bd5756b59fbca/0420c021/linuxbanner.png\" alt=\"Linux\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/7583164de5539b6419727c3dc157d706/e572ed0a/linux-logo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/7583164de5539b6419727c3dc157d706/e572ed0a/linux-logo.png\" alt=\"Linux\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/cdbb7b2cdcf49a57ca0bd5756b59fbca/0420c021/linuxbanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/cdbb7b2cdcf49a57ca0bd5756b59fbca/0420c021/linuxbanner.png\" alt=\"Linux\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "mailparser",
@@ -616,14 +616,14 @@
         "Integration",
         "Automation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/6e172072e5ec4e097b98b46f8a672b45/a9bdd6f2/MailparserLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/6e172072e5ec4e097b98b46f8a672b45/a9bdd6f2/MailparserLogo.png\" alt=\"MailParser\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/2e555ec8a27c1ff25aee28f5cc23d9b0/58ea928a/MailparserBanner2.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/2e555ec8a27c1ff25aee28f5cc23d9b0/58ea928a/MailparserBanner2.png\" alt=\"MailParser\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/c340068039ba22916fa117658be0705b/0374bb81/MailparserBanner.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/c340068039ba22916fa117658be0705b/0374bb81/MailparserBanner.png\" alt=\"MailParser\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/6e172072e5ec4e097b98b46f8a672b45/a9bdd6f2/MailparserLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/6e172072e5ec4e097b98b46f8a672b45/a9bdd6f2/MailparserLogo.png\" alt=\"MailParser\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/2e555ec8a27c1ff25aee28f5cc23d9b0/58ea928a/MailparserBanner2.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/2e555ec8a27c1ff25aee28f5cc23d9b0/58ea928a/MailparserBanner2.png\" alt=\"MailParser\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/c340068039ba22916fa117658be0705b/0374bb81/MailparserBanner.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/c340068039ba22916fa117658be0705b/0374bb81/MailparserBanner.png\" alt=\"MailParser\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "mariadb",
@@ -637,12 +637,12 @@
         "Database",
         "SQL"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/3e7a13f31ed2a925e208b8175fdb53d7/2ea02644/MariaDBLogo2.jpg",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/3e7a13f31ed2a925e208b8175fdb53d7/2ea02644/MariaDBLogo2.jpg\" alt=\"MariaDB\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/6dd0698287bfdf6b34e4c557855c6e61/a0ce73ad/MariaDB-Banner.jpg",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/6dd0698287bfdf6b34e4c557855c6e61/a0ce73ad/MariaDB-Banner.jpg\" alt=\"MariaDB\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/3e7a13f31ed2a925e208b8175fdb53d7/2ea02644/MariaDBLogo2.jpg",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/3e7a13f31ed2a925e208b8175fdb53d7/2ea02644/MariaDBLogo2.jpg\" alt=\"MariaDB\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/6dd0698287bfdf6b34e4c557855c6e61/a0ce73ad/MariaDB-Banner.jpg",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/6dd0698287bfdf6b34e4c557855c6e61/a0ce73ad/MariaDB-Banner.jpg\" alt=\"MariaDB\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "mevn",
@@ -657,12 +657,12 @@
         "Web Framework",
         "Website"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/0d2e76ee2d0f159bf680a2bae9083cbe/0b8c5c75/MEVNLogo4.jpg",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/0d2e76ee2d0f159bf680a2bae9083cbe/0b8c5c75/MEVNLogo4.jpg\" alt=\"MEVN\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/def670929814f3e71c25372fba51b7f3/3c45723a/MEVNStack.jpg",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/def670929814f3e71c25372fba51b7f3/3c45723a/MEVNStack.jpg\" alt=\"MEVN\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/0d2e76ee2d0f159bf680a2bae9083cbe/0b8c5c75/MEVNLogo4.jpg",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/0d2e76ee2d0f159bf680a2bae9083cbe/0b8c5c75/MEVNLogo4.jpg\" alt=\"MEVN\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/def670929814f3e71c25372fba51b7f3/3c45723a/MEVNStack.jpg",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/def670929814f3e71c25372fba51b7f3/3c45723a/MEVNStack.jpg\" alt=\"MEVN\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "mongodb",
@@ -676,12 +676,12 @@
         "Database",
         "NoSQL"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/023dd2f00c7f6976e0e41c57379b64cb/17261be2/MongoDB.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/023dd2f00c7f6976e0e41c57379b64cb/17261be2/MongoDB.png\" alt=\"MongoDB\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/79798127af31055601111b7de6338dd1/a4f7fd5c/MongoDBBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/79798127af31055601111b7de6338dd1/a4f7fd5c/MongoDBBanner.png\" alt=\"MongoDB\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/023dd2f00c7f6976e0e41c57379b64cb/17261be2/MongoDB.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/023dd2f00c7f6976e0e41c57379b64cb/17261be2/MongoDB.png\" alt=\"MongoDB\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/79798127af31055601111b7de6338dd1/a4f7fd5c/MongoDBBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/79798127af31055601111b7de6338dd1/a4f7fd5c/MongoDBBanner.png\" alt=\"MongoDB\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "mysql",
@@ -695,14 +695,14 @@
         "Database",
         "SQL"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/1d6b3e3f083ac6fd1565544883946f04/b45937ac/MySQLLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/1d6b3e3f083ac6fd1565544883946f04/b45937ac/MySQLLogo.png\" alt=\"MySQL\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/24d21be435e0c140d7fcc4369892c15e/e60b612e/MySQLBannerClear.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/24d21be435e0c140d7fcc4369892c15e/e60b612e/MySQLBannerClear.png\" alt=\"MySQL\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/a769350d75184569a0d916469718c2a7/6c1616ba/MySQLLogoClear.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/a769350d75184569a0d916469718c2a7/6c1616ba/MySQLLogoClear.png\" alt=\"MySQL\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/1d6b3e3f083ac6fd1565544883946f04/b45937ac/MySQLLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/1d6b3e3f083ac6fd1565544883946f04/b45937ac/MySQLLogo.png\" alt=\"MySQL\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/24d21be435e0c140d7fcc4369892c15e/e60b612e/MySQLBannerClear.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/24d21be435e0c140d7fcc4369892c15e/e60b612e/MySQLBannerClear.png\" alt=\"MySQL\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/a769350d75184569a0d916469718c2a7/6c1616ba/MySQLLogoClear.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/a769350d75184569a0d916469718c2a7/6c1616ba/MySQLLogoClear.png\" alt=\"MySQL\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "narro-llc",
@@ -715,12 +715,12 @@
       "categories": [
         "Narro"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/0d6abce018e0d6ffc114a49eb6f1b241/ec0c4be7/NarroLogoClear.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/0d6abce018e0d6ffc114a49eb6f1b241/ec0c4be7/NarroLogoClear.png\" alt=\"Narro LLC\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/58c67a2511683fdbf8d338e547b6e01e/591b2fbb/NarroLogoClear.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/58c67a2511683fdbf8d338e547b6e01e/591b2fbb/NarroLogoClear.png\" alt=\"Narro LLC\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/0d6abce018e0d6ffc114a49eb6f1b241/ec0c4be7/NarroLogoClear.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/0d6abce018e0d6ffc114a49eb6f1b241/ec0c4be7/NarroLogoClear.png\" alt=\"Narro LLC\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/58c67a2511683fdbf8d338e547b6e01e/591b2fbb/NarroLogoClear.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/58c67a2511683fdbf8d338e547b6e01e/591b2fbb/NarroLogoClear.png\" alt=\"Narro LLC\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "nodejs",
@@ -735,14 +735,14 @@
         "JavaScript",
         "Automation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/6b6b09f5dda9a149989f74011cc4a5bd/7b291936/NodeJSCard.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/6b6b09f5dda9a149989f74011cc4a5bd/7b291936/NodeJSCard.png\" alt=\"NodeJS\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/812ad17e355312275f41e48672d6f59c/8dc9713d/node-banner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/812ad17e355312275f41e48672d6f59c/8dc9713d/node-banner.png\" alt=\"NodeJS\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/dc5db870919fe9f26647e8ade5ab5d09/d99947df/NodeJSBanner2.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/dc5db870919fe9f26647e8ade5ab5d09/d99947df/NodeJSBanner2.png\" alt=\"NodeJS\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/6b6b09f5dda9a149989f74011cc4a5bd/7b291936/NodeJSCard.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/6b6b09f5dda9a149989f74011cc4a5bd/7b291936/NodeJSCard.png\" alt=\"NodeJS\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/812ad17e355312275f41e48672d6f59c/8dc9713d/node-banner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/812ad17e355312275f41e48672d6f59c/8dc9713d/node-banner.png\" alt=\"NodeJS\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/dc5db870919fe9f26647e8ade5ab5d09/d99947df/NodeJSBanner2.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/dc5db870919fe9f26647e8ade5ab5d09/d99947df/NodeJSBanner2.png\" alt=\"NodeJS\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "ontask",
@@ -758,12 +758,12 @@
         "Electronic Signature",
         "Automation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/77aae8b73dab6eba08b8a433bc79f8f6/2ad219c9/ontask.jpg",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/77aae8b73dab6eba08b8a433bc79f8f6/2ad219c9/ontask.jpg\" alt=\"OnTask\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/d3efa4e991c7b03a6ede90abea35885d/e505e0bd/OnTask.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/d3efa4e991c7b03a6ede90abea35885d/e505e0bd/OnTask.png\" alt=\"OnTask\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/910aafc6228e3ecbf2b70f4e771f88d9/f94c97cd/ontask-logo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/910aafc6228e3ecbf2b70f4e771f88d9/f94c97cd/ontask-logo.png\" alt=\"OnTask\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/d3efa4e991c7b03a6ede90abea35885d/e505e0bd/OnTask.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/d3efa4e991c7b03a6ede90abea35885d/e505e0bd/OnTask.png\" alt=\"OnTask\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "outfunnel",
@@ -780,12 +780,12 @@
         "Marketing",
         "Email Campaign"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/8e5a55a322d8ae16a21b59dccacdcfb0/cb40a0d2/OutfunnelLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/8e5a55a322d8ae16a21b59dccacdcfb0/cb40a0d2/OutfunnelLogo.png\" alt=\"OutFunnel\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/15a09bcdf75a2974f532926fe9eec4c1/bc5589a2/OutfunnelBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/15a09bcdf75a2974f532926fe9eec4c1/bc5589a2/OutfunnelBanner.png\" alt=\"OutFunnel\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/8e5a55a322d8ae16a21b59dccacdcfb0/cb40a0d2/OutfunnelLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/8e5a55a322d8ae16a21b59dccacdcfb0/cb40a0d2/OutfunnelLogo.png\" alt=\"OutFunnel\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/15a09bcdf75a2974f532926fe9eec4c1/bc5589a2/OutfunnelBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/15a09bcdf75a2974f532926fe9eec4c1/bc5589a2/OutfunnelBanner.png\" alt=\"OutFunnel\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "pandadoc",
@@ -801,12 +801,12 @@
         "Electronic Signature",
         "Automation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/28669bd5e9e5fae2de25902ba5f7910d/4eabe9ad/PandaDocLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/28669bd5e9e5fae2de25902ba5f7910d/4eabe9ad/PandaDocLogo.png\" alt=\"PandaDoc\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/c54bef7eee78139d372381febc85495c/a270b717/PandaDocBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/c54bef7eee78139d372381febc85495c/a270b717/PandaDocBanner.png\" alt=\"PandaDoc\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/28669bd5e9e5fae2de25902ba5f7910d/4eabe9ad/PandaDocLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/28669bd5e9e5fae2de25902ba5f7910d/4eabe9ad/PandaDocLogo.png\" alt=\"PandaDoc\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/c54bef7eee78139d372381febc85495c/a270b717/PandaDocBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/c54bef7eee78139d372381febc85495c/a270b717/PandaDocBanner.png\" alt=\"PandaDoc\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "postgresql",
@@ -820,19 +820,19 @@
         "Database",
         "SQL"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/d5bb08d50cbc0b27c414fc19c5d28c3b/04b97ae4/PostgresLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/d5bb08d50cbc0b27c414fc19c5d28c3b/04b97ae4/PostgresLogo.png\" alt=\"PostgreSQL\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/b21a39073f412ccc9659e2d6232ff418/50cecf5e/PostgreSQL.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/b21a39073f412ccc9659e2d6232ff418/50cecf5e/PostgreSQL.png\" alt=\"PostgreSQL\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/98e03d40e10fb007cbfcc215a038585b/4bf0614e/PostgresCard.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/98e03d40e10fb007cbfcc215a038585b/4bf0614e/PostgresCard.png\" alt=\"PostgreSQL\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/d5bb08d50cbc0b27c414fc19c5d28c3b/04b97ae4/PostgresLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/d5bb08d50cbc0b27c414fc19c5d28c3b/04b97ae4/PostgresLogo.png\" alt=\"PostgreSQL\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/b21a39073f412ccc9659e2d6232ff418/50cecf5e/PostgreSQL.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/b21a39073f412ccc9659e2d6232ff418/50cecf5e/PostgreSQL.png\" alt=\"PostgreSQL\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/98e03d40e10fb007cbfcc215a038585b/4bf0614e/PostgresCard.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/98e03d40e10fb007cbfcc215a038585b/4bf0614e/PostgresCard.png\" alt=\"PostgreSQL\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "qbo",
-      "name": "Quickbooks Online",
-      "description": "Intuit QuickBooks is one of the most recognizable name in accounting. Whether you're keeping track of expenses for your small business or doing payroll internally, QBO has a suite of tools that your business needs. We can help you to automate your invoicing process with QuickBooks Online.",
+      "name": "Quickbooks",
+      "description": "QuickBooks Online by Intuit is one of the most recognizable name in accounting. Whether you're keeping track of expenses for your small business or doing payroll internally, QBO has a suite of tools that your business needs. We can help you to automate your invoicing process with QuickBooks Online.",
       "light-primary": "#28a11650",
       "light-secondary": "#335ec050",
       "primary-color": "#28a116",
@@ -841,12 +841,12 @@
         "Accounting",
         "Bookeeping"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/31a58024aaf4ef4717cf981e78fa048c/91973892/QBOLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/31a58024aaf4ef4717cf981e78fa048c/91973892/QBOLogo.png\" alt=\"QBO\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/bf7b3fd0c943dd553f7fe38668898455/865bc1ad/qbo-banner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/bf7b3fd0c943dd553f7fe38668898455/865bc1ad/qbo-banner.png\" alt=\"QBO\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/31a58024aaf4ef4717cf981e78fa048c/91973892/QBOLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/31a58024aaf4ef4717cf981e78fa048c/91973892/QBOLogo.png\" alt=\"QBO\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/bf7b3fd0c943dd553f7fe38668898455/865bc1ad/qbo-banner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/bf7b3fd0c943dd553f7fe38668898455/865bc1ad/qbo-banner.png\" alt=\"QBO\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "reply-io",
@@ -863,12 +863,12 @@
         "Marketing",
         "Email Campaign"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/e10ed9aae9328ceb1ebdd9f3ebb7f6bc/ed94e984/ReplyIOLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/e10ed9aae9328ceb1ebdd9f3ebb7f6bc/ed94e984/ReplyIOLogo.png\" alt=\"Reply.io\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/2e9ed0ff5e68c765cec98e00b458b90c/36bead68/reply-io.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/2e9ed0ff5e68c765cec98e00b458b90c/36bead68/reply-io.png\" alt=\"Reply.io\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/e10ed9aae9328ceb1ebdd9f3ebb7f6bc/ed94e984/ReplyIOLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/e10ed9aae9328ceb1ebdd9f3ebb7f6bc/ed94e984/ReplyIOLogo.png\" alt=\"Reply.io\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/2e9ed0ff5e68c765cec98e00b458b90c/36bead68/reply-io.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/2e9ed0ff5e68c765cec98e00b458b90c/36bead68/reply-io.png\" alt=\"Reply.io\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "salesforce",
@@ -881,12 +881,12 @@
       "categories": [
         "CRM"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/5bd09437d934e692e2762d0ce73dbe7d/48bee0c6/SalesforceLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/5bd09437d934e692e2762d0ce73dbe7d/48bee0c6/SalesforceLogo.png\" alt=\"Salesforce\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/008c9f3b089b8e43242120e207fbffd1/3516ec40/salesforce-banner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/008c9f3b089b8e43242120e207fbffd1/3516ec40/salesforce-banner.png\" alt=\"Salesforce\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/5bd09437d934e692e2762d0ce73dbe7d/48bee0c6/SalesforceLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/5bd09437d934e692e2762d0ce73dbe7d/48bee0c6/SalesforceLogo.png\" alt=\"Salesforce\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/008c9f3b089b8e43242120e207fbffd1/3516ec40/salesforce-banner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/008c9f3b089b8e43242120e207fbffd1/3516ec40/salesforce-banner.png\" alt=\"Salesforce\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "slack",
@@ -900,12 +900,12 @@
         "Communication",
         "Teams"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/7c8771bbc44f384e612f91fc4a7fd3b9/6858bc85/SlackLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/7c8771bbc44f384e612f91fc4a7fd3b9/6858bc85/SlackLogo.png\" alt=\"Slack\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png\" alt=\"Slack\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/7c8771bbc44f384e612f91fc4a7fd3b9/6858bc85/SlackLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/7c8771bbc44f384e612f91fc4a7fd3b9/6858bc85/SlackLogo.png\" alt=\"Slack\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png\" alt=\"Slack\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "slite",
@@ -918,12 +918,12 @@
       "categories": [
         "Documentation"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/43159db68d8d9f377a74a01199dfd051/fbb4fa90/SliteLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/43159db68d8d9f377a74a01199dfd051/fbb4fa90/SliteLogo.png\" alt=\"Slite\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png\" alt=\"Slite\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/43159db68d8d9f377a74a01199dfd051/fbb4fa90/SliteLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/43159db68d8d9f377a74a01199dfd051/fbb4fa90/SliteLogo.png\" alt=\"Slite\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png\" alt=\"Slite\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "typeform",
@@ -937,12 +937,12 @@
         "Forms",
         "Spreadsheet"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/ae8bd891745d10da92eb71d10c9bdb28/abfc6baf/TypeformLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/ae8bd891745d10da92eb71d10c9bdb28/abfc6baf/TypeformLogo.png\" alt=\"TypeForm\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/382bcba414684e6d125d79144ef0c8c5/5b465c24/typeform.svg",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/382bcba414684e6d125d79144ef0c8c5/5b465c24/typeform.svg\" alt=\"TypeForm\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/ae8bd891745d10da92eb71d10c9bdb28/abfc6baf/TypeformLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/ae8bd891745d10da92eb71d10c9bdb28/abfc6baf/TypeformLogo.png\" alt=\"TypeForm\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/382bcba414684e6d125d79144ef0c8c5/5b465c24/typeform.svg",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/382bcba414684e6d125d79144ef0c8c5/5b465c24/typeform.svg\" alt=\"TypeForm\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "vuejs",
@@ -956,12 +956,12 @@
         "Web Framework",
         "Web App"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/7a2257b103063a9b3d260cc0e0a43d2b/44124464/VueJSLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/7a2257b103063a9b3d260cc0e0a43d2b/44124464/VueJSLogo.png\" alt=\"VueJS\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/d90803371969873c31cb64ddf0181e0c/15c43c78/VueJSBanner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/d90803371969873c31cb64ddf0181e0c/15c43c78/VueJSBanner.png\" alt=\"VueJS\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/a0b0dc086e5d9ee7026040c6edd127f0/089dd960/logo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/a0b0dc086e5d9ee7026040c6edd127f0/089dd960/logo.png\" alt=\"VueJS\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/d90803371969873c31cb64ddf0181e0c/15c43c78/VueJSBanner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/d90803371969873c31cb64ddf0181e0c/15c43c78/VueJSBanner.png\" alt=\"VueJS\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "web-app",
@@ -981,12 +981,12 @@
         "Express",
         "NodeJS"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/9ad17eed33d289f33c3951f7b8e3493c/d51b76de/WebAppLogo1.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/9ad17eed33d289f33c3951f7b8e3493c/d51b76de/WebAppLogo1.png\" alt=\"Web Apps\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/2b22c4bc11602863c4daf4b3ea6592bc/431dcdce/WebApp.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/2b22c4bc11602863c4daf4b3ea6592bc/431dcdce/WebApp.png\" alt=\"Web Apps\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/9ad17eed33d289f33c3951f7b8e3493c/d51b76de/WebAppLogo1.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/9ad17eed33d289f33c3951f7b8e3493c/d51b76de/WebAppLogo1.png\" alt=\"Web Apps\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/2b22c4bc11602863c4daf4b3ea6592bc/431dcdce/WebApp.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/2b22c4bc11602863c4daf4b3ea6592bc/431dcdce/WebApp.png\" alt=\"Web Apps\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "windows",
@@ -1000,12 +1000,12 @@
         "Operating System",
         "Server"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/e53f5ef5dcd7ffeefc89ce522c3ed49e/d27a24c1/WindowsLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/e53f5ef5dcd7ffeefc89ce522c3ed49e/d27a24c1/WindowsLogo.png\" alt=\"Windows\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/32e16844114eec2caa29922e8c06103e/a7467eb6/winows-banner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/32e16844114eec2caa29922e8c06103e/a7467eb6/winows-banner.png\" alt=\"Windows\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/e53f5ef5dcd7ffeefc89ce522c3ed49e/d27a24c1/WindowsLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/e53f5ef5dcd7ffeefc89ce522c3ed49e/d27a24c1/WindowsLogo.png\" alt=\"Windows\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/32e16844114eec2caa29922e8c06103e/a7467eb6/winows-banner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/32e16844114eec2caa29922e8c06103e/a7467eb6/winows-banner.png\" alt=\"Windows\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "workona",
@@ -1020,12 +1020,12 @@
         "Operating System",
         "Web App"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/001b16fdeb0bd65fbbcbe9b1b7151102/cbbb8687/Workona.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/001b16fdeb0bd65fbbcbe9b1b7151102/cbbb8687/Workona.png\" alt=\"Workona\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/9f39ccf4c604ca5d1e85ad8bf9e8f817/2283a9d4/workona-logo.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/9f39ccf4c604ca5d1e85ad8bf9e8f817/2283a9d4/workona-logo.png\" alt=\"Workona\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/001b16fdeb0bd65fbbcbe9b1b7151102/cbbb8687/Workona.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/001b16fdeb0bd65fbbcbe9b1b7151102/cbbb8687/Workona.png\" alt=\"Workona\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/9f39ccf4c604ca5d1e85ad8bf9e8f817/2283a9d4/workona-logo.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/9f39ccf4c604ca5d1e85ad8bf9e8f817/2283a9d4/workona-logo.png\" alt=\"Workona\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "xero",
@@ -1039,12 +1039,12 @@
         "Accounting",
         "Bookeeping"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/db822948fe1ca3c7e375f411d51d290c/f99b1200/XeroLogo.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/db822948fe1ca3c7e375f411d51d290c/f99b1200/XeroLogo.png\" alt=\"Xero\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/f962eca56e6dfdd747055938ae96395a/6a273fa5/xero-banner.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/f962eca56e6dfdd747055938ae96395a/6a273fa5/xero-banner.png\" alt=\"Xero\">",
-      "local-image-url-logo": "",
-      "local-image-url-banner": ""
+      "logoUrl": "https://dl.airtable.com/.attachments/db822948fe1ca3c7e375f411d51d290c/f99b1200/XeroLogo.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/db822948fe1ca3c7e375f411d51d290c/f99b1200/XeroLogo.png\" alt=\"Xero\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/f962eca56e6dfdd747055938ae96395a/6a273fa5/xero-banner.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/f962eca56e6dfdd747055938ae96395a/6a273fa5/xero-banner.png\" alt=\"Xero\">",
+      "localUrl": "",
+      "localBannerUrl": ""
     },
     {
       "id-name": "zapier",
@@ -1058,12 +1058,12 @@
         "Automation",
         "Back-End"
       ],
-      "main-logo-url": "https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png",
-      "main-logo-embed": "<img src=\"https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png\" alt=\"Zapier\">",
-      "main-banner-url": "https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png",
-      "main-banner-embed": "<img  src=\"https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png\" alt=\"Zapier\">",
-      "other-image-url": "https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png",
-      "otherimageembed": "<img src=\"https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png\" alt=\"Zapier\">"
+      "logoUrl": "https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png",
+      "logoEmbed": "<img src=\"https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png\" alt=\"Zapier\">",
+      "bannerUrl": "https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png",
+      "bannerEmbed": "<img  src=\"https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png\" alt=\"Zapier\">",
+      "otherUrl": "https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png",
+      "otherEmbed": "<img src=\"https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png\" alt=\"Zapier\">"
     }
   ]
 }

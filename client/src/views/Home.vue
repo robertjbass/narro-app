@@ -2,7 +2,7 @@
   <div class="home">
     <FrontPage
       headline="Time is your most valuable asset"
-      subtext="Get back the time you spend on repetitive tasks and grow your business larger than you had ever imagined."
+      subtext="Get back the time you spend on repetitive tasks. Grow your business larger than you had ever imagined."
     />
     <Footer />
   </div>
