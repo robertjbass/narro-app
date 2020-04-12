@@ -4,13 +4,8 @@
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >
-    <!-- <div class="service-banner"> -->
-    <!-- <div class="image-slot"> -->
     <slot class="logo-image"></slot>
   </div>
-  <!-- </div> -->
-  <!-- <div class="description" v-show="hover">{{ description }}</div> -->
-  <!-- </div> -->
 </template>
 
 <script>

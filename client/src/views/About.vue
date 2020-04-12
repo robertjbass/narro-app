@@ -21,98 +21,7 @@
     </div>
 
     <div class="content">
-      <iframe
-        src="https://coda.io/embed/nxSSfSiV6R/_su0cw?hideSections=true"
-        width="100%"
-        height="3600"
-        style="max-width: 100%;"
-      >
-        ></iframe
-      >
-      <!-- Ashland Development<br /><br />
-      Call centers buy cheap computers in bulk. Accounts Receivable Management
-      (ARM) software is highly specialized and it needs to work on 'Windows XP'
-      era computers. Innovation has been slow because it is rooted in some very
-      difficult and high risk areas. Payment Processing, Inventory Management,
-      and Reporting.
-      <br /><br />
-      "We always hit a ceiling at a certain size. As the owner, I couldn't focus
-      on growth. For every employee I hired, I had another several hours per
-      week in administrative and management work."
-      <br /><br />
-      Areas of Focus and Challenges:<br /><br />
-      * Database Administration - Meticulous records must be kept at all times
-      for hundreds of thousands of records. Every interaction must be tracked. *
-      Inventory Management Platform - Records are transferred between parties
-      regularly and have a direct impact on financial and legal matters. *
-      Specialized CRM - The information that the agents need don't match the
-      structure of traditional CRMs, and the specialized CRMs created for this
-      purpose don't integrate with modern services. * Reporting - Reporting
-      takes place daily, weekly, semi-monthly and monthly. No standardized
-      formatting is used. The same report needs to be generated multiple times
-      with different layouts. * VoIP & Call Recording - When compliance is
-      involved, call recording and consent for recording can't be overlooked. *
-      Email Campaigns - Custom emails need to reach every consumer at several
-      points in the process.<br /><br />
-      The first step was to take inventory of the current systems in place
-      <br /><br />When evaluating the workflows of the agency, it became clear
-      that their struggle to grow was the result of the owner doing
-      administrative tasks which could be automated with different software.
-      <br /><br />Service Type Original Solution Old Annual Cost
-      <br /><br />Database Administration MariaDB $0.00 <br /><br />Server
-      Hosting Azure Windows VM $1,800.00 <br /><br />Inventory Management
-      CollectionsMax Administrator $0.00 <br /><br />CRM CollectionsMax
-      Professional $180.00 <br /><br />Reporting CollectionsMax Administrator
-      $0.00 <br /><br />VoIP - (1 Line) FreePBX (White-label) $600.00
-      <br /><br />Email - (1 User) GSuite $144.00 <br /><br />Website Wix
-      $300.00 <br /><br />
-      We examined more modern alternatives which had automation potential<br /><br />
-      Service Type New Solution New Annual Cost<br /><br />
-      Database MySQL $0.00<br /><br />
-      Server Hosting RouterHosting Windows VM $360.00<br /><br />
-      Inventory Management Airtable $0.00<br /><br />
-      CRM Copper CRM $288.00<br /><br />
-      Reporting Airtable $0.00<br /><br />
-      VoIP - (1 Line) DialPad $180.00<br /><br />
-      Email - (1 User) GSuite $144.00<br /><br />
-      Website VueJS & Firebase $0.00<br /><br />
-
-      We made a plan to automate the entire 'Administrative Assistant' position
-      as well as some of the more repetitive tasks the owner was responsible
-      for.
-      <br /><br />Service Type Original Solution Old Annual Cost New Solution
-      New Annual Cost <br /><br />Administrative Work Administrative Assistant
-      $33,280.00 Automation $3,000.00 <br /><br />
-      A tangible savings of $32,332.00 annually, the intangible cost is the
-      countless hours of and repetitive tasks
-      <br /><br />
-      "An administrative assistant was nice, but I realized that it was a
-      completely redundant position once we had the correct tools. I was working
-      70+ hours a week and taking business home with me. I woke up at 3 AM
-      several nights a week to manually run payments. Those 70 hour weeks turned
-      into 15 hour weeks once we started automating."
-      <br /><br />
-      An extra $32k per year and at least 55 hours per week were saved
-      <br /><br />
-      "We had accepted that the industry was behind the times. We weren't
-      industry leaders, we never considered that we had an opportunity to
-      innovate."
-
-      <br /><br />
-      When support staff was out, the owner played the role of a secretary and
-      'big-picture' work took the back burner
-      <br /><br />
-      "I didn't need a new debt collection platform, I needed to completely
-      re-think the processes and goals. The world has changed over the past 20
-      years but the software has stayed the same."
-      <br /><br />
-      Once new software was in place and the key integrations were handled, we
-      tackled the 'quality of life matters'
-      <br /><br />
-      "My job became more hands off than I thought it could be. Everything is
-      getting done on time and human error has largely been removed from the
-      equation." -->
-
+      <CaseStudy />
       <br />
 
       <div class="blue-highlight">
@@ -149,8 +58,12 @@
 </template>
 
 <script>
+import CaseStudy from "@/components/CaseStudy.vue";
 export default {
-  name: "about"
+  name: "about",
+  components: {
+    CaseStudy
+  }
 };
 </script>
 
