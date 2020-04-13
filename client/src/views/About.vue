@@ -96,10 +96,10 @@ export default {
   color: #666666;
   font-size: 20px;
   font-weight: 900;
-  padding-top: 20px;
   margin: auto;
   text-align: left;
   font-family: monospace;
+  width: 100%;
 }
 
 header {
