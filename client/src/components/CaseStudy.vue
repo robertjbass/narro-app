@@ -98,21 +98,31 @@
       </div>
       <br />
 
-      <!-- TODO: QUOTE-IMAGE -->
-      <!-- <div class="quote-image">
-      quote-image Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      Earum, illo!
-    </div>
-    <br /> -->
-
       <!-- TODO: UNORDERED-LIST -->
-      <div class="ulist">
-        <ul>
-          <li>ulist Lorem ipsum</li>
-          <li>dolor sit amet consectetur</li>
+      <div class="list">
+        <ul class="ulitem">
+          <li>
+            ulist Lorem ipsum Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </li>
+          <li>dolor sit amet consectetur Lorem, ipsum.</li>
           <li>adipisicing elit</li>
-          <li>Molestias, illo</li>
+          <li>Molestias, illo Lorem ipsum dolor sit.</li>
         </ul>
+      </div>
+      <br />
+
+      <!-- TODO: ORDERED-LIST -->
+      <div class="list">
+        <ol class="olitem">
+          <li>
+            ulist Lorem ipsum Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit.
+          </li>
+          <li>dolor sit amet consectetur Lorem, ipsum.</li>
+          <li>adipisicing elit</li>
+          <li>Molestias, illo Lorem ipsum dolor sit.</li>
+        </ol>
       </div>
       <br />
 
@@ -123,8 +133,23 @@
       <br />
 
       <div class="table">
-        table Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-        rem!
+        <table>
+          <tr>
+            <th>table Lorem 1</th>
+            <th>table Lorem 2</th>
+            <th>table Lorem 3</th>
+          </tr>
+          <tr>
+            <td>dolor sit amet</td>
+            <td>dolor sit amet</td>
+            <td>dolor sit amet</td>
+          </tr>
+          <tr>
+            <td>elit. rem!</td>
+            <td>elit. rem!</td>
+            <td>elit. rem!</td>
+          </tr>
+        </table>
       </div>
       <br />
 
@@ -264,13 +289,84 @@ qr::after {
   text-align: center;
 }
 
-/* TODO: Finish Prefab Classes */
-.ulist {
+/* TODO: UNORDERED LIST */
+.list {
+  font-size: 18px;
+  color: #333333;
+  padding-left: 5px;
 }
+.ulitem {
+  list-style-type: none;
+  line-height: 1.5rem;
+  border-radius: 2rem;
+  padding: 5px;
+}
+li {
+  padding: 5px 10px;
+  background: #dddddd60;
+  border-radius: 1rem;
+  margin: 10px 0;
+}
+
+/* TODO: ORDERED LIST */
+.list {
+  font-size: 18px;
+  color: #333333;
+  padding-left: 5px;
+}
+
+ul.olitem {
+  list-style: circled-alpha;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li {
+  padding: 5px 10px;
+  background: #dddddd60;
+  border-radius: 1rem;
+  margin: 10px 0;
+}
+
+/* TODO: FIX SUMMARY */
+/* TODO: SUMMARY */
 .summary {
+  font-size: 20px;
+  color: #666666;
 }
+
+/* TODO: TABLE */
 .table {
+  width: 100%;
+  color: #666666;
+  border-spacing: 5px;
 }
+
+table,
+th,
+td {
+  border: 1px solid #666666;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+th {
+  font-weight: 900;
+  text-align: left;
+}
+table,
+th {
+  border: 2px solid #666666;
+}
+
 .conclusion {
+  font-size: 20px;
+  color: #666666;
+  font-weight: 400;
+  border-top-style: solid;
+  border-top-color: #66666620;
+  border-radius: 0 2rem;
 }
 </style>
