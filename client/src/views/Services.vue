@@ -72,7 +72,8 @@ export default {
 </script>
 <style scoped>
 * {
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .list {
   text-align: left;
@@ -81,6 +82,7 @@ export default {
 }
 
 .top {
+  padding-top: 10px;
   background-image: linear-gradient(to bottom, #e5effd, #ffffff);
 }
 .body-white {
@@ -148,6 +150,7 @@ h1 {
   text-align: center;
   margin-top: 0;
   line-height: 50px;
+  font-weight: 525;
 }
 
 h2 {
@@ -157,6 +160,7 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+  font-weight: 525;
 }
 
 h3 {

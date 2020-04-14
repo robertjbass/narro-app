@@ -1,8 +1,10 @@
 <template>
   <div class="home">
+    <!-- headline="Time is your most valuable asset" -->
+    <!-- subtext="Get back the time you spend on repetitive tasks. Grow your business larger than you had ever imagined." -->
     <FrontPage
       headline="Time is your most valuable asset"
-      subtext="Get back the time you spend on repetitive tasks. Grow your business larger than you had ever imagined."
+      subtext="Dramatically increase your productivity with automation"
     />
     <Footer />
   </div>
@@ -21,7 +23,8 @@ export default {
 
 <style scoped>
 * {
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer {
   position: fixed;

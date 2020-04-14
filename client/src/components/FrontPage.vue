@@ -5,7 +5,7 @@
         <h1>{{ headline }}</h1>
         <h2>{{ subtext }}</h2>
         <div class="blue-highlight">
-          <h2 class="things">Technologies we love</h2>
+          <!-- <h2 class="things">Technologies we love</h2> -->
         </div>
       </div>
     </div>
@@ -355,7 +355,8 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 * {
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: block;
   box-sizing: border-box;
 }
@@ -399,6 +400,7 @@ h1 {
   text-align: center;
   margin-top: 0;
   line-height: 50px;
+  font-weight: 525;
 }
 
 h2 {
@@ -408,6 +410,7 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+  font-weight: 525;
 }
 
 h3 {
@@ -749,6 +752,7 @@ h4 {
 }
 
 .top {
+  padding-top: 10px;
   background-image: linear-gradient(to bottom, #e5effd, #ffffff);
 }
 

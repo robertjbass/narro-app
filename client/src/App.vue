@@ -23,8 +23,9 @@
       </div>
       <Navbar>
         <router-link to="/">Home</router-link>
-        <router-link to="/about">About Us</router-link>
         <router-link to="/services">Services</router-link>
+        <router-link to="/case">Case Study</router-link>
+        <router-link to="/about">About</router-link>
       </Navbar>
       <hr />
     </div>
