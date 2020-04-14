@@ -18,9 +18,9 @@ git add . && git commit -m "commitMessageHere" && git push
 firebase deploy
 
 ## How to deploy after update:
+git add . && git commit -m "commitMessageHere" && git push
 cd client
 npm run build
-git add . && git commit -m "commitMessageHere" && git push
 firebase deploy
 
 ```
