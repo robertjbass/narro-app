@@ -29,24 +29,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
   font-family: "Open Sans", Helvetica, arial, sans-serif;
-  display: block;
-  box-sizing: border-box;
-}
-header {
-  align-items: stretch;
-  display: grid;
-  grid-template-columns: max-content auto max-content;
-  position: relative;
-  z-index: 950;
-  background-color: #ffffff;
-  border-bottom: 1px solid rgb(230, 230, 230);
-}
-hr {
-  color: #e6e6e6;
-  margin: 0%;
-}
-a {
-  color: #9bd5ff;
 }
 h1 {
   font-family: "Indie Flower", cursive;
@@ -70,50 +52,12 @@ a h3 {
   color: #136bf5;
 }
 
-/* dark-orange-logo */
-.logo {
-  color: #fd7622;
-}
-.h3-background {
-  background-color: #f2f2f2;
-}
-.design-gradient {
-  background-image: linear-gradient(to top right, #edeafb, #fde3ef);
-}
 .logo-image {
   min-width: 100%;
   max-width: 100%;
-  /* max-height: 140px; */
 }
-/* .image-slot {
-  width: 100%;
-  height: auto;
 
-  margin-bottom: 5px;
-} */
-
-/* .service-banner {
-  justify-content: center;
-} */
-/* .card-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: auto;
-  padding: 20px;
-  vertical-align: middle;
-} */
-
-/* .description {
-  position: relative;
-  bottom: 0px;
-  text-align: left;
-  font-size: 14px;
-  color: inherit;
-  font-family: monospace;
-} */
-
-/* .card-wrap {
-  max-width: 500px;
-} */
+.card-wrap {
+  flex-grow: 1;
+}
 </style>

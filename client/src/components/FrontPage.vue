@@ -2,16 +2,18 @@
   <div class="front-page">
     <div class="body-white">
       <div class="top">
-        <h1>{{ headline }}</h1>
+        <h1>{{ headline }} - {{ selectedService }}</h1>
         <h2>{{ subtext }}</h2>
         <div class="blue-highlight">
           <!-- <h2 class="things">Technologies we love</h2> -->
         </div>
       </div>
     </div>
-    <!-- <Selected /> -->
     <div class="gradient-boxes">
-      <div class="service-box zapier-gradient">
+      <div
+        v-on:click="selectedService = 'zapier'"
+        class="service-box zapier-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -23,7 +25,10 @@
         </ServiceCard>
       </div>
 
-      <div class="service-box airtable-gradient">
+      <div
+        v-on:click="selectedService = 'airtable'"
+        class="service-box airtable-gradient"
+      >
         <ServiceCard>
           <div class="image-wrap">
             <img
@@ -35,7 +40,10 @@
         </ServiceCard>
       </div>
 
-      <div class="service-box mysql-gradient">
+      <div
+        v-on:click="selectedService = 'mysql'"
+        class="service-box mysql-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -46,7 +54,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box integromat-gradient">
+      <div
+        v-on:click="selectedService = 'integromat'"
+        class="service-box integromat-gradient"
+      >
         <ServiceCard>
           <div class="image-wrap">
             <span class="integromat-partner">
@@ -65,7 +76,10 @@
         </ServiceCard>
       </div>
 
-      <div class="service-box slack-gradient">
+      <div
+        v-on:click="selectedService = 'slack'"
+        class="service-box slack-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -76,7 +90,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box google-gradient">
+      <div
+        v-on:click="selectedService = 'gsuite'"
+        class="service-box google-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -87,7 +104,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box dropbox-gradient">
+      <div
+        v-on:click="selectedService = 'dropbox'"
+        class="service-box dropbox-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -98,7 +118,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box calendly-gradient">
+      <div
+        v-on:click="selectedService = 'calendly'"
+        class="service-box calendly-gradient"
+      >
         <ServiceCard>
           <div class="image-wrap">
             <img
@@ -109,7 +132,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box copper-gradient">
+      <div
+        v-on:click="selectedService = 'copper'"
+        class="service-box copper-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -120,7 +146,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box outfunnel-gradient">
+      <div
+        v-on:click="selectedService = 'outfunnel'"
+        class="service-box outfunnel-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -131,7 +160,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box reply-gradient">
+      <div
+        v-on:click="selectedService = 'reply'"
+        class="service-box reply-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -142,7 +174,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box coda-gradient">
+      <div
+        v-on:click="selectedService = 'coda'"
+        class="service-box coda-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -153,7 +188,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box typeform-gradient">
+      <div
+        v-on:click="selectedService = 'typeform'"
+        class="service-box typeform-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -164,7 +202,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box mailparser-gradient">
+      <div
+        v-on:click="selectedService = 'mailparser'"
+        class="service-box mailparser-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -175,7 +216,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box docparser-gradient">
+      <div
+        v-on:click="selectedService = 'docparser'"
+        class="service-box docparser-gradient"
+      >
         <ServiceCard>
           <div class="image-wrap">
             <img
@@ -186,7 +230,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box docusign-gradient">
+      <div
+        v-on:click="selectedService = 'docusign'"
+        class="service-box docusign-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -197,7 +244,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box slite-gradient">
+      <div
+        v-on:click="selectedService = 'slite'"
+        class="service-box slite-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -208,7 +258,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box qbo-gradient">
+      <div
+        v-on:click="selectedService = 'qbo'"
+        class="service-box qbo-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -219,7 +272,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box css-gradient">
+      <div
+        v-on:click="selectedService = 'css'"
+        class="service-box css-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -230,7 +286,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box node-gradient">
+      <div
+        v-on:click="selectedService = 'node'"
+        class="service-box node-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -241,7 +300,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box javascript-gradient">
+      <div
+        v-on:click="selectedService = 'javascript'"
+        class="service-box javascript-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -252,7 +314,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box vue-gradient">
+      <div
+        v-on:click="selectedService = 'vue'"
+        class="service-box vue-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -263,7 +328,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box csharp-gradient">
+      <div
+        v-on:click="selectedService = 'csharp'"
+        class="service-box csharp-gradient"
+      >
         <ServiceCard
           service="C# .NET"
           description="Microsoft has been the leader in enterprise software for as long as the personal computer has existed and C# is the language that they've invested billions of dollars into creating. We can help with your .NET applications."
@@ -276,7 +344,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box webhooks-gradient">
+      <div
+        v-on:click="selectedService = 'webhooks'"
+        class="service-box webhooks-gradient"
+      >
         <ServiceCard>
           <div class="image-wrap">
             <img
@@ -287,7 +358,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box postgres-gradient">
+      <div
+        v-on:click="selectedService = 'postgres'"
+        class="service-box postgres-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -298,7 +372,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box mongodb-gradient">
+      <div
+        v-on:click="selectedService = 'mongodb'"
+        class="service-box mongodb-gradient"
+      >
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -309,7 +386,10 @@
         ></ServiceCard>
       </div>
 
-      <div class="service-box ontask-gradient">
+      <div
+        v-on:click="selectedService = 'ontask'"
+        class="service-box ontask-gradient"
+      >
         <ServiceCard>
           <div class="image-wrap">
             <img
@@ -339,6 +419,11 @@ export default {
   },
   components: {
     ServiceCard
+  },
+  data: function() {
+    return {
+      selectedService: "airtable"
+    };
   }
 };
 </script>
