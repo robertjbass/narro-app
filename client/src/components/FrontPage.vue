@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-    <Selected />
+    <!-- <Selected /> -->
     <div class="gradient-boxes">
       <div class="service-box zapier-gradient">
         <ServiceCard
@@ -322,18 +322,11 @@
     </div>
     <br /><br />
     <hr />
-    <a
-      class="request"
-      href="https://airtable.com/shrCDJbvIga3NMRZS"
-      target="blank"
-      >Request a Review</a
-    >
   </div>
 </template>
 
 <script>
 import ServiceCard from "@/components/ServiceCard.vue";
-import Selected from "@/components/Selected.vue";
 export default {
   name: "front-page",
   props: {
@@ -345,8 +338,7 @@ export default {
     }
   },
   components: {
-    ServiceCard,
-    Selected
+    ServiceCard
   }
 };
 </script>

@@ -49,12 +49,6 @@
 
         <br /><br />
         <hr />
-        <a
-          class="request"
-          href="https://airtable.com/shrCDJbvIga3NMRZS"
-          target="blank"
-          >Request a Review</a
-        >
       </div>
     </div>
   </div>

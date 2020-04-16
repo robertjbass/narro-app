@@ -1,74 +1,60 @@
 <template>
-  <div class="service-page">
-    <div class="body-white">
-      <div class="top">
-        <h1>Search for additional services</h1>
-        <h2>
-          Our Preferred Technologies
-        </h2>
-      </div>
-    </div>
-    <br />
-    <div class="list" v-for="service in services" :key="service.name">
-      <div class="list-item" v-if="service.description" :key="service.name">
-        <div class="service-info">
-          <div class="name-logo">
-            <b class="svc-name">{{ service.name }}</b>
-            <div class="logo-padding">
-              <img class="svc-logo" :src="service.logoUrl" />
-            </div>
-          </div>
-          <div class="description">
-            {{ service.description }}
-          </div>
-        </div>
-        <br />
-      </div>
-    </div>
-
-    <h3>
-      Don't see the technology you're looking to integrate with? No problem!<br />
-      We can automate most services listed here:
-    </h3>
-
-    <div class="search-links">
-      <a class="zapier services" href="https://zapier.com/apps" target="blank"
-        ><div class="search-more">
-          Zapier Integration Search
-        </div></a
-      >
-      <div class="link-spacer"></div>
-      <a
-        class="integromat services"
-        href="https://www.integromat.com/en/integrations"
-        target="blank"
-        ><div class="search-more">
-          Integromat Integration Search
-        </div></a
-      >
-    </div>
-    <br /><br />
-    <hr />
+  <div class="top saas">
+    <Selected />
   </div>
 </template>
+
 <script>
-import serviceList from "@/assets/json/services.json";
+import Selected from "@/components/Selected.vue";
 export default {
-  name: "Services",
-  computed: {
-    services() {
-      return serviceList.services.map(services => {
-        return services;
-      });
-    }
+  name: "SaaS",
+  components: {
+    Selected
   }
 };
 </script>
+
 <style scoped>
 * {
-  /* font-family: monospace; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h1 {
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+  line-height: 50px;
+  font-weight: 525;
+}
+
+h2 {
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-weight: 525;
+}
+
+hr {
+  color: #e6e6e6;
+  width: 15%;
+  margin: auto;
+  align-content: center;
+}
+
+p {
+  padding: 10px 8% 0 8%;
+  text-align: left;
+}
+
+.top {
+  padding-top: 10px;
+  background-image: linear-gradient(to bottom, #e5effd, #ffffff);
+}
+
 .list {
   text-align: left;
   max-width: 100%;

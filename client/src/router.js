@@ -28,6 +28,11 @@ export default new Router({
       name: "services",
       component: () => import("./views/Services.vue")
     },
+    {
+      path: "/saas",
+      name: "saas",
+      component: () => import("./views/SaaS.vue")
+    },
     /*
     TODO: Add routing for services
     */
