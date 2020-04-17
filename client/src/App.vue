@@ -45,11 +45,27 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import FooterBar from "@/components/FooterBar.vue";
+import FrontPage from "@/components/FrontPage.vue";
+import Selected from "@/components/Selected.vue";
+import { EventBus } from "./main";
+
 export default {
   name: "app",
   components: {
     Navbar,
-    FooterBar
+    FooterBar,
+    FrontPage,
+    Selected
+  },
+  data() {
+    return {
+      selectedService: this.selectedService
+    };
+  },
+  created() {
+    EventBus.$on("changeSvc", data => {
+      this.selectedService = data;
+    });
   }
 };
 </script>

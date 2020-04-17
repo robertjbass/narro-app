@@ -2,16 +2,17 @@
   <div class="front-page">
     <div class="body-white">
       <div class="top">
-        <h1>{{ headline }} - {{ selectedService }}</h1>
+        <h1>{{ headline }}</h1>
         <h2>{{ subtext }}</h2>
         <div class="blue-highlight">
           <!-- <h2 class="things">Technologies we love</h2> -->
         </div>
+        <!-- <Selected /> -->
       </div>
     </div>
     <div class="gradient-boxes">
       <div
-        v-on:click="selectedService = 'zapier'"
+        v-on:click="changeService('zapier')"
         class="service-box zapier-gradient"
       >
         <ServiceCard
@@ -26,7 +27,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'airtable'"
+        v-on:click="changeService('airtable')"
         class="service-box airtable-gradient"
       >
         <ServiceCard>
@@ -41,7 +42,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'mysql'"
+        v-on:click="changeService('mysql')"
         class="service-box mysql-gradient"
       >
         <ServiceCard
@@ -55,7 +56,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'integromat'"
+        v-on:click="changeService('integromat')"
         class="service-box integromat-gradient"
       >
         <ServiceCard>
@@ -77,7 +78,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'slack'"
+        v-on:click="changeService('slack')"
         class="service-box slack-gradient"
       >
         <ServiceCard
@@ -91,7 +92,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'gsuite'"
+        v-on:click="changeService('gsuite')"
         class="service-box google-gradient"
       >
         <ServiceCard
@@ -105,7 +106,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'dropbox'"
+        v-on:click="changeService('dropbox')"
         class="service-box dropbox-gradient"
       >
         <ServiceCard
@@ -119,7 +120,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'calendly'"
+        v-on:click="changeService('calendly')"
         class="service-box calendly-gradient"
       >
         <ServiceCard>
@@ -133,7 +134,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'copper'"
+        v-on:click="changeService('copper')"
         class="service-box copper-gradient"
       >
         <ServiceCard
@@ -147,7 +148,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'outfunnel'"
+        v-on:click="changeService('outfunnel')"
         class="service-box outfunnel-gradient"
       >
         <ServiceCard
@@ -161,7 +162,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'reply'"
+        v-on:click="changeService('reply')"
         class="service-box reply-gradient"
       >
         <ServiceCard
@@ -174,10 +175,7 @@
         ></ServiceCard>
       </div>
 
-      <div
-        v-on:click="selectedService = 'coda'"
-        class="service-box coda-gradient"
-      >
+      <div v-on:click="changeService('coda')" class="service-box coda-gradient">
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -189,7 +187,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'typeform'"
+        v-on:click="changeService('typeform')"
         class="service-box typeform-gradient"
       >
         <ServiceCard
@@ -203,7 +201,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'mailparser'"
+        v-on:click="changeService('mailparser')"
         class="service-box mailparser-gradient"
       >
         <ServiceCard
@@ -217,7 +215,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'docparser'"
+        v-on:click="changeService('docparser')"
         class="service-box docparser-gradient"
       >
         <ServiceCard>
@@ -231,7 +229,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'docusign'"
+        v-on:click="changeService('docusign')"
         class="service-box docusign-gradient"
       >
         <ServiceCard
@@ -245,7 +243,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'slite'"
+        v-on:click="changeService('slite')"
         class="service-box slite-gradient"
       >
         <ServiceCard
@@ -258,10 +256,7 @@
         ></ServiceCard>
       </div>
 
-      <div
-        v-on:click="selectedService = 'qbo'"
-        class="service-box qbo-gradient"
-      >
+      <div v-on:click="changeService('qbo')" class="service-box qbo-gradient">
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -272,10 +267,7 @@
         ></ServiceCard>
       </div>
 
-      <div
-        v-on:click="selectedService = 'css'"
-        class="service-box css-gradient"
-      >
+      <div v-on:click="changeService('css')" class="service-box css-gradient">
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -286,10 +278,7 @@
         ></ServiceCard>
       </div>
 
-      <div
-        v-on:click="selectedService = 'node'"
-        class="service-box node-gradient"
-      >
+      <div v-on:click="changeService('node')" class="service-box node-gradient">
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -301,7 +290,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'javascript'"
+        v-on:click="changeService('javascript')"
         class="service-box javascript-gradient"
       >
         <ServiceCard
@@ -314,10 +303,7 @@
         ></ServiceCard>
       </div>
 
-      <div
-        v-on:click="selectedService = 'vue'"
-        class="service-box vue-gradient"
-      >
+      <div v-on:click="changeService('vue')" class="service-box vue-gradient">
         <ServiceCard
           ><div class="image-wrap">
             <img
@@ -329,7 +315,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'csharp'"
+        v-on:click="changeService('csharp')"
         class="service-box csharp-gradient"
       >
         <ServiceCard
@@ -345,7 +331,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'webhooks'"
+        v-on:click="changeService('webhooks')"
         class="service-box webhooks-gradient"
       >
         <ServiceCard>
@@ -359,7 +345,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'postgres'"
+        v-on:click="changeService('postgres')"
         class="service-box postgres-gradient"
       >
         <ServiceCard
@@ -373,7 +359,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'mongodb'"
+        v-on:click="changeService('mongodb')"
         class="service-box mongodb-gradient"
       >
         <ServiceCard
@@ -387,7 +373,7 @@
       </div>
 
       <div
-        v-on:click="selectedService = 'ontask'"
+        v-on:click="changeService('ontask')"
         class="service-box ontask-gradient"
       >
         <ServiceCard>
@@ -401,12 +387,17 @@
       </div>
     </div>
     <br /><br />
+    <Selected />
     <hr />
   </div>
 </template>
 
 <script>
 import ServiceCard from "@/components/ServiceCard.vue";
+import Selected from "@/components/Selected.vue";
+
+import { EventBus } from "../main";
+
 export default {
   name: "front-page",
   props: {
@@ -415,15 +406,22 @@ export default {
     },
     subtext: {
       type: String
+    },
+    selectedService: {
+      type: String
     }
   },
   components: {
-    ServiceCard
+    ServiceCard,
+    Selected
   },
-  data: function() {
-    return {
-      selectedService: "airtable"
-    };
+
+  methods: {
+    changeService(svc) {
+      this.selectedService = svc;
+      EventBus.$emit("changeSvc", this.selectedService);
+      return this.selectedService;
+    }
   }
 };
 </script>
@@ -432,7 +430,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 * {
-  /* font-family: monospace; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: block;
   box-sizing: border-box;

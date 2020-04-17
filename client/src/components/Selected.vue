@@ -3,16 +3,14 @@
     <!-- <h3>This is the Selected.vue component</h3> -->
     <!-- <div class="card-wrap card"> -->
     <!-- class="outer-wrap" -->
-    <h1>Selected Service: {{ selectedService }}</h1>
     <div>
       <svcCard>
-        <!-- <h1 v-if="">{{ selectedService }}test</h1> -->
+        <h1>{{ selectedService }}</h1>
         <div class="outer-wrap">
           <div class="services" v-for="service in services" :key="service.name">
             <div v-if="!service.hidden" :key="service.name">
-              <!-- <div v-if="!service.hidden" :key="service.name"> -->
-              <!-- <div v-if="(service.name = selectedService)" :key="service.name"> -->
-              <!--  -->
+              <!-- THE LINE BELOW THIS IS FOR THE PURPOSE OF DISPLAYING THE CORRECT BLOCK BELOW -->
+              <!-- <div v-if="selectedService == service.name" :key="service.name"> -->
               <div class="inner-wrap">
                 <div class="banner-wrap top">
                   <img class="banner" :src="service.bannerUrl" />
@@ -26,6 +24,7 @@
                     <div class="description">{{ service.description }}</div>
                   </div>
                 </div>
+                <!-- </div> -->
               </div>
             </div>
           </div>
@@ -37,26 +36,22 @@
 <script>
 import SvcCard from "@/components/SvcCard.vue";
 import serviceList from "@/assets/json/services.json";
-
-let selectedService = "airtable";
+import { EventBus } from "../main";
 
 export default {
   name: "Selected",
-  // watch: {
-  //   // whenever a service is clicked...
-  // }
-  // props: {},
-  // data: function() {
-  //   return {
-  //     activeService: "airtable"
-  //   };
-  // },
-  methods: {
-    abc(def) {
-      def = "ghi";
-      return def;
+  props: {
+    selectedService: {
+      type: String
     }
   },
+
+  created() {
+    EventBus.$on("changeSvc", data => {
+      return (this.selectedService = data);
+    });
+  },
+
   components: {
     SvcCard
   },
@@ -65,9 +60,6 @@ export default {
       return serviceList.services.map(services => {
         return services;
       });
-    },
-    selectedService: function() {
-      return "airtable";
     }
   }
 };
