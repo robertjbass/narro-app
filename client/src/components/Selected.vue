@@ -1,19 +1,29 @@
 <template>
-  <div>
-    <!-- <h3>This is the Selected.vue component</h3> -->
-    <!-- <div class="card-wrap card"> -->
-    <!-- class="outer-wrap" -->
-    <div>
-      <svcCard>
-        <h1>{{ selectedService }}</h1>
+  <div class="card-wrap">
+    <div class="image-slot">
+      <slot class="card-information">
         <div class="outer-wrap">
-          <div class="services" v-for="service in services" :key="service.name">
-            <div v-if="!service.hidden" :key="service.name">
-              <!-- THE LINE BELOW THIS IS FOR THE PURPOSE OF DISPLAYING THE CORRECT BLOCK BELOW -->
-              <!-- <div v-if="selectedService == service.name" :key="service.name"> -->
-              <div class="inner-wrap">
-                <div class="banner-wrap top">
-                  <img class="banner" :src="service.bannerUrl" />
+          <div
+            class="services "
+            v-for="service in services"
+            :key="service.idname"
+          >
+            <!--  -->
+            <div v-if="service.idname == selectedService" :key="service.idname">
+              <div class="inner-wrap innner">
+                <!--  -->
+                <div class="top-bar">
+                  <div class="bar-space">
+                    <div class="top-spacer">
+                      <!-- . -->
+                    </div>
+                    <div class="mid-spacer">
+                      <!-- | -->
+                    </div>
+                    <div class="close" v-on:click="selectedService = ''">
+                      x
+                    </div>
+                  </div>
                 </div>
                 <div class="bottom">
                   <div class="left">
@@ -21,310 +31,90 @@
                     <img class="logo" :src="service.logoUrl" />
                   </div>
                   <div class="right">
+                    <div class="banner-wrap top">
+                      <img class="banner" :src="service.bannerUrl" />
+                    </div>
                     <div class="description">{{ service.description }}</div>
                   </div>
                 </div>
-                <!-- </div> -->
               </div>
             </div>
+            <div v-else=""></div>
           </div>
         </div>
-      </svcCard>
+      </slot>
     </div>
   </div>
 </template>
+
 <script>
-import SvcCard from "@/components/SvcCard.vue";
 import serviceList from "@/assets/json/services.json";
 import { EventBus } from "../main";
 
 export default {
-  name: "Selected",
-  props: {
-    selectedService: {
-      type: String
-    }
-  },
-
+  name: "selected",
   created() {
     EventBus.$on("changeSvc", data => {
       return (this.selectedService = data);
     });
   },
 
-  components: {
-    SvcCard
-  },
   computed: {
     services() {
       return serviceList.services.map(services => {
         return services;
       });
     }
+  },
+  data: function() {
+    return {
+      selectedService: ""
+      // selectedService: "airtable"
+    };
   }
 };
 </script>
+
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", Helvetica, arial, sans-serif;
 }
-
-/* .zapier-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-
-.zapier-gradient:hover {
-  background-color: #ffefce;
-}
-
-.airtable-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.airtable-gradient:hover {
-  background-color: #fdc6dc;
-}
-
-.mysql-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mysql-gradient:hover {
-  background-color: #00618a35;
-}
-
-.slack-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.slack-gradient:hover {
-  background-color: #e0156350;
-}
-
-.vue-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.vue-gradient:hover {
-  background-color: #34495f50;
-}
-
-.copper-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.copper-gradient:hover {
-  background-color: #4e2f6550;
-}
-
-.coda-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.coda-gradient:hover {
-  background-color: #f5d0ba50;
-}
-
-.google-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.google-gradient:hover {
-  background-color: #ea433550;
-}
-
-.outfunnel-gradient {
-  background-color: #ffffff;
-}
-.outfunnel-gradient:hover {
-  background-color: #00b8aa50;
-}
-
-.reply-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.reply-gradient:hover {
-  background-color: #005aff50;
-}
-
-.typeform-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.typeform-gradient:hover {
-  background-color: #89c6be50;
-}
-
-.mailparser-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mailparser-gradient:hover {
-  background-color: #fe470150;
-}
-
-.dropbox-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.dropbox-gradient:hover {
-  background-color: #194ba050;
-}
-
-.docusign-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.docusign-gradient:hover {
-  background-color: #007ee550;
-}
-
-.css-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.css-gradient:hover {
-  background-color: #f1652950;
-}
-
-.node-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.node-gradient:hover {
-  background-color: #83cd2950;
-}
-
-.csharp-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.csharp-gradient:hover {
-  background-color: #9d72d950;
-}
-
-.javascript-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.javascript-gradient:hover {
-  background-color: #f5de1950;
-}
-
-.slite-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.slite-gradient:hover {
-  background-color: #08145250;
-}
-
-.qbo-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.qbo-gradient:hover {
-  background-color: #28a11650;
-}
-
-.postgres-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.postgres-gradient:hover {
-  background-color: #31619250;
-}
-
-.mongodb-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mongodb-gradient:hover {
-  background-color: #4da84b50;
-}
-
-.docparser-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.docparser-gradient:hover {
-  background-color: #297ce550;
-}
-
-.webhooks-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.webhooks-gradient:hover {
-  background-color: #c73a6350;
-}
-
-.ontask-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.ontask-gradient:hover {
-  background-color: #9bc66950;
-}
-
-.integromat-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.integromat-gradient:hover {
-  background-color: #2f8cbb50;
-}
-
-.calendly-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.calendly-gradient:hover {
-  background-color: #676b7650;
-} */
-
-/*  */ /*  */ /*  */ /*  */
-
-/* .body-white {
-  background-color: #fafafa;
-  border: 25px 25px 0 25px;
-} */
-
-/* .top {
-  padding-top: 10px;
-  background-image: linear-gradient(to bottom, #e5effd, #ffffff);
-} */
-
-/* .image-slot {
-  justify-content: space-evenly;
-} */
-
-/* .service-box {
-  border-radius: 1rem;
-  border: 0px;
-  margin: 0 1% 2% 1%;
-  min-width: 350px;
-  max-width: 30%;
-  flex-grow: 1;
-  display: flex;
+h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  justify-content: space-between;
-} */
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(102, 102, 102);
+  text-align: center;
+}
+h3 {
+  color: #666666;
+}
+a h3 {
+  color: #136bf5;
+}
+
+.logo-image {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.card-wrap {
+  flex-grow: 1;
+}
 
 .outer-wrap {
   display: flex;
   flex-wrap: wrap;
-  /* border-radius: 1rem; */
   border: 0px;
-  /* margin: 0 1% 2% 1%; */
-  /* min-width: 220px; */
-  /* min-width: 400px;
-  max-width: 400px; */
-  /* width: 35%; */
   text-align: center;
   justify-content: center;
   justify-content: space-between;
@@ -337,13 +127,21 @@ export default {
   padding: 10px;
   display: flex;
   padding: 0px;
-  width: 400px;
+  width: 75%;
   margin: 0 0 10px 0;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  /* align-content: center; */
-  /* flex-grow: 1; */
+  margin: auto;
+  position: absolute;
+  left: 10%;
+  background-color: white;
+  min-width: 270px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left {
@@ -367,30 +165,37 @@ export default {
 .right {
   width: 70%;
   margin: auto;
+  vertical-align: middle;
+  align-content: space-between;
 }
 .top {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 100%;
 }
 
 .banner-wrap {
   margin: auto;
   max-width: 100%;
   min-width: 50%;
-  object-fit: contain;
   max-height: 100%;
-  width: 400px;
+  padding-bottom: 10px;
+  /* object-fit: contain; */
 }
 
 .banner {
   max-height: auto;
-  /* max-width: 50%; */
   max-width: 50%;
   width: auto;
   margin: auto;
   padding: 10px 0 5px 0;
   width: 400px;
+}
+
+.middle {
+  height: 20px;
+  align-content: space-between;
+  padding: auto;
 }
 
 .bottom {
@@ -403,5 +208,71 @@ export default {
   text-align: left;
   /* padding: 0 20px 20px 20px; */
   padding-left: 15px;
+}
+
+.services {
+  width: 100%;
+}
+
+/*
+
+
+ */
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /*whatever width you want*/
+}
+
+.top-bar {
+  width: 100%;
+  margin: auto;
+}
+
+.bar-space {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebebeb;
+  padding: 5px 0;
+}
+
+.top-spacer {
+  margin: auto;
+  align-self: flex-end;
+}
+
+.mid-spacer {
+  margin: auto;
+}
+.close {
+  justify-content: right;
+  text-align: right;
+  /* padding: 10px 20px 10px 0; */
+  padding-left: 0 90% 0 10%;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(179, 56, 56);
+  /* background-color: #dddddd; */
+  margin: auto;
+  margin-left: 90%;
+  cursor: pointer;
 }
 </style>

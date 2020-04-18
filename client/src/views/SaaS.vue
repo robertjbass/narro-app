@@ -1,15 +1,22 @@
 <template>
-  <div class="top saas">
-    <Selected />
+  <div>
+    <div class="top saas">
+      <!-- <Selected /> -->
+      <div class="heading">
+        <h1>Our preferred services</h1>
+      </div>
+    </div>
+    <SvcCard />
   </div>
 </template>
 
 <script>
-import Selected from "@/components/Selected.vue";
+// import Selected from "@/components/Selected.vue";
+import SvcCard from "@/components/SvcCard.vue";
 export default {
   name: "SaaS",
   components: {
-    Selected
+    SvcCard
   }
 };
 </script>

@@ -1,16 +1,16 @@
 <template>
   <div class="front-page">
     <div class="body-white">
-      <div class="top">
-        <h1>{{ headline }}</h1>
-        <h2>{{ subtext }}</h2>
-        <div class="blue-highlight">
-          <!-- <h2 class="things">Technologies we love</h2> -->
-        </div>
+      <!-- <div class="top"> -->
+      <h1>{{ headline }}</h1>
+      <h2>{{ subtext }}</h2>
+      <div class="blue-highlight">
+        <!-- <h2 class="things">Technologies we love</h2> -->
       </div>
+      <!-- </div> -->
     </div>
-    <!-- <Selected /> -->
-    <!-- <div class="gradient-boxes">
+    <Selected />
+    <div class="gradient-boxes">
       <div
         v-on:click="changeService('zapier')"
         class="service-box zapier-gradient"
@@ -597,7 +597,7 @@
         ></ServiceCard>
       </div>
     </div>
-    <br /><br />-->
+    <br /><br />
     <!-- <Selected /> -->
     <hr />
   </div>
@@ -610,7 +610,7 @@ import Selected from "@/components/Selected.vue";
 import { EventBus } from "../main";
 
 export default {
-  name: "front-page",
+  name: "ServiceList",
   props: {
     headline: {
       type: String

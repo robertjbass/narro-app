@@ -9,7 +9,8 @@
       </div>
     </div>
     <br />
-    <div class="list" v-for="service in services" :key="service.name">
+    <ServiceList />
+    <!-- <div class="list" v-for="service in services" :key="service.name">
       <div class="list-item" v-if="service.description" :key="service.name">
         <div class="service-info">
           <div class="name-logo">
@@ -24,7 +25,7 @@
         </div>
         <br />
       </div>
-    </div>
+    </div> -->
 
     <h3>
       Don't see the technology you're looking to integrate with? No problem!<br />
@@ -53,8 +54,13 @@
 </template>
 <script>
 import serviceList from "@/assets/json/services.json";
+// import Selected from "@/components/Selected.vue";
+import ServiceList from "@/components/ServiceList.vue";
 export default {
   name: "Services",
+  components: {
+    ServiceList
+  },
   computed: {
     services() {
       return serviceList.services.map(services => {

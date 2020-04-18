@@ -40,7 +40,7 @@
 
         <div class="side-quote">
           <div class="l-quote">
-            <ql></ql>
+            <div class="ql"></div>
           </div>
           <div class="quote-body">
             We always hit a ceiling at a certain size. As the owner, I couldn't
@@ -48,7 +48,7 @@
             hours per week in administrative and management work.
           </div>
           <div class="r-quote">
-            <qr></qr>
+            <div class="qr"></div>
           </div>
         </div>
 
@@ -236,7 +236,7 @@
 
         <div class="side-quote">
           <div class="l-quote">
-            <ql></ql>
+            <div class="ql"></div>
           </div>
           <div class="quote-body">
             An administrative assistant was nice, but I realized that it was a
@@ -246,7 +246,7 @@
             hour weeks turned into 15 hour weeks once we started automating.
           </div>
           <div class="r-quote">
-            <qr></qr>
+            <div class="qr"></div>
           </div>
         </div>
         <br /><br />
@@ -260,7 +260,7 @@
 
         <div class="side-quote">
           <div class="l-quote">
-            <ql></ql>
+            <div class="ql"></div>
           </div>
           <div class="quote-body">
             I didn't need a new debt collection platform, I needed to completely
@@ -268,13 +268,13 @@
             past 20 years but the software has stayed the same.
           </div>
           <div class="r-quote">
-            <qr></qr>
+            <div class="qr"></div>
           </div>
         </div>
         <br /><br />
         <div class="side-quote">
           <div class="l-quote">
-            <ql></ql>
+            <div class="ql"></div>
           </div>
           <div class="quote-body">
             We had accepted that the industry was behind the times. We weren't
@@ -282,7 +282,7 @@
             innovate.
           </div>
           <div class="r-quote">
-            <qr></qr>
+            <div class="qr"></div>
           </div>
         </div>
 
@@ -297,7 +297,7 @@
 
         <div class="side-quote">
           <div class="l-quote">
-            <ql></ql>
+            <div class="ql"></div>
           </div>
           <div class="quote-body">
             My job became more hands off than I thought it could be. Everything
@@ -305,18 +305,12 @@
             from the equation.
           </div>
           <div class="r-quote">
-            <qr></qr>
+            <div class="qr"></div>
           </div>
         </div>
         <br />
 
         <br />
-
-        <!-- <div class="summary">
-          summary Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
-          vero.
-        </div>
-        <br /> -->
 
         <div class="conclusion">
           Automating was an easy process. Making the decision to automate can be
@@ -447,32 +441,32 @@ q::after {
   font-size: 30px;
 }
 
-ql {
+.ql {
   quotes: "“" "" "‘" "";
   font-size: 24px;
 }
 
-ql::before {
+.ql::before {
   content: open-quote;
   font-size: 30px;
 }
 
-ql::after {
+.ql::after {
   content: close-quote;
   font-size: 30px;
 }
 
-qr {
+.qr {
   quotes: "" "”" "" "’";
   font-size: 24px;
 }
 
-qr::before {
+.qr::before {
   content: open-quote;
   font-size: 30px;
 }
 
-qr::after {
+.qr::after {
   content: close-quote;
   font-size: 30px;
 }

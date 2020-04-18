@@ -96,10 +96,10 @@ h1 {
   display: flex;
   justify-content: center;
   /* border-radius: 0.5rem 0.5rem 0 0; */
-  text-align: left;
+  /* text-align: left;
   border-top-color: #000000;
   border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 1px; */
 }
 
 .fake-app {

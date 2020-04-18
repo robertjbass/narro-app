@@ -57,16 +57,22 @@ export default {
     FrontPage,
     Selected
   },
-  data() {
-    return {
-      selectedService: this.selectedService
-    };
-  },
+
   created() {
     EventBus.$on("changeSvc", data => {
       this.selectedService = data;
     });
+  },
+  data() {
+    return {
+      selectedService: this.selectedService
+    };
   }
+  // methods: {
+  //   setService(data) {
+  //     this.selectedService = data;
+  //   }
+  // }
 };
 </script>
 

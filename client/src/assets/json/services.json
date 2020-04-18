@@ -1,7 +1,7 @@
 {
   "services": [
     {
-      "id-name": "airtable",
+      "idname": "airtable",
       "name": "Airtable",
       "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything. Replace your current forms with Airtable Forms and automate tasks based on the results.",
       "light-primary": "#d7d7f950",
@@ -24,7 +24,7 @@
       "hidden": false
     },
     {
-      "id-name": "airtable-forms",
+      "idname": "airtable-forms",
       "name": "Airtable Forms",
       "description": "Airtable is a multi-purpose, tabular, cloud collaboration service. Airtable works like a spreadsheet but gives you the power of a database to organize anything. Replace your current forms with Airtable Forms and automate tasks based on the results.",
       "light-primary": "#d7d7f950",
@@ -43,7 +43,7 @@
       "hidden": true
     },
     {
-      "id-name": "webhooks",
+      "idname": "webhooks",
       "name": "Webhooks",
       "description": "Do you need to interact with a public facing API for a service that Zapier hasn't integrated with yet? Bring in an expert to connect non-supported services and gain that competitive advantage you've been looking for.",
       "light-primary": "#4b4b4b50",
@@ -57,13 +57,13 @@
         "Back-End"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/7ca4e66fd411347c24d7aa4ab047c991/974a932f/APILogo1.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/44cf41563c5e08c730eeaadb4220bf0b/0a02c875/webhooks.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/f3ee8aa6daae5f932e3b35b7dff40f3b/c12b0342/WebhooksBanner.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
     },
     {
-      "id-name": "c-sharp",
+      "idname": "csharp",
       "name": "C# .NET",
       "description": "Microsoft has been the leader in enterprise software for as long as the personal computer has existed and C# is the language that they've invested billions of dollars into creating. We can help with your .NET applications.",
       "light-primary": "#9d72d950",
@@ -82,7 +82,7 @@
       "hidden": false
     },
     {
-      "id-name": "calendly",
+      "idname": "calendly",
       "name": "Calendly",
       "description": "Calendly is a simple, easy-to-use, yet powerful scheduling software, which aims to save time, accelerate sales, and improve service quality. It eliminates the old-school way of using email and phone tags for scheduling appointments, calls, interviews, demos, and more.",
       "light-primary": "#00a2ff50",
@@ -101,7 +101,7 @@
       "hidden": false
     },
     {
-      "id-name": "coda",
+      "idname": "coda",
       "name": "Coda",
       "description": "Coda is the 'Swiss Army Knife' of the SaaS world. Create collaborative documents, relational tables, functional logic, publishing, and integrations with your favorite services. With Coda you can create no-code web apps or track tasks for your team quickly and in one place.",
       "light-primary": "#f5d0ba50",
@@ -129,7 +129,7 @@
       "hidden": false
     },
     {
-      "id-name": "contacts-plus",
+      "idname": "contactsplus",
       "name": "Contacts Plus",
       "description": "Contacts+ is a cloud-based address book designed to take the hassle out of contact management so you can focus on what matters most - relationships. Dedupe, merge and update your contacts effortlessly with this contact manager.",
       "light-primary": "#0fb8f550",
@@ -146,7 +146,7 @@
       "hidden": false
     },
     {
-      "id-name": "copper",
+      "idname": "copper",
       "name": "Copper",
       "description": "Copper is the CRM that Google recommends to you when you sign up for GSuite because it was designed around the services that you already use. If you know how to use Gmail, you can use Copper. This impressive CRM is customizable to fit the needs of any industry or business type.",
       "light-primary": "#ffe9ee50",
@@ -167,7 +167,7 @@
       "hidden": false
     },
     {
-      "id-name": "css-html",
+      "idname": "css",
       "name": "CSS/HTML",
       "description": "CSS and HTML are not only used to make your website easy on the eyes, it's also used to create professional and beautiful emails. Do you send out automated emails? Let us help you to make them beautiful.",
       "light-primary": "#f1652950",
@@ -187,7 +187,7 @@
       "hidden": false
     },
     {
-      "id-name": "database",
+      "idname": "database",
       "name": "Database",
       "description": "",
       "light-primary": "#323a3e50",
@@ -205,7 +205,7 @@
       "hidden": true
     },
     {
-      "id-name": "dialpad",
+      "idname": "dialpad",
       "name": "Dialpad",
       "description": "Dialpad is a leading VoIP application which enables you to communicate with your clients, employees and other businesses with utmost ease. Make your business communication more efficient and effective with Dialpad's AI assisted features.",
       "light-primary": "#304df850",
@@ -223,7 +223,7 @@
       "hidden": false
     },
     {
-      "id-name": "docparser",
+      "idname": "docparser",
       "name": "Docparser",
       "description": "Docparser is the leading document parser. Extract data from PDF to Excel, JSON or update apps with webhooks via Docparser. Data-entry can be a thing of the past when you integrate Docparser into your workflow.",
       "light-primary": "#297ce550",
@@ -243,7 +243,7 @@
       "hidden": false
     },
     {
-      "id-name": "docusign",
+      "idname": "docusign",
       "name": "DocuSign",
       "description": "DocuSign has become the gold standard in electronic signatures. DocuSign allows organizations to manage electronic agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignatures and a way to sign electronically on many different devices.",
       "light-primary": "#007ee550",
@@ -260,7 +260,7 @@
       "hidden": false
     },
     {
-      "id-name": "dropbox",
+      "idname": "dropbox",
       "name": "Dropbox",
       "description": "Dropbox is a cloud storage service, which means you can copy your files to the cloud and access them later, even if you're using a different device.",
       "light-primary": "#194ba050",
@@ -274,14 +274,14 @@
         "Productivity"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/78c9e5bd1ef133a7e023b08d3bca391f/65745955/DropboxLogo.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/d97e1645d03505eb774612be01804ab3/a3b60b00/dropbox.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/6da415d9fe4eeb97a722cef53c9f297e/5ffe61b1/DropboxBanner.png",
       "otherUrl": "https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
     },
     {
-      "id-name": "excel",
+      "idname": "excel",
       "name": "Excel",
       "description": "",
       "light-primary": "#0f794050",
@@ -299,7 +299,7 @@
       "hidden": true
     },
     {
-      "id-name": "expressjs",
+      "idname": "expressjs",
       "name": "ExpressJS",
       "description": "",
       "light-primary": "#8cbe4650",
@@ -318,7 +318,7 @@
       "hidden": true
     },
     {
-      "id-name": "gmail",
+      "idname": "gmail",
       "name": "Gmail",
       "description": "Gmail is a free email service developed by Google and a the cornerstone of GSuite. You get all of the functionality of a premier Google application, but with the customization of a custom mail server.",
       "light-primary": "#ea433550",
@@ -338,7 +338,7 @@
       "hidden": false
     },
     {
-      "id-name": "google-calendar",
+      "idname": "googlecalendar",
       "name": "Google Calendar",
       "description": "Google Calendar is a time-management and scheduling calendar service developed by Google. It integrates seamlessly with all other GSuite services for frictionless productivity.",
       "light-primary": "#ea433550",
@@ -359,7 +359,7 @@
       "hidden": false
     },
     {
-      "id-name": "google-contacts",
+      "idname": "googlecontacts",
       "name": "Google Contacts",
       "description": "Google Contacts is Google's contact management tool that is available Gmail, as a standalone service, and as a part of Google's business-oriented suite of web apps Google Apps.",
       "light-primary": "#ea433550",
@@ -378,7 +378,7 @@
       "hidden": false
     },
     {
-      "id-name": "google-docs",
+      "idname": "googledocs",
       "name": "Google Docs",
       "description": "Google Docs brings your documents to life with smart editing and styling tools to help you easily format text and paragraphs. Google Docs is part of GSuite and is ideal for teams.",
       "light-primary": "#ea433550",
@@ -397,10 +397,10 @@
       "hidden": false
     },
     {
-      "id-name": "google-drive",
+      "idname": "googledrive",
       "name": "Google Drive",
       "description": "Google Drive is a file storage and synchronization service developed by Google. Google Drive allows users to store files on their servers, synchronize files across devices, and share files. Drive is designed for teams and privacy alike.",
-      "light-primary": "#ea433550",
+      "light-primary": "#f5ba1650",
       "light-secondary": "#4184f350",
       "primary-color": "#ea4335",
       "secondary-color": "#4184f3",
@@ -417,10 +417,10 @@
       "hidden": false
     },
     {
-      "id-name": "google-forms",
+      "idname": "googleforms",
       "name": "Google Forms",
       "description": "Google Forms is a survey administration app that is included in the Google Drive office suite along with Google Docs, Google Sheets, and Google Slides. Forms features all of the collaboration and sharing features found in Docs, Sheets, and Slides.",
-      "light-primary": "#ea433550",
+      "light-primary": "#54078750",
       "light-secondary": "#4184f350",
       "primary-color": "#ea4335",
       "secondary-color": "#4184f3",
@@ -429,17 +429,17 @@
         "Teams"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/9e0ec8260aa2aa58c6a31a66fb3c0bdd/a864d86f/GoogleForms.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/f586d8ad1523b3cefb35525460a8d2df/8c73409b/GForms.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/018db01496f93054bbe5fb3a98dea8b2/f9f99999/GoogleFormsBanner.png",
       "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
     },
     {
-      "id-name": "google-keep",
+      "idname": "googlekeep",
       "name": "Google Keep",
       "description": "Google Keep is a note-taking service developed by Google. Launched on March 20, 2013, Google Keep is available on the web, and has mobile apps for the Android and iOS mobile operating systems. Keep offers a variety of tools for taking notes, including text, lists, images, and audio.",
-      "light-primary": "#ea433550",
+      "light-primary": "#f5ba1650",
       "light-secondary": "#4184f350",
       "primary-color": "#ea4335",
       "secondary-color": "#4184f3",
@@ -454,10 +454,10 @@
       "hidden": false
     },
     {
-      "id-name": "google-sheets",
+      "idname": "googlesheets",
       "name": "Google Sheets",
       "description": "Google Sheets is a spreadsheet program included as part of a free, web-based software office suite offered by Google within its Google Drive service. It is a modern version of MS Excel. The service also includes Google Docs and Google Slides, a word processor and presentation program respectively.",
-      "light-primary": "#ea433550",
+      "light-primary": "#439d4650",
       "light-secondary": "#4184f350",
       "primary-color": "#ea4335",
       "secondary-color": "#4184f3",
@@ -467,13 +467,13 @@
         "Document Creation"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/a276076a975af6f6b500ed931ca77379/f0f504c4/sheets.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/fafb2c5a74fc2feb6cdfb9ffb2f44031/ff216b94/GoogleSheetsBanner.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/24a475f8a4ad405294fffb8a504cec47/90b6fe99/GoogleSheetsBanner.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
     },
     {
-      "id-name": "gsuite",
+      "idname": "gsuite",
       "name": "GSuite",
       "description": "Gmail, Hangouts, Calendar, Docs, Sheets, Forms, Keep, Sites, Drive, Admin, Contacts. Everything you need to run a remote business or scale your traditional business. It all works well with automation and we support that!",
       "light-primary": "#ea433550",
@@ -501,7 +501,7 @@
       "hidden": false
     },
     {
-      "id-name": "integromat",
+      "idname": "integromat",
       "name": "Integromat",
       "description": "Integromat is a powerful tool for automating manual processes. Integromat is called 'The glue of the internet'. It is a powerful tool for automating manual processes and connecting services. We wouldn't be an Integromat partner if we didn't love it.",
       "light-primary": "#2f8cbb50",
@@ -520,7 +520,7 @@
       "hidden": false
     },
     {
-      "id-name": "javascript",
+      "idname": "javascript",
       "name": "JavaScript",
       "description": "JavaScript is an all-purpose, high-level programming language and is known as the language of the web. Zapier uses JavaScript scripting and Airtable uses JavaScript code blocks for custom automation. JavaScript is a specialty of ours.",
       "light-primary": "#f5de1950",
@@ -540,7 +540,7 @@
       "hidden": false
     },
     {
-      "id-name": "linux",
+      "idname": "linux",
       "name": "Linux",
       "description": "Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux. Linux is the cheapest operating system to use host your server.",
       "light-primary": "#52525250",
@@ -559,7 +559,7 @@
       "hidden": false
     },
     {
-      "id-name": "mailparser",
+      "idname": "mailparser",
       "name": "MailParser",
       "description": "Mailparser is a piece of software which allows you to extract data from incoming emails. Email parsers can be configured to pull specific data fields from incoming emails. By doing so they allow you to convert an unstructured email into easy-to-handle structured data.",
       "light-primary": "#fe470150",
@@ -579,7 +579,7 @@
       "hidden": false
     },
     {
-      "id-name": "mariadb",
+      "idname": "mariadb",
       "name": "MariaDB",
       "description": "MariaDB free and open source version of MySQL for all intents and purposes. Free from the costs, constraints and complexity of proprietary databases, enabling them to reinvest in what matters most – developing innovative, customer-facing applications.",
       "light-primary": "#1d2f5c50",
@@ -597,7 +597,7 @@
       "hidden": false
     },
     {
-      "id-name": "mevn",
+      "idname": "mevn",
       "name": "MEVN",
       "description": "",
       "light-primary": "#349cd150",
@@ -616,7 +616,7 @@
       "hidden": true
     },
     {
-      "id-name": "mongodb",
+      "idname": "mongodb",
       "name": "MongoDB",
       "description": "MongoDB paved the way for the modern 'Document Database' with 'NOSQL' JSON-like formatting. It's massively scalable and massively popular. Is your data stuffed away in a MongoDB database? We can unlock it for you.",
       "light-primary": "#c1bfbe50",
@@ -628,13 +628,13 @@
         "NoSQL"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/023dd2f00c7f6976e0e41c57379b64cb/17261be2/MongoDB.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/79798127af31055601111b7de6338dd1/a4f7fd5c/MongoDBBanner.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/de797bcdb65233f42691043cb90a83a6/bd4a0d79/MongoDBBanner.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
     },
     {
-      "id-name": "mysql",
+      "idname": "mysql",
       "name": "MySQL",
       "description": "MySQL, the most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation. It is the most advanced relational database available for free today and trusted by small business and enterprise.",
       "light-primary": "#e48d0035",
@@ -653,7 +653,7 @@
       "hidden": false
     },
     {
-      "id-name": "narro-llc",
+      "idname": "narro-llc",
       "name": "Narro LLC",
       "description": "",
       "light-primary": "#ff4a0050",
@@ -670,7 +670,7 @@
       "hidden": true
     },
     {
-      "id-name": "nodejs",
+      "idname": "nodejs",
       "name": "NodeJS",
       "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is the runtime that Zapier uses in their scripting app. We've learned the ins and outs so that we can expand the functionality of your automations.",
       "light-primary": "#83cd2950",
@@ -690,7 +690,7 @@
       "hidden": false
     },
     {
-      "id-name": "ontask",
+      "idname": "ontask",
       "name": "OnTask",
       "description": "OnTask is the premier workflow automation tool created by Accusoft, the leader in document and imaging technology since 1991. Take control of your documents and forms with a easy-to-use, flexible, and affordable cloud-based platform. OnTask is the 'Automation First' electronic signature platform.",
       "light-primary": "#9bc66950",
@@ -710,7 +710,7 @@
       "hidden": false
     },
     {
-      "id-name": "outfunnel",
+      "idname": "outfunnel",
       "name": "OutFunnel",
       "description": "Outfunnel integrates seamlessly with Copper CRM and gets your emails to the right party at the correct stages within your pipelines. While other email campaign software is complex and difficult to work with, Outfunnel is easy and helps you to reach your customers and leads effectively.",
       "light-primary": "#00b8aa50",
@@ -731,7 +731,7 @@
       "hidden": false
     },
     {
-      "id-name": "pandadoc",
+      "idname": "pandadoc",
       "name": "PandaDoc",
       "description": "PandaDoc is a document automation software as a service with built-in electronic signatures, workflow management, a document builder, and CPQ functionality. If you send out proposals regularly, PandaDoc can save you countless hours.",
       "light-primary": "#45b46f50",
@@ -751,7 +751,7 @@
       "hidden": false
     },
     {
-      "id-name": "postgresql",
+      "idname": "postgres",
       "name": "PostgreSQL",
       "description": "A lot can be said about the different SQL database solutions. Do you need custom reporting or automation with your Postgres Database? Of course we can do that.",
       "light-primary": "#31619250",
@@ -763,14 +763,14 @@
         "SQL"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/5be37f4ad1e9b72eb2b53ed520997ef5/a584f783/postgreslogo.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/b21a39073f412ccc9659e2d6232ff418/50cecf5e/PostgreSQL.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/cf246d9d920b688eae9f14410bc144f6/3e00c6eb/PostgresBanner.png",
       "otherUrl": "https://dl.airtable.com/.attachments/98e03d40e10fb007cbfcc215a038585b/4bf0614e/PostgresCard.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
     },
     {
-      "id-name": "qbo",
+      "idname": "qbo",
       "name": "Quickbooks",
       "description": "QuickBooks Online is a cloud based financial management software. Its designed to slash the time you spend managing your business finances, by helping you with tasks such as: Creating estimates and invoices. Tracking sales and cash flow. Managing your customers and suppliers.",
       "light-primary": "#28a11650",
@@ -788,7 +788,7 @@
       "hidden": false
     },
     {
-      "id-name": "reply-io",
+      "idname": "replyio",
       "name": "Reply.io",
       "description": "Reply.io is a leader in drip campaigns. Reply is a sales acceleration platform, it automates one-to-many communication, while keeping it 100% personal. If you need to send custom emails automatically based on criteria without the disconnection that marketing email software creates? That is what Reply.io does, and it does this very well.",
       "light-primary": "#1393e150",
@@ -809,7 +809,7 @@
       "hidden": false
     },
     {
-      "id-name": "salesforce",
+      "idname": "salesforce",
       "name": "Salesforce",
       "description": "",
       "light-primary": "#039eda50",
@@ -826,7 +826,7 @@
       "hidden": true
     },
     {
-      "id-name": "slack",
+      "idname": "slack",
       "name": "Slack",
       "description": "Once you use Slack, you never go back. Not only is Slack the favorite of businesses and individuals all around the world - you can use this tool to automate your processes and stay in contact with your team. There is a reason that Slack is held in such high regard.",
       "light-primary": "#e0156350",
@@ -844,7 +844,7 @@
       "hidden": false
     },
     {
-      "id-name": "slite",
+      "idname": "slite",
       "name": "Slite",
       "description": "The golden standard of internal documentation. Wouldn't it be nice to have a knowledge base? If you have countless documents hidden in folders with little to no organization, it may be time to consider Slite.",
       "light-primary": "#ffe69750",
@@ -862,7 +862,7 @@
     },
 
     {
-      "id-name": "stripe",
+      "idname": "stripe",
       "name": "Stripe",
       "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes. Stripe operates on the principal that payment processing shouldn't be a hassle for a new business.",
       "light-primary": "#6772E530",
@@ -885,7 +885,7 @@
 
 
     {
-      "id-name": "typeform",
+      "idname": "typeform",
       "name": "TypeForm",
       "description": "Typeform is the latest and greatest in the world of interactive web forms. Its main software creates dynamic forms based on user needs. Typeform's software has been used by industry leaders such as Apple, Airbnb, Uber, Nike and so much more.",
       "light-primary": "#89c6be50",
@@ -903,7 +903,7 @@
       "hidden": false
     },
     {
-      "id-name": "vuejs",
+      "idname": "vuejs",
       "name": "VueJS",
       "description": "Vue is the progressive framework for single page, reactive, component based, modular, modern web applications. Vue is a beautiful solution for small business websites and large scalable web applications alike. You can future-proof your website by building it with Vue.JS so that it can scale with your business.",
       "light-primary": "#34495f50",
@@ -921,7 +921,7 @@
       "hidden": false
     },
     {
-      "id-name": "web-app",
+      "idname": "web-app",
       "name": "Web App",
       "description": "",
       "light-primary": "#3d3d3d50",
@@ -945,7 +945,7 @@
       "hidden": true
     },
     {
-      "id-name": "windows",
+      "idname": "windows",
       "name": "Windows",
       "description": "",
       "light-primary": "#00adef50",
@@ -963,7 +963,7 @@
       "hidden": true
     },
     {
-      "id-name": "workona",
+      "idname": "workona",
       "name": "Workona",
       "description": "Workona is a 'productivity operating system' built within Google Chrome. It allows you to create and share smart browser windows known as 'workspaces'. Workspaces can be used for projects, workflows, meetings, dashboards, or anything else you can dream up. If you work in the browser, your workspaces will ensure all the tabs you need to do your job are always at your fingertips.",
       "light-primary": "#0141df50",
@@ -982,7 +982,7 @@
       "hidden": false
     },
     {
-      "id-name": "xero",
+      "idname": "xero",
       "name": "Xero",
       "description": "Xero is a New Zealand domiciled public technology company, listed on the Australian Stock Exchange. Xero offers a cloud-based accounting software platform for small and medium-sized businesses.",
       "light-primary": "#1ab4d750",
@@ -1000,7 +1000,7 @@
       "hidden": false
     },
     {
-      "id-name": "zapier",
+      "idname": "zapier",
       "name": "Zapier",
       "description": "A single salaried employee costs tens of thousands of dollars annually. Building proprietary software can cost even more. As certified Zapier experts, we help you to scale your business and reduce overhead by connecting and customizing software that already exists. We are certified to leverage automation for you.",
       "light-primary": "#ffefce50",
