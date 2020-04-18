@@ -17,7 +17,7 @@
                 <div class="bottom">
                   <div class="left">
                     <div class="svc-name">{{ service.name }}</div>
-                    <img class="logo" :src="service.logoUrl" />
+                    <img class="logo-img" :src="service.logoUrl" />
                   </div>
                   <div class="right">
                     <div class="description">{{ service.description }}</div>
@@ -126,7 +126,7 @@ a h3 {
   padding-bottom: 10px;
 }
 
-.logo {
+.logo-img {
   width: 60%;
   height: auto;
   margin: auto;

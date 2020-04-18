@@ -1,24 +1,24 @@
 <template>
   <div id="app">
+    <!-- <div class="nav-spacer"></div> -->
     <!-- <a
       class="contact-us"
       href="https://airtable.com/shrCDJbvIga3NMRZS"
       target="blank"
       >Contact Us</a
     > -->
+    <!-- <div class="logo" align="left">Ν▶</div> -->
     <div id="nav">
-      <div class="logo-box">
-        <!-- <div class="logo" align="left">Ν▶</div> -->
-        <div class="logo">
-          <a href="/">
-            <img
-              class="logo-img"
-              src="./assets/Narro Logo Clear.png"
-              alt="Ν▶"
-              align="left"
-            />
-          </a>
-        </div>
+      <div class="logo">
+        <a href="/">
+          <img
+            class="logo-img"
+            src="./assets/Narro Logo Clear.png"
+            alt="Ν▶"
+            align="left"
+          />
+        </a>
+        <div class="logo-box"></div>
         <span class="narro-automation">
           <div class="company-name-orange">Narro</div>
           <div class="company-name-white">Automation</div>
@@ -83,8 +83,10 @@ export default {
   color: #2c3e50;
   max-width: 100%;
   width: 100%;
-
   background-color: #ffffff;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 #nav {
   border-bottom: thick;
@@ -113,6 +115,12 @@ hr {
   margin: auto;
   margin-left: 0;
   align-content: space-between;
+  height: 90px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
 }
 
 .logo-img {
@@ -123,6 +131,7 @@ hr {
   text-decoration-line: line-through;
   text-decoration-style: wavy;
   padding: 10px;
+  margin-left: 30px;
 }
 .logo-box {
   display: flex;
@@ -130,10 +139,13 @@ hr {
   justify-content: space-between;
   padding: 0 5%;
   background-color: black;
-  height: 100px;
+  /* height: 100px; */
   vertical-align: middle;
   display: flex;
   margin: auto;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
 }
 /* .company-name {
   display: flex;
@@ -144,6 +156,7 @@ hr {
   font-weight: bold;
   padding-right: 5%;
 } */
+/* .company-name-white, */
 .company-name-orange {
   display: flex;
   flex-wrap: wrap;
@@ -156,6 +169,7 @@ hr {
   justify-content: center;
   /* margin: auto; */
 }
+
 .company-name-white {
   display: flex;
   flex-wrap: wrap;
@@ -164,10 +178,9 @@ hr {
   width: 100px;
   font-weight: bold;
   padding-right: 5%;
-  /* text-align: center; */
   justify-content: center;
-  /* margin: auto; */
 }
+
 footer {
   position: fixed;
   left: 0px;
@@ -205,12 +218,24 @@ footer {
   font-size: 30px;
 }
 
-.logo,
+.logo {
+  margin: auto;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
 .narro-automation {
   padding: 10px;
   vertical-align: middle;
   display: flex;
   flex-wrap: wrap;
   width: 100px;
+  font-size: 18px;
+  margin: auto;
+  margin-right: 30px;
+}
+
+.nav-spacer {
+  height: 85px;
 }
 </style>

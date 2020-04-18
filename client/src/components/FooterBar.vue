@@ -55,6 +55,7 @@ li {
   display: inline-block;
   list-style-type: none;
 }
+
 .footer-width {
   align-content: space-evenly;
 }
@@ -89,7 +90,7 @@ h1 {
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #333333;
   font-weight: bold;
   display: flex;
   justify-content: center;

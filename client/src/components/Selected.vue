@@ -22,7 +22,7 @@
                 <div class="bottom">
                   <div class="left">
                     <div class="svc-name">{{ service.name }}</div>
-                    <img class="logo" :src="service.logoUrl" />
+                    <img class="logo-icon" :src="service.logoUrl" />
                   </div>
                   <div class="right">
                     <div class="banner-wrap top">
@@ -147,7 +147,7 @@ a h3 {
   padding-bottom: 10px;
 }
 
-.logo {
+.logo-icon {
   width: 60%;
   height: auto;
   margin: auto;
@@ -239,9 +239,9 @@ a h3 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* background-color: #ebebeb; */
-  background-color: #e5effd;
+  background-color: #666666;
   padding: 5px 0;
+  /* background-color: #ebebeb; */
 }
 
 .top-spacer {
@@ -269,5 +269,6 @@ a h3 {
 .exit {
   width: 30px;
   text-align: center;
+  color: whitesmoke;
 }
 </style>
