@@ -8,7 +8,7 @@
       </div>
     </div>
     <!-- <h3>Case Study: Ashland Development<br /></h3> -->
-    <div class="certifications">
+    <!-- <div class="certifications">
       <img
         class="zapier-expert"
         src="@/assets/images/zapier-expert.png"
@@ -19,7 +19,7 @@
         src="https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG"
         alt="Integromat Partner"
       />
-    </div>
+    </div> -->
 
     <div class="content">
       <br />
@@ -86,9 +86,10 @@ export default {
   margin: auto;
 }
 
-.top {
+/* .top {
   background-image: linear-gradient(to bottom, #e5effd, #ffffff);
-}
+} */
+
 .content {
   color: #666666;
   font-size: 20px;

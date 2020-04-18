@@ -40,10 +40,7 @@
 
 <script>
 export default {
-  name: "about",
-  components: {
-    //
-  }
+  name: "about"
 };
 </script>
 
@@ -85,10 +82,10 @@ p {
   text-align: left;
 }
 
-.top {
+/* .top {
   padding-top: 10px;
   background-image: linear-gradient(to bottom, #e5effd, #ffffff);
-}
+} */
 
 .request {
   text-decoration: none;

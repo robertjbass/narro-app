@@ -4,9 +4,7 @@
     <div class="body">
       <div class="top">
         <h1>Our Preferred Technologies</h1>
-        <!-- <h2> -->
-        <!-- Our Preferred Technologies
-        </h2> -->
+        <!-- <h2>Our Preferred Technologies</h2> -->
       </div>
     </div>
     <ServiceList />
@@ -63,7 +61,7 @@ export default {
 
 .top {
   padding-top: 10px;
-  background-image: linear-gradient(to bottom, #e5effd, #ffffff);
+  /* background-image: linear-gradient(to bottom, #e5effd, #ffffff); */
 }
 .body-white {
   background-color: #fafafa;

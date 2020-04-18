@@ -2,7 +2,24 @@
   <div>
     <div class="top saas">
       <div class="heading">
-        <h1>Our preferred services</h1>
+        <h1>Partner Services</h1>
+        <div class="certifications">
+          <img
+            class="zapier-expert partner-item"
+            src="@/assets/images/zapier-expert.png"
+            alt="Zapier Expert"
+          />
+          <img
+            class="airtable-expert partner-item"
+            src="@/assets/images/airtable-expert.png"
+            alt="Airtable Expert"
+          />
+          <img
+            class="integromat-partner partner-item"
+            src="https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG"
+            alt="Integromat Partner"
+          />
+        </div>
       </div>
     </div>
     <SvcCard />
@@ -58,7 +75,7 @@ p {
 
 .top {
   padding-top: 10px;
-  background-image: linear-gradient(to bottom, #e5effd, #ffffff);
+  /* background-image: linear-gradient(to bottom, #e5effd, #ffffff); */
 }
 
 .list {
@@ -69,12 +86,14 @@ p {
 
 .top {
   padding-top: 10px;
-  background-image: linear-gradient(to bottom, #e5effd, #ffffff);
+  /* background-image: linear-gradient(to bottom, #e5effd, #ffffff); */
 }
+
 .body-white {
   background-color: #fafafa;
   border: 25px 25px 0 25px;
 }
+
 a {
   text-decoration: none;
 }
@@ -233,5 +252,28 @@ hr {
 .list-item {
   border-width: 0 0 1px 0;
   border-style: inset;
+}
+
+.certifications {
+  display: flex;
+  margin: auto;
+}
+.integromat-partner {
+  width: 15%;
+  margin: auto;
+}
+
+.airtable-expert {
+  width: 15%;
+  margin: auto;
+}
+
+.zapier-expert {
+  width: 15%;
+  margin: auto;
+}
+
+.partner-item {
+  border-style: solid;
 }
 </style>

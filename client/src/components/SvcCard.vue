@@ -102,7 +102,6 @@ a h3 {
   text-align: center;
   justify-content: center;
   margin: 0;
-  /* flex-grow: 1; */
 }
 
 .inner-wrap {
@@ -154,7 +153,6 @@ a h3 {
 
 .banner {
   max-height: auto;
-  /* max-width: 50%; */
   max-width: 50%;
   width: auto;
   margin: auto;
@@ -174,7 +172,6 @@ a h3 {
 
 .description {
   text-align: left;
-  /* padding: 0 20px 20px 20px; */
   padding-left: 15px;
 }
 </style>

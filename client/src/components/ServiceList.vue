@@ -1,6 +1,6 @@
 <template>
   <div class="front-page">
-    <div class="body-white">
+    <div class="body-w">
       <!-- <div class="top"> -->
       <h1>{{ headline }}</h1>
       <h2>{{ subtext }}</h2>
@@ -598,7 +598,6 @@
       </div>
     </div>
     <br /><br />
-    <!-- <Selected /> -->
     <hr />
   </div>
 </template>
@@ -796,7 +795,6 @@ h4 {
   padding: 0px;
   padding: 30px 30px 0 30px;
   color: white;
-  /* justify-content: space-around; */
 }
 
 .gradient-boxes:hover {
@@ -809,12 +807,13 @@ h4 {
   color: black;
 }
 
-.zapier-gradient {
+/* .zapier-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
 
 .zapier-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #ffefce;
 }
 
@@ -824,6 +823,7 @@ h4 {
 } */
 
 .airtable-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #9c80f050;
 }
 
@@ -833,6 +833,7 @@ h4 {
 } */
 
 .mysql-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #00618a35;
 }
 
@@ -842,6 +843,7 @@ h4 {
 } */
 
 .slack-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #e1bac750;
 }
 
@@ -851,6 +853,7 @@ h4 {
 } */
 
 .vue-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #34495f50;
 }
 
@@ -860,6 +863,7 @@ h4 {
 } */
 
 .copper-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #4e2f6550;
 }
 
@@ -869,6 +873,7 @@ h4 {
 } */
 
 .contactsplus-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #0fb8f550;
 }
 
@@ -878,6 +883,7 @@ h4 {
 } */
 
 .coda-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #f5d0ba50;
 }
 
@@ -887,6 +893,7 @@ h4 {
 } */
 
 .google-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #ea433550;
 }
 
@@ -895,6 +902,7 @@ h4 {
 } */
 
 .outfunnel-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #00b8aa50;
 }
 
@@ -904,6 +912,7 @@ h4 {
 } */
 
 .reply-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #005aff50;
 }
 
@@ -913,15 +922,18 @@ h4 {
 } */
 
 .typeform-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #89c6be50;
 }
 
 /* .dialpad-gradient {
+  
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
 } */
 
 .dialpad-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #304df850;
 }
 
@@ -931,6 +943,7 @@ h4 {
 } */
 
 .pandadoc-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #45b46f50;
 }
 
@@ -940,6 +953,7 @@ h4 {
 } */
 
 .mariadb-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #1d2f5c50;
 }
 
@@ -949,6 +963,7 @@ h4 {
 } */
 
 .mailparser-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #fe470150;
 }
 
@@ -958,6 +973,7 @@ h4 {
 } */
 
 .dropbox-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #194ba050;
 }
 
@@ -967,6 +983,7 @@ h4 {
 } */
 
 .docusign-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #007ee550;
 }
 
@@ -976,6 +993,7 @@ h4 {
 } */
 
 .css-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #f1652950;
 }
 
@@ -985,6 +1003,7 @@ h4 {
 } */
 
 .node-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #83cd2950;
 }
 
@@ -994,6 +1013,7 @@ h4 {
 } */
 
 .csharp-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #9d72d950;
 }
 
@@ -1003,6 +1023,7 @@ h4 {
 } */
 
 .javascript-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #f5de1950;
 }
 
@@ -1012,6 +1033,7 @@ h4 {
 } */
 
 .slite-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #08145250;
 }
 
@@ -1021,6 +1043,7 @@ h4 {
 } */
 
 .stripe-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #6772e530;
 }
 
@@ -1030,6 +1053,7 @@ h4 {
 } */
 
 .qbo-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #28a11650;
 }
 
@@ -1039,6 +1063,7 @@ h4 {
 } */
 
 .xero-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #1ab4d750;
 }
 
@@ -1048,6 +1073,7 @@ h4 {
 } */
 
 .postgres-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #31619250;
 }
 
@@ -1057,6 +1083,7 @@ h4 {
 } */
 
 .mongodb-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #4da84b50;
 }
 
@@ -1066,6 +1093,7 @@ h4 {
 } */
 
 .docparser-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #297ce550;
 }
 
@@ -1075,6 +1103,7 @@ h4 {
 } */
 
 .webhooks-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #c73a6350;
 }
 
@@ -1084,6 +1113,7 @@ h4 {
 } */
 
 .ontask-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #9bc66950;
 }
 
@@ -1093,6 +1123,7 @@ h4 {
 } */
 
 .integromat-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #2f8cbb50;
 }
 
@@ -1102,47 +1133,58 @@ h4 {
 } */
 
 .calendly-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #676b7650;
 }
 
 /* .workona-gradient {
+  
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
 } */
 
 .workona-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #0141df50;
 }
 
 .gmail-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #ea433550;
 }
 
 .googlecalendar-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #4184f350;
 }
 
 .googlecontacts-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #4184f350;
 }
 
 .googledocs-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #4184f350;
 }
 
 .googledrive-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #f5ba1650;
 }
 
 .googleforms-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #54078750;
 }
 
 .googlekeep-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #f5ba1650;
 }
 
 .googlesheets-gradient:hover {
+  transition: all 0.2s ease-in-out;
   background-color: #439d4650;
 }
 

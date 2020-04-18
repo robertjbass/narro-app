@@ -1,6 +1,5 @@
 <template>
   <div class="markdown-engine">
-    <!-- TODO: Add Unsplash API -https://unsplash.com/developers -->
     <section class="banner">
       <img
         class="header-img"
@@ -11,51 +10,51 @@
 
     <section class="text-assets">
       <div class="markup">
-        <!-- TODO: TITLE CENTER -->
+        <!-- TITLE CENTER -->
         <div class="title-center">
           title center lorem met
         </div>
         <br />
 
-        <!-- TODO: SUBTITLE CENTER -->
+        <!-- SUBTITLE CENTER -->
         <div class="subtitle-center">
           subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Eius, non.
         </div>
         <br />
 
-        <!-- TODO: TITLE CENTER -->
+        <!-- TITLE CENTER -->
         <div class="heading-center">
           heading Lorem ipsum dolor sit amet
         </div>
         <br />
 
-        <!-- TODO: TITLE -->
+        <!-- TITLE -->
         <div class="title">
           title Lorem ipsum dolor
         </div>
         <br />
 
-        <!-- TODO: SUBTITLE -->
+        <!-- SUBTITLE -->
         <div class="subtitle">
           subtitle Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Eius, non.
         </div>
         <br />
 
-        <!-- TODO: HEADING -->
+        <!-- HEADING -->
         <div class="heading">
           heading Lorem ipsum dolor sit amet consectetur
         </div>
         <br />
-        <!-- TODO: PREFACE -->
+        <!-- PREFACE -->
         <div class="preface">
           preface Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Quas, ea?
         </div>
         <br />
 
-        <!-- TODO: PARAGRAPH -->
+        <!-- PARAGRAPH -->
         <div class="paragraph">
           <p>
             paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -65,7 +64,7 @@
 
         <br />
 
-        <!-- TODO: PARAGRAPH BOLD -->
+        <!-- PARAGRAPH BOLD -->
         <div class="paragraph-bold">
           <p>
             paragraph bold Lorem ipsum dolor sit amet consectetur adipisicing
@@ -74,7 +73,7 @@
         </div>
         <br />
 
-        <!-- TODO: L/R BLOCK QUOTE -->
+        <!-- L/R BLOCK QUOTE -->
         <div class="blockquote">
           <q>
             blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,14 +82,14 @@
         </div>
         <br />
 
-        <!-- TODO: BLOCK QUOTE -->
+        <!-- BLOCK QUOTE -->
         <div class="blockquote">
           blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Harum, illum?
         </div>
         <br />
 
-        <!-- TODO: L/R QUOTE -->
+        <!-- L/R QUOTE -->
         <div class="quote-side">
           <q>
             quote side Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -99,7 +98,7 @@
         </div>
         <br />
 
-        <!-- TODO: SIDE-QUOTE -->
+        <!-- SIDE-QUOTE -->
         <div class="side-quote">
           <div class="l-quote">
             <ql></ql>
@@ -114,7 +113,7 @@
         </div>
         <br />
 
-        <!-- TODO: UNORDERED-LIST -->
+        <!-- UNORDERED-LIST -->
         <div class="list">
           <ul class="ulitem">
             <li>
@@ -128,7 +127,7 @@
         </div>
         <br />
 
-        <!-- TODO: ORDERED-LIST -->
+        <!-- ORDERED-LIST -->
         <div class="list">
           <ol class="olitem">
             <li>
@@ -266,7 +265,7 @@ section {
   font-weight: bold;
   text-align: left;
 }
-/* TODO: BLOCKQUOTES (with or without quotes) */
+/* BLOCKQUOTES (with or without quotes) */
 .blockquote {
   font-size: 24px;
   border-style: solid;
@@ -343,7 +342,7 @@ qr::after {
   text-align: center;
 }
 
-/* TODO: UNORDERED LIST */
+/* UNORDERED LIST */
 .list {
   font-size: 18px;
   color: #333333;
@@ -363,7 +362,7 @@ li {
   margin: 10px 0;
 }
 
-/* TODO: ORDERED LIST */
+/* ORDERED LIST */
 .list {
   font-size: 18px;
   color: #333333;
@@ -385,15 +384,15 @@ li {
   margin: 10px 0;
 }
 
-/* TODO: FIX SUMMARY */
-/* TODO: SUMMARY */
+/* FIX SUMMARY */
+/* SUMMARY */
 .summary {
   font-size: 20px;
   color: #666666;
   text-align: left;
 }
 
-/* TODO: TABLE */
+/* TABLE */
 .table {
   width: 100%;
   color: #666666;

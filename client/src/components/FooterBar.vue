@@ -1,6 +1,5 @@
 <template>
   <Footer class="footer">
-    <!-- <span class="design-gradient"> -->
     <div class="footer-width">
       <!-- <div class="resource-buffer">Resources</div> -->
       <ul>
@@ -90,16 +89,10 @@ h1 {
 }
 
 .footer {
-  /* background-image: linear-gradient(to top right, #edeafb, #fde3ef); */
   background-color: #e5effd;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  /* border-radius: 0.5rem 0.5rem 0 0; */
-  /* text-align: left;
-  border-top-color: #000000;
-  border-top-style: solid;
-  border-top-width: 1px; */
 }
 
 .fake-app {
