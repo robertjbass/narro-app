@@ -274,6 +274,6 @@ hr {
 }
 
 .partner-item {
-  border-style: solid;
+  border-style: none;
 }
 </style>

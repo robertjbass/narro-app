@@ -20,7 +20,7 @@ export default {
 }
 
 a {
-  color: #333333;
+  color: #30bfe0;
 }
 
 .toolbar {

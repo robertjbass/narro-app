@@ -5,6 +5,76 @@
         <h1>{{ headline }}</h1>
         <h2>{{ subtext }}</h2>
         <div class="blue-highlight"></div>
+        <div class="filler">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          esse, deleniti culpa dolores sed id soluta voluptate. Optio amet est
+          blanditiis architecto debitis quidem ad eaque molestiae quam, quo
+          explicabo delectus perspiciatis tenetur minima fugit aperiam
+          praesentium porro, neque excepturi magnam. Exercitationem quae laborum
+          velit delectus at alias atque iste quam nostrum impedit. Enim
+          architecto fuga est esse nisi iure quia sed expedita ab eaque fugit,
+          tempora facere, odio vel facilis ex neque? Alias dignissimos vitae
+          deleniti cumque, sit odio tempore unde, quam minima rerum in
+          accusantium voluptas commodi itaque consequuntur harum quisquam iusto
+          enim. Cum, optio voluptatibus. Saepe, non quos ab quibusdam quisquam
+          dicta, unde ea iusto quis ut est molestiae recusandae repellendus
+          voluptatum magni eaque illo consequuntur inventore suscipit labore
+          dolorum! Recusandae perspiciatis, in nulla corporis odio aliquid
+          obcaecati aut voluptas eum dolor quasi officiis? Tempore, quis
+          repellendus sed deserunt a tempora temporibus doloribus id molestias
+          nisi. Aperiam nesciunt sint ex ea recusandae natus cum eius. Doloribus
+          inventore recusandae fuga sunt vero rerum necessitatibus veniam eius
+          facere laborum dolores beatae voluptate animi molestias, ducimus
+          officia quaerat, ipsa nobis accusantium accusamus maiores tempore
+          nesciunt laudantium. Pariatur doloribus, eius aspernatur unde, sit
+          enim hic architecto mollitia assumenda, voluptatibus facilis quis
+          labore accusantium soluta. Incidunt totam natus nisi suscipit saepe
+          consequatur aliquid mollitia debitis sequi quo, nostrum tenetur ut
+          sunt corrupti corporis perferendis provident nemo velit! Non, officiis
+          enim porro similique animi sequi error nesciunt, adipisci iusto libero
+          voluptates suscipit perferendis natus aperiam consequuntur excepturi
+          ad facere! Numquam neque eaque sequi totam adipisci? Recusandae
+          suscipit quae sed sit doloremque unde rerum, totam non doloribus odio
+          a sint assumenda ullam amet laudantium excepturi quibusdam voluptatum
+          distinctio accusantium nostrum harum. Voluptatibus nihil odit possimus
+          consectetur aliquid eos quaerat exercitationem aliquam voluptates
+          error sapiente adipisci, officia voluptas fugit iusto obcaecati quos
+          accusamus maxime voluptatem delectus dolor quam iste suscipit.
+          Delectus sint saepe nobis, dolore incidunt, officiis inventore
+          accusamus dignissimos qui natus tempore quasi non a nesciunt
+          voluptatibus excepturi numquam vel quaerat recusandae autem deleniti.
+          Reiciendis optio accusamus aliquid sint alias incidunt et tempora rem
+          ut excepturi, asperiores molestias voluptates nesciunt a nulla
+          quisquam sequi. Optio modi praesentium id officia corporis earum
+          voluptatum temporibus eveniet. Assumenda quibusdam recusandae, quas
+          nam id in ipsa sed ab, ad, tenetur fuga sapiente asperiores? Magnam,
+          id? Ea quasi veritatis quos voluptates aspernatur! Est fuga, quidem
+          obcaecati repudiandae aut blanditiis sapiente dolores. Vel facere
+          beatae minus libero consequuntur illo sit harum, quo magni unde!
+          Asperiores perspiciatis optio voluptates nobis dolor non minima
+          consectetur deserunt nostrum cum, facilis ut minus temporibus alias
+          repellendus. Ducimus, architecto dolores sed enim sit molestiae facere
+          cupiditate qui fugiat. Dolorum, incidunt maxime. Nemo dolorem animi
+          dolores quam dignissimos tenetur aliquid, enim odit saepe laudantium?
+          Sapiente expedita harum incidunt error. Repellendus velit et adipisci
+          necessitatibus delectus repellat, sit enim molestiae explicabo. Minus
+          consequuntur molestias similique quod quas dolorem architecto alias
+          non, voluptates error, vitae animi reiciendis et veniam tenetur dicta
+          dolorum, cupiditate inventore minima impedit nesciunt esse. Saepe, cum
+          quis, quisquam, asperiores explicabo nisi dolorum eaque consequuntur
+          temporibus quasi amet eligendi fugit dignissimos rem quae
+          exercitationem ea? Numquam tempora natus quidem! Dignissimos
+          asperiores consequuntur non harum repudiandae id laborum sunt rerum
+          ratione veritatis iste, delectus error repellat! Quisquam recusandae
+          dolor deserunt quam soluta ratione? Fugit eum delectus corporis sint
+          optio architecto, corrupti omnis provident, eveniet in quo veritatis
+          accusamus sed soluta molestias nulla! Corrupti nam nulla minima atque
+          hic veritatis vel reprehenderit error nemo? Rerum a laudantium,
+          facilis enim fugiat voluptatem, tenetur quia quos error incidunt fugit
+          sed amet voluptatibus rem blanditiis nisi facere perferendis maxime
+          assumenda eum? Placeat nostrum quia quas molestiae commodi numquam
+          totam!
+        </div>
       </div>
     </div>
     <hr />
@@ -216,311 +286,6 @@ h4 {
   color: black;
 }
 
-/* .zapier-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-
-.zapier-gradient:hover {
-  background-color: #ffefce;
-}
-
-.airtable-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.airtable-gradient:hover {
-  background-color: #fdc6dc;
-}
-
-.mysql-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mysql-gradient:hover {
-  background-color: #00618a35;
-}
-
-.slack-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.slack-gradient:hover {
-  background-color: #e0156350;
-}
-
-.vue-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.vue-gradient:hover {
-  background-color: #34495f50;
-}
-
-.copper-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.copper-gradient:hover {
-  background-color: #4e2f6550;
-}
-
-.contactsplus-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-
-.contactsplus-gradient:hover {
-  background-color: #0fb8f550;
-}
-
-.coda-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.coda-gradient:hover {
-  background-color: #f5d0ba50;
-}
-
-.google-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.google-gradient:hover {
-  background-color: #ea433550;
-}
-
-.outfunnel-gradient {
-  background-color: #ffffff;
-}
-.outfunnel-gradient:hover {
-  background-color: #00b8aa50;
-}
-
-.reply-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.reply-gradient:hover {
-  background-color: #005aff50;
-}
-
-.typeform-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.typeform-gradient:hover {
-  background-color: #89c6be50;
-}
-
-.dialpad-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.dialpad-gradient:hover {
-  background-color: #304df850;
-}
-
-.pandadoc-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.pandadoc-gradient:hover {
-  background-color: #45b46f50;
-}
-
-.mariadb-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mariadb-gradient:hover {
-  background-color: #1d2f5c50;
-}
-
-.mailparser-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mailparser-gradient:hover {
-  background-color: #fe470150;
-}
-
-.dropbox-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.dropbox-gradient:hover {
-  background-color: #194ba050;
-}
-
-.docusign-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.docusign-gradient:hover {
-  background-color: #007ee550;
-}
-
-.css-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.css-gradient:hover {
-  background-color: #f1652950;
-}
-
-.node-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.node-gradient:hover {
-  background-color: #83cd2950;
-}
-
-.csharp-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.csharp-gradient:hover {
-  background-color: #9d72d950;
-}
-
-.javascript-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.javascript-gradient:hover {
-  background-color: #f5de1950;
-}
-
-.slite-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.slite-gradient:hover {
-  background-color: #08145250;
-}
-
-.stripe-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.stripe-gradient:hover {
-  background-color: #6772e530;
-}
-
-.qbo-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.qbo-gradient:hover {
-  background-color: #28a11650;
-}
-
-.xero-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.xero-gradient:hover {
-  background-color: #1ab4d750;
-}
-
-.postgres-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.postgres-gradient:hover {
-  background-color: #31619250;
-}
-
-.mongodb-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.mongodb-gradient:hover {
-  background-color: #4da84b50;
-}
-
-.docparser-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.docparser-gradient:hover {
-  background-color: #297ce550;
-}
-
-.webhooks-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.webhooks-gradient:hover {
-  background-color: #c73a6350;
-}
-
-.ontask-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.ontask-gradient:hover {
-  background-color: #9bc66950;
-}
-
-.integromat-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.integromat-gradient:hover {
-  background-color: #2f8cbb50;
-}
-
-.calendly-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.calendly-gradient:hover {
-  background-color: #676b7650;
-}
-
-.workona-gradient {
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-}
-.workona-gradient:hover {
-  background-color: #0141df50;
-}
-
-.gmail-gradient:hover {
-  background-color: #ea433550;
-}
-
-.googlecalendar-gradient:hover {
-  background-color: #4184f350;
-}
-
-.googlecontacts-gradient:hover {
-  background-color: #4184f350;
-}
-
-.googledocs-gradient:hover {
-  background-color: #4184f350;
-}
-
-.googledrive-gradient:hover {
-  background-color: #f5ba1650;
-}
-
-.googleforms-gradient:hover {
-  background-color: #54078750;
-}
-
-.googlekeep-gradient:hover {
-  background-color: #f5ba1650;
-}
-
-.googlesheets-gradient:hover {
-  background-color: #439d4650;
-} */
-
 .design-gradient {
   transition: all 0.2s ease-in-out;
   background-image: linear-gradient(to top right, #edeafb, #fde3ef);
@@ -551,6 +316,13 @@ h4 {
   margin: auto;
   text-align: center;
   font-size: 30px;
+}
+
+.filler {
+  font-size: 1.2em;
+  text-align: left;
+  margin: auto;
+  padding: 0 30px;
 }
 
 footer {

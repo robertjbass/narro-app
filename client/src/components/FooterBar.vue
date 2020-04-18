@@ -60,7 +60,7 @@ li {
 }
 
 a {
-  color: darkorange;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 700;
 }
@@ -89,7 +89,7 @@ h1 {
 }
 
 .footer {
-  background-color: #e5effd;
+  background-color: #000000;
   font-weight: bold;
   display: flex;
   justify-content: center;

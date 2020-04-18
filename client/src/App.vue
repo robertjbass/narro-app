@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <a
+    <!-- <a
       class="contact-us"
       href="https://airtable.com/shrCDJbvIga3NMRZS"
       target="blank"
       >Contact Us</a
-    >
+    > -->
     <div id="nav">
       <div class="logo-box">
         <!-- <div class="logo" align="left">Ν▶</div> -->
-        <div class="logo" align="left">
+        <div class="logo">
           <a href="/">
             <img
               class="logo-img"
@@ -19,7 +19,10 @@
             />
           </a>
         </div>
-        <div class="company-name">Narro Automation</div>
+        <span class="narro-automation">
+          <div class="company-name-orange">Narro</div>
+          <div class="company-name-white">Automation</div>
+        </span>
       </div>
       <Navbar>
         <router-link to="/">Home</router-link>
@@ -79,9 +82,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   max-width: 100%;
+  width: 100%;
+
+  background-color: #ffffff;
 }
 #nav {
   border-bottom: thick;
+  max-width: 100%;
+  width: 100%;
 }
 
 #nav a {
@@ -89,16 +97,22 @@ export default {
   color: #666666;
   font-size: 2em;
   text-decoration: none;
-  background-color: #e5effd;
+  /* background-color: #e5effd; */
 }
 
 #nav a.router-link-exact-active {
-  color: #fd7622;
+  color: #30bfe0;
   background-color: #e5effd50;
 }
 
 hr {
   margin: 0px;
+}
+
+.logo {
+  margin: auto;
+  margin-left: 0;
+  align-content: space-between;
 }
 
 .logo-img {
@@ -114,9 +128,14 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 5%;
+  padding: 0 5%;
+  background-color: black;
+  height: 100px;
+  vertical-align: middle;
+  display: flex;
+  margin: auto;
 }
-.company-name {
+/* .company-name {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -124,6 +143,30 @@ hr {
   width: 100px;
   font-weight: bold;
   padding-right: 5%;
+} */
+.company-name-orange {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #fd7622;
+  width: 100px;
+  font-weight: bold;
+  padding-right: 5%;
+  /* text-align: center; */
+  justify-content: center;
+  /* margin: auto; */
+}
+.company-name-white {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #ffffff;
+  width: 100px;
+  font-weight: bold;
+  padding-right: 5%;
+  /* text-align: center; */
+  justify-content: center;
+  /* margin: auto; */
 }
 footer {
   position: fixed;
@@ -160,5 +203,14 @@ footer {
   margin: auto;
   text-align: center;
   font-size: 30px;
+}
+
+.logo,
+.narro-automation {
+  padding: 10px;
+  vertical-align: middle;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
 }
 </style>
