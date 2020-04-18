@@ -1,37 +1,19 @@
 <template>
   <div class="service-page">
-    <div class="body-white">
+    <!-- <div class="body-white"> -->
+    <div class="body">
       <div class="top">
-        <h1>Search for additional services</h1>
-        <h2>
-          Our Preferred Technologies
-        </h2>
+        <h1>Our Preferred Technologies</h1>
+        <!-- <h2> -->
+        <!-- Our Preferred Technologies
+        </h2> -->
       </div>
     </div>
-    <br />
     <ServiceList />
-    <!-- <div class="list" v-for="service in services" :key="service.name">
-      <div class="list-item" v-if="service.description" :key="service.name">
-        <div class="service-info">
-          <div class="name-logo">
-            <b class="svc-name">{{ service.name }}</b>
-            <div class="logo-padding">
-              <img class="svc-logo" :src="service.logoUrl" />
-            </div>
-          </div>
-          <div class="description">
-            {{ service.description }}
-          </div>
-        </div>
-        <br />
-      </div>
-    </div> -->
-
     <h3>
       Don't see the technology you're looking to integrate with? No problem!<br />
       We can automate most services listed here:
     </h3>
-
     <div class="search-links">
       <a class="zapier services" href="https://zapier.com/apps" target="blank"
         ><div class="search-more">
@@ -54,7 +36,6 @@
 </template>
 <script>
 import serviceList from "@/assets/json/services.json";
-// import Selected from "@/components/Selected.vue";
 import ServiceList from "@/components/ServiceList.vue";
 export default {
   name: "Services",
@@ -72,7 +53,6 @@ export default {
 </script>
 <style scoped>
 * {
-  /* font-family: monospace; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .list {
@@ -100,7 +80,6 @@ a {
   padding: 20px;
   width: 30%;
   margin: auto;
-  /* box-shadow: 2px 2px 5px; */
 }
 
 .zapier {
@@ -112,7 +91,7 @@ a {
   background-color: #2f8cbb70;
   box-shadow: 1px 1px 5px;
 }
-/* .services:hover, */
+
 .integromat:hover,
 .zapier:hover {
   box-shadow: 1px 1px 3px;
@@ -123,12 +102,14 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .search-links {
   display: flex;
   margin: auto;
   justify-content: center;
   max-width: 75%;
 }
+
 .contact {
   text-decoration: none;
   color: darkorange;
@@ -140,6 +121,7 @@ a {
   margin: auto;
   text-align: right;
 }
+
 a.h3 {
   color: #136bf5;
 }
@@ -220,6 +202,7 @@ p {
 .link-spacer {
   width: 10%;
 }
+
 .svc-name {
   font-size: 20px;
   max-height: 24px;

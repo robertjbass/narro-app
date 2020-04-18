@@ -20,7 +20,7 @@ export default {
 }
 
 a {
-  color: #9bd5ff;
+  color: #333333;
 }
 
 .toolbar {
@@ -58,10 +58,9 @@ h3 {
 
 a,
 h3 {
-  color: #136bf5;
+  color: #333333;
 }
 
-/* dark-orange-logo */
 .logo {
   color: #fd7622;
 }
@@ -80,18 +79,15 @@ h3 {
   color: #ffffff;
 }
 
-/* area 1 */
 .body-section-white {
   background-color: #fde3ef;
 }
 
-/* area 2 */
 .body-section-blue {
   background-color: #f3f8ff;
 }
 
 .text-box {
-  /* placeholder-text */
   color: #8c8c8c;
   border-color: #e6e6e6;
 }

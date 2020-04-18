@@ -9,7 +9,6 @@
             :key="service.idname"
           >
             <div v-if="!service.hidden" :key="service.idname">
-              <!-- <div v-if="service.idname == selectedService" :key="service.idname"> -->
               <div class="inner-wrap">
                 <div class="banner-wrap top">
                   <img class="banner" :src="service.bannerUrl" />
@@ -34,7 +33,7 @@
 </template>
 
 <script>
-import serviceList from "@/assets/json/services.json";
+import partners from "@/assets/json/partners.json";
 import { EventBus } from "../main";
 
 export default {
@@ -47,7 +46,7 @@ export default {
 
   computed: {
     services() {
-      return serviceList.services.map(services => {
+      return partners.services.map(services => {
         return services;
       });
     }
@@ -55,7 +54,6 @@ export default {
   data: function() {
     return {
       selectedService: ""
-      // selectedService: "airtable"
     };
   }
 };

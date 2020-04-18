@@ -25,8 +25,8 @@
         <router-link to="/">Home</router-link>
         <router-link to="/services">Services</router-link>
         <router-link to="/case">Case Study</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/saas">SaaS</router-link>
+        <router-link to="/about">FAQ</router-link>
+        <router-link to="/saas">Partners</router-link>
       </Navbar>
       <hr />
     </div>
@@ -45,17 +45,17 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import FooterBar from "@/components/FooterBar.vue";
-import FrontPage from "@/components/FrontPage.vue";
-import Selected from "@/components/Selected.vue";
+// import FrontPage from "@/components/FrontPage.vue";
+// import Selected from "@/components/Selected.vue";
 import { EventBus } from "./main";
 
 export default {
   name: "app",
   components: {
     Navbar,
-    FooterBar,
-    FrontPage,
-    Selected
+    FooterBar
+    // FrontPage,
+    // Selected
   },
 
   created() {
@@ -68,11 +68,6 @@ export default {
       selectedService: this.selectedService
     };
   }
-  // methods: {
-  //   setService(data) {
-  //     this.selectedService = data;
-  //   }
-  // }
 };
 </script>
 
@@ -91,15 +86,15 @@ export default {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #666666;
   font-size: 2em;
   text-decoration: none;
-  background-color: #f3f8ff;
+  background-color: #e5effd;
 }
 
 #nav a.router-link-exact-active {
-  color: #136bf5;
-  background-color: #fde3ef;
+  color: #fd7622;
+  background-color: #e5effd50;
 }
 
 hr {

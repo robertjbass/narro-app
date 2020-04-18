@@ -8,20 +8,14 @@
             v-for="service in services"
             :key="service.idname"
           >
-            <!--  -->
             <div v-if="service.idname == selectedService" :key="service.idname">
               <div class="inner-wrap innner">
-                <!--  -->
                 <div class="top-bar">
                   <div class="bar-space">
-                    <div class="top-spacer">
-                      <!-- . -->
-                    </div>
-                    <div class="mid-spacer">
-                      <!-- | -->
-                    </div>
+                    <div class="top-spacer"></div>
+                    <div class="mid-spacer"></div>
                     <div class="close" v-on:click="selectedService = ''">
-                      x
+                      <div class="exit">x</div>
                     </div>
                   </div>
                 </div>
@@ -39,7 +33,7 @@
                 </div>
               </div>
             </div>
-            <div v-else=""></div>
+            <!-- <div v-else=""></div> -->
           </div>
         </div>
       </slot>
@@ -124,17 +118,14 @@ a h3 {
 
 .inner-wrap {
   border-style: solid;
-  padding: 10px;
-  display: flex;
+
   padding: 0px;
   width: 75%;
   margin: 0 0 10px 0;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
-  position: absolute;
-  left: 10%;
+
   background-color: white;
   min-width: 270px;
 
@@ -192,11 +183,11 @@ a h3 {
   width: 400px;
 }
 
-.middle {
+/* .middle {
   height: 20px;
   align-content: space-between;
   padding: auto;
-}
+} */
 
 .bottom {
   display: flex;
@@ -233,12 +224,11 @@ a h3 {
   vertical-align: middle;
 }
 
-.inner {
+/* .inner {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
-  /*whatever width you want*/
-}
+} */
 
 .top-bar {
   width: 100%;
@@ -249,7 +239,8 @@ a h3 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #ebebeb;
+  /* background-color: #ebebeb; */
+  background-color: #e5effd;
   padding: 5px 0;
 }
 
@@ -261,18 +252,22 @@ a h3 {
 .mid-spacer {
   margin: auto;
 }
+
 .close {
   justify-content: right;
   text-align: right;
-  /* padding: 10px 20px 10px 0; */
   padding-left: 0 90% 0 10%;
-  font-family: monospace;
+  /* font-family: monospace; */
   font-size: 20px;
   font-weight: bolder;
-  color: rgb(179, 56, 56);
-  /* background-color: #dddddd; */
+  color: #333333;
   margin: auto;
   margin-left: 90%;
   cursor: pointer;
+}
+
+.exit {
+  width: 30px;
+  text-align: center;
 }
 </style>

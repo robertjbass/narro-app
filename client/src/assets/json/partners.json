@@ -1,0 +1,361 @@
+{
+  "services": [
+    {
+      "idname": "airtable",
+      "name": "Airtable",
+      "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything. Replace your current forms with Airtable Forms and automate tasks based on the results.",
+      "light-primary": "#9c80f050",
+      "light-secondary": "#d7d7f950",
+      "primary-color": "#d7d7f9",
+      "secondary-color": "#fdc6dc",
+      "categories": [
+        "Spreadsheet",
+        "Database",
+        "CRM",
+        "Forms",
+        "Web App",
+        "All-In-One"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/6d294364b3abfbbb9d6affc35b8db10e/d1b1baa0/AirtableLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/e15f4feec060f8f125eab7d48112539e/3a922897/airtablebannerlogo.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/e0acce36154b3c13f458f5437b2ec033/701e013f/AirtableExpert.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "airtable-forms",
+      "name": "Airtable Forms",
+      "description": "Airtable is a multi-purpose, tabular, cloud collaboration service. Airtable works like a spreadsheet but gives you the power of a database to organize anything. Replace your current forms with Airtable Forms and automate tasks based on the results.",
+      "light-primary": "#d7d7f950",
+      "light-secondary": "#fdc6dc50",
+      "primary-color": "#d7d7f9",
+      "secondary-color": "#fdc6dc",
+      "categories": [
+        "Forms",
+        "Spreadsheet"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/1ade001563f89d6151c85809f110c785/337c3d3d/AirtableFormsCropped.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/dda495ee26abfac8c22f8271614b8359/4ed0df2b/AirtableBlocks.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": true
+    },
+    {
+      "idname": "calendly",
+      "name": "Calendly",
+      "description": "Calendly is a simple, easy-to-use, yet powerful scheduling software, which aims to save time, accelerate sales, and improve service quality. It eliminates the old-school way of using email and phone tags for scheduling appointments, calls, interviews, demos, and more.",
+      "light-primary": "#00a2ff50",
+      "light-secondary": "#676b7650",
+      "primary-color": "#00a2ff",
+      "secondary-color": "#676b76",
+      "categories": [
+        "Calendar",
+        "Scheduling",
+        "Planning"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/d1c19bc28cb55df0a4ef4e3646ae3991/52e9ff61/calendly-logo-clear.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/8bb20e24ac5275e083941280e7d505f7/c156a58b/calendly-logo1.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "coda",
+      "name": "Coda",
+      "description": "Coda is the 'Swiss Army Knife' of the SaaS world. Create collaborative documents, relational tables, functional logic, publishing, and integrations with your favorite services. With Coda you can create no-code web apps or track tasks for your team quickly and in one place.",
+      "light-primary": "#f5d0ba50",
+      "light-secondary": "#ed675250",
+      "primary-color": "#f5d0ba",
+      "secondary-color": "#ed6752",
+      "categories": [
+        "Spreadsheet",
+        "Database",
+        "CRM",
+        "Web App",
+        "Document Creation",
+        "Scheduling",
+        "Planning",
+        "All-In-One",
+        "Website",
+        "Publishing",
+        "Documentation"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/6388ac7885b158773aa0e3623d1d2d7e/72217b4e/CodaLogo1.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/88682f018b2950b7dc0cd4c18d95678e/99d35a36/codabanner.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/6593a988adb7f0ff90afc8ba60346728/6657459a/coda-banner.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "contactsplus",
+      "name": "Contacts Plus",
+      "description": "Contacts+ is a cloud-based address book designed to take the hassle out of contact management so you can focus on what matters most - relationships. Dedupe, merge and update your contacts effortlessly with this contact manager.",
+      "light-primary": "#0fb8f550",
+      "light-secondary": "#ffffff50",
+      "primary-color": "#0fb8f5",
+      "secondary-color": "#ffffff",
+      "categories": [
+        "Contact Management"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/7646637c53cf30bc8a15ae14988a0369/da53046c/ContactsPlus.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/9d51e90027f416797d31d6dd35212242/a41ffa0f/contactsplusbanner.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "copper",
+      "name": "Copper",
+      "description": "Copper is the CRM that Google recommends to you when you sign up for GSuite because it was designed around the services that you already use. If you know how to use Gmail, you can use Copper. This impressive CRM is customizable to fit the needs of any industry or business type.",
+      "light-primary": "#ffe9ee50",
+      "light-secondary": "#4e2f6550",
+      "primary-color": "#ffe9ee",
+      "secondary-color": "#4e2f65",
+      "categories": [
+        "CRM",
+        "Contact Management",
+        "Email",
+        "Productivity",
+        "Teams"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/1d79797632d809a07b4c3fbd5e912c74/4dbbd48a/CopperLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "dialpad",
+      "name": "Dialpad",
+      "description": "Dialpad is a leading VoIP application which enables you to communicate with your clients, employees and other businesses with utmost ease. Make your business communication more efficient and effective with Dialpad's AI assisted features.",
+      "light-primary": "#304df850",
+      "light-secondary": "#1f337350",
+      "primary-color": "#304df8",
+      "secondary-color": "#1f3373",
+      "categories": [
+        "VoIP",
+        "Communication"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/779b015e1447edd2734dffc23ae56218/9b431844/DialpadLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/73d62d31e5196a427fea9a522382fa8c/d09ea741/DialpadBanner.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "docusign",
+      "name": "DocuSign",
+      "description": "DocuSign has become the gold standard in electronic signatures. DocuSign allows organizations to manage electronic agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignatures and a way to sign electronically on many different devices.",
+      "light-primary": "#007ee550",
+      "light-secondary": "#194ba050",
+      "primary-color": "#007ee5",
+      "secondary-color": "#194ba0",
+      "categories": [
+        "Electronic Signature"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/1b1ff054c22ac237a179246ff81f7c36/e48faf56/DocusignLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "dropbox",
+      "name": "Dropbox",
+      "description": "Dropbox is a cloud storage service, which means you can copy your files to the cloud and access them later, even if you're using a different device.",
+      "light-primary": "#194ba050",
+      "light-secondary": "#007ee550",
+      "primary-color": "#194ba0",
+      "secondary-color": "#007ee5",
+      "categories": [
+        "File Stoage",
+        "Document Creation",
+        "Teams",
+        "Productivity"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/78c9e5bd1ef133a7e023b08d3bca391f/65745955/DropboxLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/6da415d9fe4eeb97a722cef53c9f297e/5ffe61b1/DropboxBanner.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "gsuite",
+      "name": "GSuite",
+      "description": "Gmail, Hangouts, Calendar, Docs, Sheets, Forms, Keep, Sites, Drive, Admin, Contacts. Everything you need to run a remote business or scale your traditional business. It all works well with automation and we support that!",
+      "light-primary": "#ea433550",
+      "light-secondary": "#4184f350",
+      "primary-color": "#ea4335",
+      "secondary-color": "#4184f3",
+      "categories": [
+        "All-In-One",
+        "Teams",
+        "Email",
+        "Document Creation",
+        "File Storage",
+        "Scheduling",
+        "Planning",
+        "Forms",
+        "Website",
+        "Contact Management",
+        "Calendar"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "integromat",
+      "name": "Integromat",
+      "description": "Integromat is a powerful tool for automating manual processes. Integromat is called 'The glue of the internet'. It is a powerful tool for automating manual processes and connecting services. We wouldn't be an Integromat partner if we didn't love it.",
+      "light-primary": "#2f8cbb50",
+      "light-secondary": "#57575750",
+      "primary-color": "#2f8cbb",
+      "secondary-color": "#575757",
+      "categories": [
+        "Automation",
+        "Back-End"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/219884d4021938e2636791740050f614/cdc49f27/integromatlogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "narro-llc",
+      "name": "Narro LLC",
+      "description": "",
+      "light-primary": "#ff4a0050",
+      "light-secondary": "#90909050",
+      "primary-color": "#ff4a00",
+      "secondary-color": "#909090",
+      "categories": [
+        "Narro"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/0d6abce018e0d6ffc114a49eb6f1b241/ec0c4be7/NarroLogoClear.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/58c67a2511683fdbf8d338e547b6e01e/591b2fbb/NarroLogoClear.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": true
+    },
+    {
+      "idname": "ontask",
+      "name": "OnTask",
+      "description": "OnTask is the premier workflow automation tool created by Accusoft, the leader in document and imaging technology since 1991. Take control of your documents and forms with a easy-to-use, flexible, and affordable cloud-based platform. OnTask is the 'Automation First' electronic signature platform.",
+      "light-primary": "#9bc66950",
+      "light-secondary": "#244c5950",
+      "primary-color": "#9bc669",
+      "secondary-color": "#244c59",
+      "categories": [
+        "Document Creation",
+        "Teams",
+        "Electronic Signature",
+        "Automation"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/910aafc6228e3ecbf2b70f4e771f88d9/f94c97cd/ontask-logo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/d3efa4e991c7b03a6ede90abea35885d/e505e0bd/OnTask.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "outfunnel",
+      "name": "OutFunnel",
+      "description": "Outfunnel integrates seamlessly with Copper CRM and gets your emails to the right party at the correct stages within your pipelines. While other email campaign software is complex and difficult to work with, Outfunnel is easy and helps you to reach your customers and leads effectively.",
+      "light-primary": "#00b8aa50",
+      "light-secondary": "#80808050",
+      "primary-color": "#00b8aa",
+      "secondary-color": "#808080",
+      "categories": [
+        "Email",
+        "Communication",
+        "Teams",
+        "Marketing",
+        "Email Campaign"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/8e5a55a322d8ae16a21b59dccacdcfb0/cb40a0d2/OutfunnelLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/15a09bcdf75a2974f532926fe9eec4c1/bc5589a2/OutfunnelBanner.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "slack",
+      "name": "Slack",
+      "description": "Once you use Slack, you never go back. Not only is Slack the favorite of businesses and individuals all around the world - you can use this tool to automate your processes and stay in contact with your team. There is a reason that Slack is held in such high regard.",
+      "light-primary": "#e1bac750",
+      "light-secondary": "#e0156350",
+      "primary-color": "#e01563",
+      "secondary-color": "#6ecadc",
+      "categories": [
+        "Communication",
+        "Teams"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/7c8771bbc44f384e612f91fc4a7fd3b9/6858bc85/SlackLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "slite",
+      "name": "Slite",
+      "description": "The golden standard of internal documentation. Wouldn't it be nice to have a knowledge base? If you have countless documents hidden in folders with little to no organization, it may be time to consider Slite.",
+      "light-primary": "#ffe69750",
+      "light-secondary": "#aae7ed50",
+      "primary-color": "#ffe697",
+      "secondary-color": "#aae7ed",
+      "categories": [
+        "Documentation"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/43159db68d8d9f377a74a01199dfd051/fbb4fa90/SliteLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "typeform",
+      "name": "TypeForm",
+      "description": "Typeform is the latest and greatest in the world of interactive web forms. Its main software creates dynamic forms based on user needs. Typeform's software has been used by industry leaders such as Apple, Airbnb, Uber, Nike and so much more.",
+      "light-primary": "#89c6be50",
+      "light-secondary": "#33393f50",
+      "primary-color": "#89c6be",
+      "secondary-color": "#33393f",
+      "categories": [
+        "Forms",
+        "Spreadsheet"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/ae8bd891745d10da92eb71d10c9bdb28/abfc6baf/TypeformLogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/382bcba414684e6d125d79144ef0c8c5/5b465c24/typeform.svg",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
+    },
+    {
+      "idname": "zapier",
+      "name": "Zapier",
+      "description": "A single salaried employee costs tens of thousands of dollars annually. Building proprietary software can cost even more. As certified Zapier experts, we help you to scale your business and reduce overhead by connecting and customizing software that already exists. We are certified to leverage automation for you.",
+      "light-primary": "#ffefce50",
+      "light-secondary": "#ffa38c50",
+      "primary-color": "#ffefce",
+      "secondary-color": "#ffa38c",
+      "categories": [
+        "Automation",
+        "Back-End"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png"
+    }
+  ]
+}

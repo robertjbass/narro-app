@@ -4,8 +4,8 @@
       "idname": "airtable",
       "name": "Airtable",
       "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything. Replace your current forms with Airtable Forms and automate tasks based on the results.",
-      "light-primary": "#d7d7f950",
-      "light-secondary": "#fdc6dc50",
+      "light-primary": "#9c80f050",
+      "light-secondary": "#d7d7f950",
       "primary-color": "#d7d7f9",
       "secondary-color": "#fdc6dc",
       "categories": [
@@ -17,7 +17,7 @@
         "All-In-One"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/6d294364b3abfbbb9d6affc35b8db10e/d1b1baa0/AirtableLogo.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/428b9c0315a44a02a3899bdebe191a6d/9b92518a/airtablebannerlogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/e15f4feec060f8f125eab7d48112539e/3a922897/airtablebannerlogo.png",
       "otherUrl": "https://dl.airtable.com/.attachments/e0acce36154b3c13f458f5437b2ec033/701e013f/AirtableExpert.png",
       "localUrl": "",
       "localBannerUrl": "",
@@ -180,7 +180,7 @@
         "Web App"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/5cbd02a9dd39f66d9e616d8f064fd6ca/ffd606c6/css-html.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/8f682e64a41f90e4aaf5b6d9b6f133db/d5154f1d/css.png",
       "otherUrl": "https://dl.airtable.com/.attachments/12e41b9934b45d106bfca42897096686/4d19e4ba/CSSHTMLJSBanner.jpg",
       "localUrl": "",
       "localBannerUrl": "",
@@ -429,7 +429,7 @@
         "Teams"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/9e0ec8260aa2aa58c6a31a66fb3c0bdd/a864d86f/GoogleForms.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/018db01496f93054bbe5fb3a98dea8b2/f9f99999/GoogleFormsBanner.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/e430aa8aa857708ee0949200a1f8e279/ecbe315f/GoogleFormsBanner.png",
       "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
       "localUrl": "",
       "localBannerUrl": "",
@@ -553,7 +553,7 @@
         "Server"
       ],
       "logoUrl": "https://dl.airtable.com/.attachments/c952242bc9801dcc04e943ef8b1f8aea/d23eef63/linuxlogo.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/e3264abef0f0d21dff7977a586276ee0/caf83aa9/linuxbanner.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/9023e0fc6e6739b96ab1e0577c999abe/047cb21d/MailParserBanner.png",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
@@ -829,8 +829,8 @@
       "idname": "slack",
       "name": "Slack",
       "description": "Once you use Slack, you never go back. Not only is Slack the favorite of businesses and individuals all around the world - you can use this tool to automate your processes and stay in contact with your team. There is a reason that Slack is held in such high regard.",
-      "light-primary": "#e0156350",
-      "light-secondary": "#6ecadc50",
+      "light-primary": "#e1bac750",
+      "light-secondary": "#e0156350",
       "primary-color": "#e01563",
       "secondary-color": "#6ecadc",
       "categories": [
@@ -860,7 +860,6 @@
       "localBannerUrl": "",
       "hidden": false
     },
-
     {
       "idname": "stripe",
       "name": "Stripe",
@@ -879,11 +878,6 @@
       "localBannerUrl": "",
       "hidden": false
     },
-
-
-
-
-
     {
       "idname": "typeform",
       "name": "TypeForm",

@@ -34,7 +34,7 @@
           <div class="image-wrap">
             <img
               class="logo-image"
-              src="https://dl.airtable.com/.attachments/0a94432340e97ee06e44bcdeff3eb9c1/919a5240/pngfind_com-ucla-logo-png-421089.png"
+              src="https://dl.airtable.com/.attachments/e15f4feec060f8f125eab7d48112539e/3a922897/airtablebannerlogo.png"
               alt="Airtable"
             />
           </div>
@@ -195,7 +195,7 @@
           ><div class="image-wrap">
             <img
               class="logo-image"
-              src="https://dl.airtable.com/.attachments/2fc0673bda9f5b009ace325c4929475d/3beaefd1/coda-logo.png"
+              src="https://dl.airtable.com/.attachments/88682f018b2950b7dc0cd4c18d95678e/99d35a36/codabanner.png"
               alt="Coda"
             /></div
         ></ServiceCard>
@@ -237,7 +237,7 @@
           ><div class="image-wrap">
             <img
               class="logo-image"
-              src="https://dl.airtable.com/.attachments/2e555ec8a27c1ff25aee28f5cc23d9b0/58ea928a/MailparserBanner2.png"
+              src="https://dl.airtable.com/.attachments/9023e0fc6e6739b96ab1e0577c999abe/047cb21d/MailParserBanner.png"
               alt="Mailparser.io"
             /></div
         ></ServiceCard>
@@ -326,7 +326,7 @@
           ><div class="image-wrap">
             <img
               class="logo-image"
-              src="https://dl.airtable.com/.attachments/c0421d9a83faac2d778058b594b253eb/ec0d739a/CSSandHTMLLogos.png"
+              src="https://dl.airtable.com/.attachments/8f682e64a41f90e4aaf5b6d9b6f133db/d5154f1d/css.png"
               alt="CSS/HTML"
             /></div
         ></ServiceCard>
@@ -563,7 +563,7 @@
           <div class="image-wrap">
             <img
               class="logo-image"
-              src="https://dl.airtable.com/.attachments/018db01496f93054bbe5fb3a98dea8b2/f9f99999/GoogleFormsBanner.png"
+              src="https://dl.airtable.com/.attachments/e430aa8aa857708ee0949200a1f8e279/ecbe315f/GoogleFormsBanner.png"
               alt="Google Forms"
             /></div
         ></ServiceCard>
@@ -794,10 +794,9 @@ h4 {
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  /* justify-content: space-around; */
   padding: 30px 30px 0 30px;
-
   color: white;
+  /* justify-content: space-around; */
 }
 
 .gradient-boxes:hover {
@@ -819,266 +818,298 @@ h4 {
   background-color: #ffefce;
 }
 
-.airtable-gradient {
+/* .airtable-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .airtable-gradient:hover {
-  background-color: #fdc6dc;
+  background-color: #9c80f050;
 }
 
-.mysql-gradient {
+/* .mysql-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .mysql-gradient:hover {
   background-color: #00618a35;
 }
 
-.slack-gradient {
+/* .slack-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .slack-gradient:hover {
-  background-color: #e0156350;
+  background-color: #e1bac750;
 }
 
-.vue-gradient {
+/* .vue-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .vue-gradient:hover {
   background-color: #34495f50;
 }
 
-.copper-gradient {
+/* .copper-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .copper-gradient:hover {
   background-color: #4e2f6550;
 }
 
-.contactsplus-gradient {
+/* .contactsplus-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
 
 .contactsplus-gradient:hover {
   background-color: #0fb8f550;
 }
 
-.coda-gradient {
+/* .coda-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .coda-gradient:hover {
   background-color: #f5d0ba50;
 }
 
-.google-gradient {
+/* .google-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .google-gradient:hover {
   background-color: #ea433550;
 }
 
-.outfunnel-gradient {
+/* .outfunnel-gradient {
   background-color: #ffffff;
-}
+} */
+
 .outfunnel-gradient:hover {
   background-color: #00b8aa50;
 }
 
-.reply-gradient {
+/* .reply-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .reply-gradient:hover {
   background-color: #005aff50;
 }
 
-.typeform-gradient {
+/* .typeform-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .typeform-gradient:hover {
   background-color: #89c6be50;
 }
 
-.dialpad-gradient {
+/* .dialpad-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .dialpad-gradient:hover {
   background-color: #304df850;
 }
 
-.pandadoc-gradient {
+/* .pandadoc-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .pandadoc-gradient:hover {
   background-color: #45b46f50;
 }
 
-.mariadb-gradient {
+/* .mariadb-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .mariadb-gradient:hover {
   background-color: #1d2f5c50;
 }
 
-.mailparser-gradient {
+/* .mailparser-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .mailparser-gradient:hover {
   background-color: #fe470150;
 }
 
-.dropbox-gradient {
+/* .dropbox-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .dropbox-gradient:hover {
   background-color: #194ba050;
 }
 
-.docusign-gradient {
+/* .docusign-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .docusign-gradient:hover {
   background-color: #007ee550;
 }
 
-.css-gradient {
+/* .css-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .css-gradient:hover {
   background-color: #f1652950;
 }
 
-.node-gradient {
+/* .node-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .node-gradient:hover {
   background-color: #83cd2950;
 }
 
-.csharp-gradient {
+/* .csharp-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .csharp-gradient:hover {
   background-color: #9d72d950;
 }
 
-.javascript-gradient {
+/* .javascript-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .javascript-gradient:hover {
   background-color: #f5de1950;
 }
 
-.slite-gradient {
+/* .slite-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .slite-gradient:hover {
   background-color: #08145250;
 }
 
-.stripe-gradient {
+/* .stripe-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .stripe-gradient:hover {
   background-color: #6772e530;
 }
 
-.qbo-gradient {
+/* .qbo-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .qbo-gradient:hover {
   background-color: #28a11650;
 }
 
-.xero-gradient {
+/* .xero-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .xero-gradient:hover {
   background-color: #1ab4d750;
 }
 
-.postgres-gradient {
+/* .postgres-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .postgres-gradient:hover {
   background-color: #31619250;
 }
 
-.mongodb-gradient {
+/* .mongodb-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .mongodb-gradient:hover {
   background-color: #4da84b50;
 }
 
-.docparser-gradient {
+/* .docparser-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .docparser-gradient:hover {
   background-color: #297ce550;
 }
 
-.webhooks-gradient {
+/* .webhooks-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .webhooks-gradient:hover {
   background-color: #c73a6350;
 }
 
-.ontask-gradient {
+/* .ontask-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .ontask-gradient:hover {
   background-color: #9bc66950;
 }
 
-.integromat-gradient {
+/* .integromat-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .integromat-gradient:hover {
   background-color: #2f8cbb50;
 }
 
-.calendly-gradient {
+/* .calendly-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .calendly-gradient:hover {
   background-color: #676b7650;
 }
 
-.workona-gradient {
+/* .workona-gradient {
   transition: all 0.2s ease-in-out;
   background-color: #ffffff;
-}
+} */
+
 .workona-gradient:hover {
   background-color: #0141df50;
 }

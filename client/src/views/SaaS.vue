@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="top saas">
-      <!-- <Selected /> -->
       <div class="heading">
         <h1>Our preferred services</h1>
       </div>
