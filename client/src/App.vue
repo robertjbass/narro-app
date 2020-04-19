@@ -34,12 +34,16 @@
       <hr />
     </div>
     <router-view />
-    <a
-      class="request"
-      href="https://airtable.com/shrCDJbvIga3NMRZS"
-      target="blank"
-      >Request a Consult</a
-    >
+    <h2 class="call-to-action">
+      Ready to streamline your business?
+      <br />
+      <a
+        class="request"
+        href="https://airtable.com/shrCDJbvIga3NMRZS"
+        target="blank"
+        >Request a Consult</a
+      >
+    </h2>
     <div class="spacer"></div>
     <FooterBar />
   </div>
