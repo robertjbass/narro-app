@@ -63,7 +63,6 @@ export default {
   data: function() {
     return {
       selectedService: ""
-      // selectedService: "airtable"
     };
   }
 };
