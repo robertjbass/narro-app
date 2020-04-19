@@ -99,12 +99,13 @@ export default {
   color: #666666;
   font-size: 2em;
   text-decoration: none;
-  /* background-color: #e5effd; */
+  /* background-color: #99999950; */
 }
 
 #nav a.router-link-exact-active {
   color: #30bfe0;
-  background-color: #e5effd50;
+  /* background-color: #e5effd50; */
+  background-color: #99999950;
 }
 
 hr {

@@ -2,16 +2,17 @@
   <div class="service-page">
     <!-- <div class="body-white"> -->
     <div class="body">
-      <div class="top">
-        <h1>Our Preferred Technologies</h1>
-        <!-- <h2>Our Preferred Technologies</h2> -->
-      </div>
+      <!-- <div class="top"> -->
+      <h1>Our Preferred Technologies</h1>
+      <!-- <h2>Our Preferred Technologies</h2> -->
+      <!-- </div> -->
     </div>
     <ServiceList />
     <h3>
       Don't see the technology you're looking to integrate with? No problem!<br />
       We can automate most services listed here:
     </h3>
+    <br />
     <div class="search-links">
       <a class="zapier services" href="https://zapier.com/apps" target="blank"
         ><div class="search-more">
@@ -29,7 +30,7 @@
       >
     </div>
     <br /><br />
-    <hr />
+    <!-- <hr /> -->
   </div>
 </template>
 <script>
@@ -128,7 +129,7 @@ h1 {
   font-size: 36px;
   color: #000000;
   text-align: center;
-  margin-top: 0;
+  margin-top: 10px;
   line-height: 50px;
   font-weight: 525;
 }

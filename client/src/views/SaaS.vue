@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="top saas">
+    <div class="saas">
       <div class="heading">
         <h1>Partner Services</h1>
         <div class="certifications">
@@ -46,7 +46,7 @@ h1 {
   font-size: 36px;
   color: #000000;
   text-align: center;
-  margin-top: 0;
+  margin-top: 10px;
   line-height: 50px;
   font-weight: 525;
 }
@@ -73,10 +73,9 @@ p {
   text-align: left;
 }
 
-.top {
+/* .top {
   padding-top: 10px;
-  /* background-image: linear-gradient(to bottom, #e5effd, #ffffff); */
-}
+} */
 
 .list {
   text-align: left;

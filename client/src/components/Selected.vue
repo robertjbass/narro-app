@@ -257,7 +257,6 @@ a h3 {
   justify-content: right;
   text-align: right;
   padding-left: 0 90% 0 10%;
-  /* font-family: monospace; */
   font-size: 20px;
   font-weight: bolder;
   color: #333333;

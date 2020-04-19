@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="top">
+    <div>
       <h1>What do we do?</h1>
       <h2>We modernize your business</h2>
     </div>
@@ -33,8 +33,6 @@
       animi, vel quod amet eveniet rem!
     </p>
     <br /><br /><br />
-
-    <hr />
   </div>
 </template>
 
@@ -55,7 +53,7 @@ h1 {
   font-size: 36px;
   color: #000000;
   text-align: center;
-  margin-top: 0;
+  margin-top: 10px;
   line-height: 50px;
   font-weight: 525;
 }
@@ -78,6 +76,10 @@ hr {
 }
 
 p {
+  font-size: 1.2em;
+  text-align: left;
+  margin: auto;
+  padding: 0 30px;
   padding: 10px 8% 0 8%;
   text-align: left;
 }
