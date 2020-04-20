@@ -1,0 +1,19 @@
+{
+  "icons": [
+    {
+      "database": "https://dl.airtable.com/.attachments/38290a5f7c7b1be54f6dc5b25cbfcde9/c91bd383/database.svg",
+      "calculator": "https://dl.airtable.com/.attachments/fa19382f5ed09bb97cab02cddaee7f84/eb4b3563/calculator.svg",
+      "peoplearrow": "https://dl.airtable.com/.attachments/bb8ad88ec7b82faa6c7c6708464c571c/e9d4429b/peoplearrow.svg",
+      "slack": "https://dl.airtable.com/.attachments/81dac3d23bc527d730eab0be506266a0/6f0ca9ff/slack.svg",
+      "linux": "https://dl.airtable.com/.attachments/4ff7d9b9d7cbd3448f86147daaccdadc/861d30c3/linux.svg",
+      "js": "https://dl.airtable.com/.attachments/f757c76bfa2edf99c2fd4ce0f03afa24/8b268a9e/js.svg",
+      "windowclose": "https://dl.airtable.com/.attachments/4f443cdd0eb4cb145846f978e8373bc3/a9117d05/windowclose.svg",
+      "codebracket": "https://dl.airtable.com/.attachments/edcab0d671d326f32ae4cea32c9da947/06cb8f4b/codebracket.svg",
+      "zap": "https://dl.airtable.com/.attachments/c77c08cc6aa4433082b03a679f370a05/652d7fda/zap.svg",
+      "filecode": "https://dl.airtable.com/.attachments/9aa51cd5ef02096e075220fd4989be96/da9868e6/filecode.svg",
+      "stripe": "https://dl.airtable.com/.attachments/2512558feca8ef545c29c02cdf61e626/d4c27e50/stripe.svg",
+      "github": "https://dl.airtable.com/.attachments/049a1e17e8647dce1b889edec4de09a0/c105eaa5/github.svg",
+      "youtube": "https://dl.airtable.com/.attachments/30059d60b72e1395e7f749f46fb3fa12/a5dad7db/youtube.svg"
+    }
+  ]
+}

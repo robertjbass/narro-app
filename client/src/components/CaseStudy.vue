@@ -393,6 +393,7 @@ table {
   font-size: 24px;
   color: #666666;
   text-align: left;
+  margin-bottom: 30px;
 }
 .heading {
   font-size: 36px;
@@ -500,7 +501,9 @@ q::after {
 .ulitem {
   list-style-type: none;
   line-height: 1.5rem;
+
   padding: 5px;
+  margin: 0px;
 }
 li {
   padding: 5px 10px;
@@ -524,10 +527,12 @@ ol {
 }
 
 li {
-  padding: 5px 10px;
-  background: #2f8cbb30;
-  margin: 10px 0;
+  /* padding: 1px 10px; */
   /* border-radius: 1rem; */
+  background: #2f8cbb30;
+  margin: 25px 0;
+  border-radius: 0.5rem;
+  text-align: left;
 }
 
 .summary {

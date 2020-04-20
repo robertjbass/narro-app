@@ -1,18 +1,48 @@
 <template>
   <Footer class="footer">
-    <div class="footer-width">
-      <!-- <div class="resource-buffer">Resources</div> -->
-      <ul>
-        <li v-for="resource in resources" :key="resource.id">
-          <a
-            :href="'//' + `${resource.url}`"
-            target="_blank"
-            style="margin: 35px;"
-          >
-            {{ resource.platform }}
-          </a>
-        </li>
-      </ul>
+    <div class="footer-icons">
+      <div class="icon-box">
+        <a href="/">
+          <img
+            class="icon"
+            v-bind:src="
+              'https://dl.airtable.com/.attachments/049a1e17e8647dce1b889edec4de09a0/c105eaa5/github.svg'
+            "
+            alt="github"
+          />
+          <div class="logo-font">
+            Github
+          </div>
+        </a>
+      </div>
+      <div class="icon-box">
+        <a href="/">
+          <img
+            class="icon"
+            v-bind:src="
+              'https://dl.airtable.com/.attachments/30059d60b72e1395e7f749f46fb3fa12/a5dad7db/youtube.svg'
+            "
+            alt="youtube"
+          />
+          <div class="logo-font">
+            YouTube
+          </div>
+        </a>
+      </div>
+      <div class="icon-box">
+        <a href="/">
+          <img
+            class="icon"
+            v-bind:src="
+              'https://dl.airtable.com/.attachments/edcab0d671d326f32ae4cea32c9da947/06cb8f4b/codebracket.svg'
+            "
+            alt="coda"
+          />
+          <div class="logo-font">
+            Coda
+          </div>
+        </a>
+      </div>
     </div>
   </Footer>
 </template>
@@ -22,48 +52,38 @@ export default {
   name: "FooterBar",
   data() {
     return {
-      resources: [
-        {
-          id: 1,
-          platform: "YouTube",
-          url: "www.youtube.com/channel/UCXlYY0fWGR2GIqWNcIZrytg"
-        },
-        {
-          id: 2,
-          platform: "GitHub",
-          url: "www.github.com/716green"
-        },
-        {
-          id: 3,
-          platform: "Coda",
-          url: "https://coda.io/@bob/v1-5-zapier-expert-page"
-        }
-      ]
+      // resources: [
+      //   {
+      //     id: 1,
+      //     platform: "YouTube",
+      //     url: "www.youtube.com/channel/UCXlYY0fWGR2GIqWNcIZrytg"
+      //   },
+      //   {
+      //     id: 2,
+      //     platform: "GitHub",
+      //     url: "www.github.com/716green"
+      //   },
+      //   {
+      //     id: 3,
+      //     platform: "Coda",
+      //     url: "https://coda.io/@bob/v1-5-zapier-expert-page"
+      //   }
+      // ]
     };
   }
 };
 </script>
 
 <style scoped>
-ul {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-self: center;
-}
-li {
-  display: inline-block;
-  list-style-type: none;
-}
-
-.footer-width {
-  align-content: space-evenly;
+* {
+  font-weight: 100;
+  font-size: 1em;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 h1 {
@@ -80,52 +100,33 @@ h1 {
   color: #fd7622;
 }
 
-.purple-gradient {
-  background-image: linear-gradient(to top right, #d7d7f9, #fdc6dc);
-  border-radius: 1rem;
-  padding: 10px;
-  border: 10px;
-  margin-right: 10px;
-  box-shadow: 5px 5px;
-}
-
 .footer {
   background-color: #333333;
-  font-weight: bold;
+}
+
+.footer-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 3%;
+  margin: auto;
+  vertical-align: middle;
 }
 
-.fake-app {
-  height: 60px;
-  width: 60px;
-  border-radius: 2rem;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #666666;
+.icon {
+  height: 20px;
+  filter: invert(90%) sepia(0%) saturate(550%) hue-rotate(20deg) brightness(95%)
+    contrast(100%);
 }
 
-/* fake screenshot */
-.dots {
-  background-color: #c4c4c4;
-  border-radius: 50%;
-  max-height: 2px;
-  max-width: 2px;
-}
-
-/* fake-browser-bar */
-.browser {
-  background-color: #e6e9eb;
-  border-radius: 2em;
-  max-height: 40%;
-  max-width: 40%;
-}
-
-/* switch-turned-off */
-.switch-outer {
-  background-color: #666666;
-  border-radius: 20%;
+.icon-box {
+  display: flex;
+  max-width: 50px;
   max-height: 50px;
-  max-width: 100px;
+  padding-bottom: 5px 0;
+  font-weight: 300;
+}
+
+.logo-font {
+  color: whitesmoke;
 }
 </style>

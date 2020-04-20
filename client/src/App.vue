@@ -1,12 +1,7 @@
 <template>
   <div id="app">
+    <ModalBackground v-onclick="(modalOn = false)" />
     <!-- <div class="nav-spacer"></div> -->
-    <!-- <a
-      class="contact-us"
-      href="https://airtable.com/shrCDJbvIga3NMRZS"
-      target="blank"
-      >Contact Us</a
-    > -->
     <!-- <div class="logo" align="left">Ν▶</div> -->
     <div id="nav">
       <div class="logo">
@@ -52,17 +47,15 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import FooterBar from "@/components/FooterBar.vue";
-// import FrontPage from "@/components/FrontPage.vue";
-// import Selected from "@/components/Selected.vue";
+import ModalBackground from "@/components/ModalBackground.vue";
 import { EventBus } from "./main";
 
 export default {
   name: "app",
   components: {
     Navbar,
-    FooterBar
-    // FrontPage,
-    // Selected
+    FooterBar,
+    ModalBackground
   },
 
   created() {
@@ -152,16 +145,6 @@ hr {
   top: 0;
   left: 0;
 }
-/* .company-name {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  color: #fd7622;
-  width: 100px;
-  font-weight: bold;
-  padding-right: 5%;
-} */
-/* .company-name-white, */
 .company-name-orange {
   display: flex;
   flex-wrap: wrap;
@@ -190,13 +173,12 @@ footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  height: 50px;
+  height: 60px;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
+  margin: auto;
 }
 .spacer {
-  height: 50px;
+  height: 60px;
 }
 
 .contact-us {
