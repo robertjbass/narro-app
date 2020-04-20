@@ -1,42 +1,46 @@
 <template>
-  <div class="card-wrap">
-    <div class="image-slot">
-      <slot class="card-information">
-        <div class="outer-wrap">
-          <div
-            class="services "
-            v-for="service in services"
-            :key="service.idname"
-          >
-            <div v-if="service.idname == selectedService" :key="service.idname">
-              <div class="inner-wrap innner">
-                <div class="top-bar">
-                  <div class="bar-space">
-                    <div class="top-spacer"></div>
-                    <div class="mid-spacer"></div>
-                    <div class="close" v-on:click="selectedService = ''">
-                      <div class="exit">x</div>
+  <div>
+    <div class="card-wrap">
+      <div class="image-slot">
+        <slot class="card-information">
+          <div class="outer-wrap">
+            <div
+              class="services "
+              v-for="service in services"
+              :key="service.idname"
+            >
+              <div
+                v-if="service.idname == selectedService"
+                :key="service.idname"
+              >
+                <div class="inner-wrap innner">
+                  <div class="top-bar">
+                    <div class="bar-space">
+                      <div class="top-spacer"></div>
+                      <div class="mid-spacer"></div>
+                      <div class="close" v-on:click="selectedService = ''">
+                        <div class="exit">x</div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="bottom">
-                  <div class="left">
-                    <div class="svc-name">{{ service.name }}</div>
-                    <img class="logo-icon" :src="service.logoUrl" />
-                  </div>
-                  <div class="right">
-                    <div class="banner-wrap top">
-                      <img class="banner" :src="service.bannerUrl" />
+                  <div class="bottom">
+                    <div class="left">
+                      <div class="svc-name">{{ service.name }}</div>
+                      <img class="logo-icon" :src="service.logoUrl" />
                     </div>
-                    <div class="description">{{ service.description }}</div>
+                    <div class="right">
+                      <div class="banner-wrap top">
+                        <img class="banner" :src="service.bannerUrl" />
+                      </div>
+                      <div class="description">{{ service.description }}</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <div v-else=""></div> -->
           </div>
-        </div>
-      </slot>
+        </slot>
+      </div>
     </div>
   </div>
 </template>
@@ -52,7 +56,6 @@ export default {
       return (this.selectedService = data);
     });
   },
-
   computed: {
     services() {
       return serviceList.services.map(services => {
@@ -60,7 +63,7 @@ export default {
       });
     }
   },
-  data: function() {
+  data() {
     return {
       selectedService: ""
     };
@@ -170,7 +173,6 @@ a h3 {
   min-width: 50%;
   max-height: 100%;
   padding-bottom: 10px;
-  /* object-fit: contain; */
 }
 
 .banner {
@@ -182,12 +184,6 @@ a h3 {
   width: 400px;
 }
 
-/* .middle {
-  height: 20px;
-  align-content: space-between;
-  padding: auto;
-} */
-
 .bottom {
   display: flex;
   flex-wrap: wrap;
@@ -196,7 +192,6 @@ a h3 {
 
 .description {
   text-align: left;
-  /* padding: 0 20px 20px 20px; */
   padding-left: 15px;
 }
 
@@ -223,12 +218,6 @@ a h3 {
   vertical-align: middle;
 }
 
-/* .inner {
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-} */
-
 .top-bar {
   width: 100%;
   margin: auto;
@@ -240,7 +229,6 @@ a h3 {
   justify-content: space-between;
   background-color: #666666;
   padding: 5px 0;
-  /* background-color: #ebebeb; */
 }
 
 .top-spacer {

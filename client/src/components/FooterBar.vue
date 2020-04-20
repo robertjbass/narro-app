@@ -2,7 +2,7 @@
   <Footer class="footer">
     <div class="footer-icons">
       <div class="icon-box">
-        <a href="/">
+        <a href="https://www.github.com/716green/" target="blank">
           <img
             class="icon"
             v-bind:src="
@@ -16,7 +16,7 @@
         </a>
       </div>
       <div class="icon-box">
-        <a href="/">
+        <a href="https://www.youtube.com/" target="blank">
           <img
             class="icon"
             v-bind:src="
@@ -30,7 +30,7 @@
         </a>
       </div>
       <div class="icon-box">
-        <a href="/">
+        <a href="https://www.coda.io/@narro/" target="blank">
           <img
             class="icon"
             v-bind:src="
@@ -51,25 +51,7 @@
 export default {
   name: "FooterBar",
   data() {
-    return {
-      // resources: [
-      //   {
-      //     id: 1,
-      //     platform: "YouTube",
-      //     url: "www.youtube.com/channel/UCXlYY0fWGR2GIqWNcIZrytg"
-      //   },
-      //   {
-      //     id: 2,
-      //     platform: "GitHub",
-      //     url: "www.github.com/716green"
-      //   },
-      //   {
-      //     id: 3,
-      //     platform: "Coda",
-      //     url: "https://coda.io/@bob/v1-5-zapier-expert-page"
-      //   }
-      // ]
-    };
+    return {};
   }
 };
 </script>
@@ -83,7 +65,6 @@ export default {
 a {
   color: #ffffff;
   text-decoration: none;
-  /* font-weight: 700; */
 }
 
 h1 {
@@ -107,7 +88,7 @@ h1 {
 .footer-icons {
   display: flex;
   justify-content: space-around;
-  padding: 3%;
+  padding: 8px;
   margin: auto;
   vertical-align: middle;
 }

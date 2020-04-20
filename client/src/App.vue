@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ModalBackground v-onclick="(modalOn = false)" />
+    <!-- <ModalBackground v-onclick="(modalOn = false)" /> -->
     <!-- <div class="nav-spacer"></div> -->
     <!-- <div class="logo" align="left">Ν▶</div> -->
     <div id="nav">
@@ -47,15 +47,15 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import FooterBar from "@/components/FooterBar.vue";
-import ModalBackground from "@/components/ModalBackground.vue";
+// import ModalBackground from "@/components/ModalBackground.vue";
 import { EventBus } from "./main";
 
 export default {
   name: "app",
   components: {
     Navbar,
-    FooterBar,
-    ModalBackground
+    FooterBar
+    // ModalBackground
   },
 
   created() {
@@ -96,12 +96,10 @@ export default {
   color: #666666;
   font-size: 2em;
   text-decoration: none;
-  /* background-color: #99999950; */
 }
 
 #nav a.router-link-exact-active {
   color: #30bfe0;
-  /* background-color: #e5effd50; */
   background-color: #99999950;
 }
 

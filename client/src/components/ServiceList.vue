@@ -1,13 +1,9 @@
 <template>
-  <div class="front-page">
-    <div class="body-w">
-      <!-- <div class="top"> -->
+  <div class="servicesList">
+    <div class="body">
       <h1>{{ headline }}</h1>
       <h2>{{ subtext }}</h2>
-      <div class="blue-highlight">
-        <!-- <h2 class="things">Technologies we love</h2> -->
-      </div>
-      <!-- </div> -->
+      <div class="blue-highlight"></div>
     </div>
     <Selected />
     <div class="gradient-boxes">
