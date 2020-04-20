@@ -789,7 +789,9 @@ h4 {
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  padding: 30px 30px 0 30px;
+  /* ADJUST THIS TO PLAY WITH SIZE
+  DON'T FORGET TO FIX THE HOVER ALSO */
+  padding: 30px 25px 0 25px;
   color: white;
 }
 
@@ -799,7 +801,8 @@ h4 {
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  padding: 30px 30px 0 30px;
+  /* HERE */
+  padding: 30px 25px 0 25px;
   color: black;
 }
 

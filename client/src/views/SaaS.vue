@@ -16,7 +16,7 @@
           />
           <img
             class="integromat-partner partner-item"
-            src="https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG"
+            src="@/assets/images/integromat-partner.png"
             alt="Integromat Partner"
           />
         </div>

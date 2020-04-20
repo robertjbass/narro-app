@@ -4,6 +4,7 @@
       <h1>What do we do?</h1>
       <h2>We modernize your business</h2>
     </div>
+    <h3>AUTOMATION - PRODUCTIVITY - INTEGRATION - WORKFLOWS</h3>
     <p>
       Learning and understanding the complicated automation tools on the market
       can be a daunting task. You can spend weeks playing with these tools and
@@ -12,14 +13,6 @@
     <br />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum
-      explicabo commodi velit recusandae atque rem quo praesentium reprehenderit
-      illo veritatis asperiores molestias et aliquam officia reiciendis harum
-      ducimus! Eligendi dolor omnis a dolores ab, earum quibusdam odio ut esse
-      dolorem repudiandae consectetur corrupti nemo nobis inventore maxime ex
-      quam fugiat rem expedita exercitationem voluptas. Eligendi blanditiis
-      dolores ad quia fugit nostrum deserunt quasi, enim doloremque, officia
-      excepturi error, minima nulla. Quae, inventore aliquam dolorum esse quis
-      repellat hic minus rerum natus deserunt harum tenetur quia veritatis
       quidem quis dolor vel exercitationem nam! Repellendus voluptatem rem
       veritatis officiis eum esse nisi suscipit! Necessitatibus voluptatibus a
       laudantium iusto possimus accusamus enim omnis sequi autem quidem alias
@@ -30,13 +23,6 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum
       explicabo commodi velit recusandae atque rem quo praesentium reprehenderit
       illo veritatis asperiores molestias et aliquam officia reiciendis harum
-      ducimus! Eligendi dolor omnis a dolores ab, earum quibusdam odio ut esse
-      dolorem repudiandae consectetur corrupti nemo nobis inventore maxime ex
-      quam fugiat rem expedita exercitationem voluptas. Eligendi blanditiis
-      dolores ad quia fugit nostrum deserunt quasi, enim doloremque, officia
-      excepturi error, minima nulla. Quae, inventore aliquam dolorum esse quis
-      vero, rerum, enim iusto tempora a voluptatem mollitia voluptatum dicta.
-      Eos provident, explicabo possimus id exercitationem, architecto neque ad
       non sapiente enim temporibus nihil similique praesentium aspernatur cum,
       laudantium iusto possimus accusamus enim omnis sequi autem quidem alias
       animi, vel quod amet eveniet rem!

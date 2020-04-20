@@ -1,87 +1,153 @@
 <template>
   <div class="front-page">
     <div class="headline">
-      <!-- <div class="top"> -->
       <h1>{{ headline }}</h1>
       <h2>{{ subtext }}</h2>
       <div class="blue-highlight"></div>
-      <div class="filler">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        esse, deleniti culpa dolores sed id soluta voluptate. Optio amet est
-        blanditiis architecto debitis quidem ad eaque molestiae quam, quo
-        explicabo delectus perspiciatis tenetur minima fugit aperiam praesentium
-        porro, neque excepturi magnam. Exercitationem quae laborum velit
-        delectus at alias atque iste quam nostrum impedit. Enim architecto fuga
-        est esse nisi iure quia sed expedita ab eaque fugit, tempora facere,
-        odio vel facilis ex neque? Alias dignissimos vitae deleniti cumque, sit
-        odio tempore unde, quam minima rerum in accusantium voluptas commodi
-        itaque consequuntur harum quisquam iusto enim. Cum, optio voluptatibus.
-        Saepe, non quos ab quibusdam quisquam dicta, unde ea iusto quis ut est
-        molestiae recusandae repellendus voluptatum magni eaque illo
-        consequuntur inventore suscipit labore dolorum! Recusandae perspiciatis,
-        in nulla corporis odio aliquid obcaecati aut voluptas eum dolor quasi
-        officiis? Tempore, quis repellendus sed deserunt a tempora temporibus
-        doloribus id molestias nisi. Aperiam nesciunt sint ex ea recusandae
-        natus cum eius. Doloribus inventore recusandae fuga sunt vero rerum
-        necessitatibus veniam eius facere laborum dolores beatae voluptate animi
-        molestias, ducimus officia quaerat, ipsa nobis accusantium accusamus
-        maiores tempore nesciunt laudantium. Pariatur doloribus, eius aspernatur
-        unde, sit enim hic architecto mollitia assumenda, voluptatibus facilis
-        quis labore accusantium soluta. Incidunt totam natus nisi suscipit saepe
-        consequatur aliquid mollitia debitis sequi quo, nostrum tenetur ut sunt
-        corrupti corporis perferendis provident nemo velit! Non, officiis enim
-        porro similique animi sequi error nesciunt, adipisci iusto libero
-        voluptates suscipit perferendis natus aperiam consequuntur excepturi ad
-        facere! Numquam neque eaque sequi totam adipisci? Recusandae suscipit
-        quae sed sit doloremque unde rerum, totam non doloribus odio a sint
-        assumenda ullam amet laudantium excepturi quibusdam voluptatum
-        distinctio accusantium nostrum harum. Voluptatibus nihil odit possimus
-        consectetur aliquid eos quaerat exercitationem aliquam voluptates error
-        sapiente adipisci, officia voluptas fugit iusto obcaecati quos accusamus
-        maxime voluptatem delectus dolor quam iste suscipit. Delectus sint saepe
-        nobis, dolore incidunt, officiis inventore accusamus dignissimos qui
-        natus tempore quasi non a nesciunt voluptatibus excepturi numquam vel
-        quaerat recusandae autem deleniti. Reiciendis optio accusamus aliquid
-        sint alias incidunt et tempora rem ut excepturi, asperiores molestias
-        voluptates nesciunt a nulla quisquam sequi. Optio modi praesentium id
-        officia corporis earum voluptatum temporibus eveniet. Assumenda
-        quibusdam recusandae, quas nam id in ipsa sed ab, ad, tenetur fuga
-        sapiente asperiores? Magnam, id? Ea quasi veritatis quos voluptates
-        aspernatur! Est fuga, quidem obcaecati repudiandae aut blanditiis
-        sapiente dolores. Vel facere beatae minus libero consequuntur illo sit
-        harum, quo magni unde! Asperiores perspiciatis optio voluptates nobis
-        dolor non minima consectetur deserunt nostrum cum, facilis ut minus
-        temporibus alias repellendus. Ducimus, architecto dolores sed enim sit
-        molestiae facere cupiditate qui fugiat. Dolorum, incidunt maxime. Nemo
-        dolorem animi dolores quam dignissimos tenetur aliquid, enim odit saepe
-        laudantium? Sapiente expedita harum incidunt error. Repellendus velit et
-        adipisci necessitatibus delectus repellat, sit enim molestiae explicabo.
-        Minus consequuntur molestias similique quod quas dolorem architecto
-        alias non, voluptates error, vitae animi reiciendis et veniam tenetur
-        dicta dolorum, cupiditate inventore minima impedit nesciunt esse. Saepe,
-        cum quis, quisquam, asperiores explicabo nisi dolorum eaque consequuntur
-        temporibus quasi amet eligendi fugit dignissimos rem quae exercitationem
-        ea? Numquam tempora natus quidem! Dignissimos asperiores consequuntur
-        non harum repudiandae id laborum sunt rerum ratione veritatis iste,
-        delectus error repellat! Quisquam recusandae dolor deserunt quam soluta
-        ratione? Fugit eum delectus corporis sint optio architecto, corrupti
-        omnis provident, eveniet in quo veritatis accusamus sed soluta molestias
-        nulla! Corrupti nam nulla minima atque hic veritatis vel reprehenderit
-        error nemo? Rerum a laudantium, facilis enim fugiat voluptatem, tenetur
-        quia quos error incidunt fugit sed amet voluptatibus rem blanditiis nisi
-        facere perferendis maxime assumenda eum? Placeat nostrum quia quas
-        molestiae commodi numquam totam!
+      <div class="spacer" />
+      <div class="certifications">
+        <div class="certification  partner-item">
+          <img
+            class="zapier-expert"
+            src="@/assets/images/zapier-expert.png"
+            alt="Zapier Expert"
+          />
+        </div>
+        <div class="certification partner-item">
+          <img
+            class="airtable-expert"
+            src="@/assets/images/airtable-expert.png"
+            alt="Airtable Expert"
+          />
+        </div>
+        <div class="certification partner-item">
+          <img
+            class="integromat-partner"
+            src="@/assets/images/integromat-partner.png"
+            alt="Integromat Partner"
+          />
+        </div>
       </div>
-      <!-- </div> -->
+      <div class="spacer" />
+      <div class="what-we-do">
+        <h2 class="bold-heading">What we do</h2>
+        <div class="top-paragraph">
+          Every business is unique, software that you use isn't. We create
+          custom solutions to make your business more effective. We leverage
+          automation to make you more efficient, productive, streamlined and
+          organized.
+        </div>
+        <br />
+        <a href="/services">
+          <span class="see-more">See more technologies we love ‣</span></a
+        >
+      </div>
+      <!-- <div class="spacer" /> -->
+      <div class="service-type">
+        <!-- <h2 class="">Automation</h2> -->
+        <div class="svc-logos">
+          <div class="automation">
+            <h2 class="">Automation</h2>
+            <div class="automation-tools">
+              <img
+                class="svc-logo zapier"
+                src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
+                alt="Zapier"
+              />
+              <img
+                class="svc-logo integromat"
+                src="https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png"
+                alt="Integromat"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mid-paragraph">
+          Automation platforms are a great way to connect services. We have
+          built custom workflows to connect numerous popular services. We
+          monitor the automations for errors and downtime and create custom
+          connectors. Never waste your time debugging or learning custom API
+          integrations. We build secure, reliable, market-ready solutions.
+        </div>
+      </div>
+      <div class="service-type-2">
+        <div class="svc-logos">
+          <div class="database">
+            <h2 class="">Database</h2>
+            <div class="database-tools">
+              <img
+                class="svc-logo airtable"
+                src="https://dl.airtable.com/.attachments/e15f4feec060f8f125eab7d48112539e/3a922897/airtablebannerlogo.png"
+                alt="Airtable"
+              />
+              <img
+                class="svc-logo mysql"
+                src="https://dl.airtable.com/.attachments/cb6c848d568cf411ca022315e187f09d/3b1d1612/pngwave.png"
+                alt="MySQL"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mid-paragraph">
+          Any company needs a database. A database is the back-end of an
+          application where the information is stored. Data helps drive
+          decisions and it’s important to keep it accurate and clean. We are
+          database experts. If you need custom reporting, data-based automation,
+          a custom CRM, or clean customer records we can create a long-term
+          database solution for your business.
+        </div>
+      </div>
+      <div class="spacer" />
+      <div class="service-type">
+        <div class="svc-logos">
+          <div class="communication">
+            <h2 class="">Communication</h2>
+            <div class="communication-tools">
+              <img
+                class="svc-logo gsuite"
+                src="https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png"
+                alt="GSuite"
+              />
+              <img
+                class="svc-logo slack"
+                src="https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png"
+                alt="Slack"
+              />
+            </div>
+          </div>
+          <div class="productivity">
+            <h2 class="">Productivity</h2>
+            <div class="productivity-tools">
+              <img
+                class="svc-logo copper"
+                src="https://dl.airtable.com/.attachments/18fa778c0a3fe6441849a022311f75d6/30dd9538/CopperBanner1.png"
+                alt="Copper"
+              />
+              <img
+                class="svc-logo calendly"
+                src="https://dl.airtable.com/.attachments/8bb20e24ac5275e083941280e7d505f7/c156a58b/calendly-logo1.png"
+                alt="Calendly"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mid-paragraph">
+          Too much time is wasted due to poor communication. By leveraging
+          communication and productivity tools, you can keep your entire team
+          informed and active. We can help you build or implement a CRM, create
+          communication channels and reminders, scheduling solutions and
+          workflows to make management efficient and effective. Many services
+          are robust and powerful, but only when they’re being used correctly.
+          We can audit your workflows to improve communication and productivity
+          across your entire company.
+        </div>
+      </div>
     </div>
-    <!-- <hr /> --><br /><br />
+    <br /><br />
   </div>
 </template>
 
 <script>
-// import ServiceCard from "@/components/ServiceCard.vue";
-// import Selected from "@/components/Selected.vue";
-
 import { EventBus } from "../main";
 
 export default {
@@ -121,7 +187,7 @@ export default {
   box-sizing: border-box;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: darkorange;
   font-size: 20px;
@@ -131,6 +197,14 @@ a {
   width: 120px;
   margin: auto;
   text-align: right;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -302,7 +376,7 @@ h4 {
   background-color: #f3f8ff;
 }
 
-.request {
+/* .request {
   text-decoration: none;
   color: darkorange;
   font-size: 20px;
@@ -313,15 +387,35 @@ h4 {
   margin: auto;
   text-align: center;
   font-size: 30px;
+} */
+
+/* .request {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+  padding-top: 5px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+} */
+
+.top-paragraph {
+  font-size: 1.3em;
+  margin: auto;
+  padding: 20px 15% 0 15%;
+  padding: 0 25%;
+  text-align: center;
 }
 
-.filler {
-  font-size: 1.2em;
-  text-align: left;
+.mid-paragraph {
+  font-size: 1.3em;
+  text-align: center;
   margin: auto;
-  padding: 0 30px;
-  padding: 10px 8% 0 8%;
-  text-align: left;
+  padding: 0 25%;
+  padding: 20px 200px 0 200px;
 }
 
 footer {
@@ -332,5 +426,154 @@ footer {
   background-color: #f1f4f5;
   border-top: 1px solid #f1f4f5;
   align-items: center;
+}
+.svc-logos {
+  display: flex;
+  margin: auto;
+  padding: 0 30px 30px 30px;
+  justify-content: space-evenly;
+  /* max-height: 200px; */
+}
+.svc-logo {
+  height: auto;
+  /* width: 30%; */
+  margin: auto;
+}
+.zapier {
+  width: 20%;
+}
+.airtable {
+  width: 20%;
+}
+.integromat {
+  width: 20%;
+}
+.mysql {
+  width: 15%;
+}
+.copper {
+  width: 40%;
+}
+.calendly {
+  width: 40%;
+}
+.slack {
+  width: 25%;
+}
+.gsuite {
+  width: 20%;
+}
+.automation {
+  justify-content: space-around;
+  margin: auto;
+}
+.database {
+  justify-content: space-around;
+  margin: auto;
+}
+.communication {
+  justify-content: space-around;
+  margin: auto;
+}
+.productivity {
+  justify-content: space-around;
+  margin: auto;
+}
+.automation-tools {
+  display: flex;
+  height: auto;
+}
+.database-tools {
+  display: flex;
+  height: auto;
+}
+.communication-tools {
+  display: flex;
+  height: auto;
+}
+.productivity-tools {
+  display: flex;
+  height: auto;
+}
+.spacer {
+  height: 40px;
+}
+.bold-heading {
+  /* font-weight: bold; */
+  color: #ffffff;
+}
+.rethink {
+  margin-bottom: 0;
+}
+.what-we-do {
+  background-color: #33333390;
+  color: whitesmoke;
+  padding: 20px 0 15px 0;
+}
+
+.service-type {
+  background-color: #f2f6fc;
+  color: #999999;
+  padding: 20px 0 40px 0;
+}
+
+.service-type-2 {
+  background-color: #ffffff;
+  color: #999999;
+  padding: 20px 0 40px 0;
+}
+
+.certifications {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.integromat-partner {
+  width: 70%;
+  margin: auto;
+  align-content: space-around;
+  max-height: 100px;
+}
+
+.airtable-expert {
+  width: 60%;
+  margin: auto;
+  align-content: space-around;
+  max-height: 100px;
+}
+
+.zapier-expert {
+  width: 55%;
+  margin: auto;
+  align-content: space-around;
+  max-height: 100px;
+}
+
+.partner-item {
+  border-style: solid;
+  display: flex;
+  height: auto;
+  width: 200px;
+  max-width: 50%;
+  border-radius: 1rem;
+  background-color: #f2f6fc;
+  border-width: 1px;
+}
+.see-more {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  width: fit-content;
+  border-radius: 2rem;
+  padding: 5px 10px;
+  background-color: #06548c;
+  box-shadow: 1px 1px 5px #666666;
+  text-decoration: none;
+}
+.certification {
+  height: 100px;
 }
 </style>

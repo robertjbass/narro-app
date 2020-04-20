@@ -25,7 +25,7 @@
                   </div>
                   <div class="bottom">
                     <div class="left">
-                      <div class="svc-name">{{ service.name }}</div>
+                      <!-- <div class="svc-name">{{ service.name }}</div> -->
                       <img class="logo-icon" :src="service.logoUrl" />
                     </div>
                     <div class="right">
@@ -120,21 +120,20 @@ a h3 {
 
 .inner-wrap {
   border-style: solid;
-
   padding: 0px;
   width: 75%;
   margin: 0 0 10px 0;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-
   background-color: white;
   min-width: 270px;
-
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  contain: content;
 }
 
 .left {
@@ -181,7 +180,7 @@ a h3 {
   width: auto;
   margin: auto;
   padding: 10px 0 5px 0;
-  width: 400px;
+  width: 100px;
 }
 
 .bottom {

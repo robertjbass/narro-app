@@ -68,7 +68,6 @@ a h3 {
   color: #136bf5;
 }
 
-/* dark-orange-logo */
 .logo {
   color: #fd7622;
 }
@@ -81,18 +80,16 @@ a h3 {
 .logo-image {
   min-width: 100%;
   max-width: 100%;
-  /* max-height: 140px; */
 }
 .image-slot {
   width: 100%;
   height: auto;
-
-  /* margin-bottom: 5px; */
 }
 
 .service-banner {
   justify-content: center;
 }
+
 .card-wrapper {
   display: flex;
   flex-direction: column;
@@ -103,7 +100,6 @@ a h3 {
 }
 
 .description {
-  /* font-family: "Indie Flower", cursive; */
   position: relative;
   bottom: 0px;
   text-align: left;

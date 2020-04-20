@@ -31,15 +31,22 @@
     <router-view />
     <h2 class="call-to-action">
       Ready to streamline your business?
-      <br />
-      <a
-        class="request"
-        href="https://airtable.com/shrCDJbvIga3NMRZS"
-        target="blank"
-        >Request a Consult</a
-      >
     </h2>
-    <div class="spacer"></div>
+    <br />
+    <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank">
+      <div class="contact-us">
+        Contact Us
+      </div>
+    </a>
+    <br />
+    <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank">
+      <img
+        class="request"
+        src="https://dl.airtable.com/.attachments/30ca4e36abbae0daca2f01097d4e95cb/288d03f7/envelope.svg"
+        alt="Contact us"
+      />
+    </a>
+    <div class="spacer" />
     <FooterBar />
   </div>
 </template>
@@ -107,6 +114,10 @@ hr {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   margin: auto;
   margin-left: 0;
@@ -135,11 +146,9 @@ hr {
   justify-content: space-between;
   padding: 0 5%;
   background-color: black;
-  /* height: 100px; */
   vertical-align: middle;
   display: flex;
   margin: auto;
-  /* position: fixed; */
   top: 0;
   left: 0;
 }
@@ -151,9 +160,7 @@ hr {
   width: 100px;
   font-weight: bold;
   padding-right: 5%;
-  /* text-align: center; */
   justify-content: center;
-  /* margin: auto; */
 }
 
 .company-name-white {
@@ -175,32 +182,30 @@ footer {
   width: 100%;
   margin: auto;
 }
+
+.spacer-small {
+  height: 30px;
+}
+
 .spacer {
   height: 60px;
 }
 
-.contact-us {
-  text-decoration: none;
-  color: darkorange;
-  font-size: 20px;
-  font-weight: 900;
-  font-family: "Indie Flower", cursive;
-  padding-top: 5px;
-  width: 100%;
-  margin: auto;
-  background-color: inherit;
-}
-
 .request {
   text-decoration: none;
-  color: darkorange;
-  font-weight: 900;
-  font-family: "Indie Flower", cursive;
-  padding-top: 5px;
-  width: 250px;
-  margin: auto;
-  text-align: center;
-  font-size: 30px;
+  border-radius: 1rem;
+  background-color: #d8e9f2;
+  width: 30px;
+  height: 20px;
+  padding: 5px;
+  justify-content: center;
+  color: #ffffff;
+  position: fixed;
+  bottom: 65px;
+  right: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
 }
 
 .logo {
@@ -222,5 +227,20 @@ footer {
 
 .nav-spacer {
   height: 85px;
+}
+
+.contact-us {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  width: fit-content;
+  border-radius: 2rem;
+  padding: 5px 10px;
+  background-color: #06548c;
+  box-shadow: 1px 1px 5px #666666;
+  text-decoration: none;
 }
 </style>
