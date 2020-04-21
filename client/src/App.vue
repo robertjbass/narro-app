@@ -23,7 +23,7 @@
         <router-link to="/">Home</router-link>
         <router-link to="/services">Services</router-link>
         <router-link to="/case">Case Study</router-link>
-        <router-link to="/about">FAQ</router-link>
+        <router-link to="/about">Contact</router-link>
         <router-link to="/saas">Partners</router-link>
       </Navbar>
       <hr />
@@ -106,7 +106,8 @@ export default {
 }
 
 #nav a.router-link-exact-active {
-  color: #30bfe0;
+  /* color: #30bfe0; */
+  color: #06548c;
   background-color: #99999950;
 }
 

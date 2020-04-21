@@ -1,6 +1,22 @@
 {
   "services": [
     {
+      "idname": "zapier",
+      "name": "Zapier",
+      "description": "A single salaried employee costs tens of thousands of dollars annually. Building proprietary software can cost even more. As certified Zapier experts, we help you to scale your business and reduce overhead by connecting and customizing your software.",
+      "light-primary": "#ffefce50",
+      "light-secondary": "#ffa38c50",
+      "primary-color": "#ffefce",
+      "secondary-color": "#ffa38c",
+      "categories": [
+        "Automation",
+        "Back-End"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png"
+    },
+    {
       "idname": "airtable",
       "name": "Airtable",
       "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything. Replace your current forms with Airtable Forms and automate tasks based on the results.",
@@ -41,6 +57,25 @@
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": true
+    },
+    {
+      "idname": "integromat",
+      "name": "Integromat",
+      "description": "Integromat is a powerful tool for automating manual processes. Integromat is called 'The glue of the internet'. It is a powerful tool for automating manual processes and connecting services. We wouldn't be an Integromat partner if we didn't love it.",
+      "light-primary": "#2f8cbb50",
+      "light-secondary": "#57575750",
+      "primary-color": "#2f8cbb",
+      "secondary-color": "#575757",
+      "categories": [
+        "Automation",
+        "Back-End"
+      ],
+      "logoUrl": "https://dl.airtable.com/.attachments/219884d4021938e2636791740050f614/cdc49f27/integromatlogo.png",
+      "bannerUrl": "https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png",
+      "otherUrl": "https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG",
+      "localUrl": "",
+      "localBannerUrl": "",
+      "hidden": false
     },
     {
       "idname": "calendly",
@@ -104,7 +139,7 @@
       "bannerUrl": "https://dl.airtable.com/.attachments/9d51e90027f416797d31d6dd35212242/a41ffa0f/contactsplusbanner.png",
       "localUrl": "",
       "localBannerUrl": "",
-      "hidden": false
+      "hidden": true
     },
     {
       "idname": "copper",
@@ -143,7 +178,7 @@
       "bannerUrl": "https://dl.airtable.com/.attachments/73d62d31e5196a427fea9a522382fa8c/d09ea741/DialpadBanner.png",
       "localUrl": "",
       "localBannerUrl": "",
-      "hidden": false
+      "hidden": true
     },
     {
       "idname": "docusign",
@@ -160,7 +195,7 @@
       "bannerUrl": "https://dl.airtable.com/.attachments/57a0d554cd3e9c89fce9f214b352259e/75af1014/docusign.png",
       "localUrl": "",
       "localBannerUrl": "",
-      "hidden": false
+      "hidden": true
     },
     {
       "idname": "dropbox",
@@ -181,7 +216,7 @@
       "otherUrl": "https://dl.airtable.com/.attachments/e078e4a1dc848325d5aca675e5029d81/3858c4f7/DropboxLogo3.png",
       "localUrl": "",
       "localBannerUrl": "",
-      "hidden": false
+      "hidden": true
     },
     {
       "idname": "gsuite",
@@ -207,25 +242,6 @@
       "logoUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
       "bannerUrl": "https://dl.airtable.com/.attachments/5e82630b4bfd03e62e1e9090f15bc8b9/0f58805f/GSuiteServices.png",
       "otherUrl": "https://dl.airtable.com/.attachments/d632d98c3b4b593e284d8de71584d9d7/ce5f3e6b/GSuiteGray.png",
-      "localUrl": "",
-      "localBannerUrl": "",
-      "hidden": false
-    },
-    {
-      "idname": "integromat",
-      "name": "Integromat",
-      "description": "Integromat is a powerful tool for automating manual processes. Integromat is called 'The glue of the internet'. It is a powerful tool for automating manual processes and connecting services. We wouldn't be an Integromat partner if we didn't love it.",
-      "light-primary": "#2f8cbb50",
-      "light-secondary": "#57575750",
-      "primary-color": "#2f8cbb",
-      "secondary-color": "#575757",
-      "categories": [
-        "Automation",
-        "Back-End"
-      ],
-      "logoUrl": "https://dl.airtable.com/.attachments/219884d4021938e2636791740050f614/cdc49f27/integromatlogo.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/61a1a082ee33005a717c0567a2dee392/59da9922/integromat.png",
-      "otherUrl": "https://dl.airtable.com/.attachments/a5e7a675f76da5d99cdc6b7e9e184335/ed155325/IntegromatPartner.PNG",
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
@@ -304,7 +320,7 @@
       "bannerUrl": "https://dl.airtable.com/.attachments/bc7ada5a73958df814a21060aa39b6b6/1f31f91e/SlackBanner.png",
       "localUrl": "",
       "localBannerUrl": "",
-      "hidden": false
+      "hidden": true
     },
     {
       "idname": "slite",
@@ -321,7 +337,7 @@
       "bannerUrl": "https://dl.airtable.com/.attachments/6ae3eea7cf917f98f65a66e17af346b3/0c5dfc5e/slitelogo.png",
       "localUrl": "",
       "localBannerUrl": "",
-      "hidden": false
+      "hidden": true
     },
     {
       "idname": "typeform",
@@ -340,22 +356,6 @@
       "localUrl": "",
       "localBannerUrl": "",
       "hidden": false
-    },
-    {
-      "idname": "zapier",
-      "name": "Zapier",
-      "description": "A single salaried employee costs tens of thousands of dollars annually. Building proprietary software can cost even more. As certified Zapier experts, we help you to scale your business and reduce overhead by connecting and customizing software that already exists. We are certified to leverage automation for you.",
-      "light-primary": "#ffefce50",
-      "light-secondary": "#ffa38c50",
-      "primary-color": "#ffefce",
-      "secondary-color": "#ffa38c",
-      "categories": [
-        "Automation",
-        "Back-End"
-      ],
-      "logoUrl": "https://dl.airtable.com/.attachments/755379122ac8e8f233ebfe4b13c5454a/59e7fa4d/ZapierLogo1.png",
-      "bannerUrl": "https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png",
-      "otherUrl": "https://dl.airtable.com/.attachments/9a39330702bfb91da6c8fd0aca5bf205/daaa8b92/ZapierExpert-2.png"
     }
   ]
 }

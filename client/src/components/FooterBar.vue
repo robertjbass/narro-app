@@ -16,7 +16,8 @@
         </a>
       </div>
       <div class="icon-box">
-        <a href="https://www.youtube.com/" target="blank">
+        <a href="/">
+          <!-- <a href="https://www.youtube.com/" target="blank"> -->
           <img
             class="icon"
             v-bind:src="
@@ -49,10 +50,7 @@
 
 <script>
 export default {
-  name: "FooterBar",
-  data() {
-    return {};
-  }
+  name: "FooterBar"
 };
 </script>
 

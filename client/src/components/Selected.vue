@@ -192,16 +192,12 @@ a h3 {
 .description {
   text-align: left;
   padding-left: 15px;
+  font-size: 18px;
 }
 
 .services {
   width: 100%;
 }
-
-/*
-
-
- */
 
 .outer {
   display: table;

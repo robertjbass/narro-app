@@ -26,26 +26,6 @@
 
       <div class="blue-highlight">
         <!-- <hr /> -->
-        <div class="contact-info">
-          <div class="address">
-            <h3 class="contact-title">
-              Address
-            </h3>
-            <p class="contact">
-              Narro, LLC<br />244 Highland Pkwy #112 <br />Buffalo, NY 14223
-            </p>
-          </div>
-
-          <div class="email">
-            <h3 class="contact-title">Email</h3>
-            <p class="contact">‪info@narro.app</p>
-          </div>
-
-          <div class="phone">
-            <h3 class="contact-title">Phone</h3>
-            <p class="contact">‪716.256.3060‬</p>
-          </div>
-        </div>
 
         <br /><br />
       </div>
