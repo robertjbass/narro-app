@@ -7,11 +7,16 @@
       <div class="spacer" />
       <div class="certifications">
         <div class="certification  partner-item">
-          <img
-            class="zapier-expert"
-            src="@/assets/images/zapier-expert.png"
-            alt="Zapier Expert"
-          />
+          <div class="zapier-badge">
+            <a
+              href="https://zapier.com/experts/?utm_source=Expert%20Program%20Referral&utm_medium=Referral&utm_campaign=Experts%20Badge"
+              ><img
+                src="https://cl.ly/2H1B2a3s0A26/3a315ef0851771fa6ed346823cabb7110ec74369.png"
+                alt="Zapier Certified Expert"
+                height="150"
+                width="150"
+            /></a>
+          </div>
         </div>
         <div class="certification partner-item">
           <img
@@ -21,11 +26,12 @@
           />
         </div>
         <div class="certification partner-item">
-          <img
-            class="integromat-partner"
-            src="@/assets/images/integromat-partner.png"
-            alt="Integromat Partner"
-          />
+          <a href="https://www.integromat.com/?pc=narro">
+            <img
+              class="integromat-partner"
+              src="@/assets/images/integromat-partner.png"
+              alt="Integromat Partner"
+          /></a>
         </div>
       </div>
       <div class="spacer" />
@@ -301,13 +307,16 @@ h4 {
 
 .integromat-partner-logo {
   width: 40%;
-  padding: 0px;
+  /* padding: 0px; */
   margin: auto;
+  padding-top: 20px;
 }
 .integromat-partner {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin: auto;
+  padding-top: 35px;
 }
 .image-slot {
   justify-content: space-evenly;
@@ -439,72 +448,92 @@ footer {
   /* width: 30%; */
   margin: auto;
 }
+
 .zapier {
   width: 20%;
 }
+
 .airtable {
   width: 20%;
 }
+
 .integromat {
   width: 20%;
 }
+
 .mysql {
   width: 15%;
 }
+
 .copper {
   width: 40%;
 }
+
 .calendly {
   width: 40%;
 }
+
 .slack {
   width: 25%;
 }
+
 .gsuite {
   width: 20%;
 }
+
 .automation {
   justify-content: space-around;
   margin: auto;
 }
+
 .database {
   justify-content: space-around;
   margin: auto;
 }
+
 .communication {
   justify-content: space-around;
   margin: auto;
 }
+
 .productivity {
   justify-content: space-around;
   margin: auto;
 }
+
 .automation-tools {
   display: flex;
   height: auto;
 }
+
 .database-tools {
   display: flex;
   height: auto;
 }
+
 .communication-tools {
   display: flex;
   height: auto;
 }
+
 .productivity-tools {
   display: flex;
   height: auto;
 }
+
 .spacer {
   height: 40px;
 }
+
 .bold-heading {
   /* font-weight: bold; */
   color: #ffffff;
 }
+
 .rethink {
   margin-bottom: 0;
 }
+
 .what-we-do {
   background-color: #33333390;
   color: whitesmoke;
@@ -528,6 +557,7 @@ footer {
   margin: auto;
   justify-content: space-around;
 }
+
 .integromat-partner {
   width: 70%;
   margin: auto;
@@ -553,7 +583,7 @@ footer {
   border-style: solid;
   display: flex;
   height: auto;
-  width: 200px;
+  width: 250px;
   max-width: 50%;
   border-radius: 1rem;
   background-color: #f2f6fc;
@@ -574,6 +604,11 @@ footer {
   text-decoration: none;
 }
 .certification {
-  height: 100px;
+  height: 150px;
+  margin: auto;
+}
+
+.zapier-badge {
+  margin: auto;
 }
 </style>
