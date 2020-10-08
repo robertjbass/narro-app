@@ -3,28 +3,20 @@
     <section class="banner">
       <img
         class="header-img"
-        v-bind:src="
-          'https://images.unsplash.com/photo-1560264280-88b68371db39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
-        "
+        v-bind:src="'https://images.unsplash.com/photo-1560264280-88b68371db39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'"
         alt="Unsplash Call Center"
       />
     </section>
 
     <section class="text-assets">
       <div class="markup">
-        <div class="title">
-          Case Study
-        </div>
+        <div class="title">Case Study</div>
         <br />
 
-        <div class="subtitle">
-          Small Business Automation Case Study
-        </div>
+        <div class="subtitle">Small Business Automation Case Study</div>
         <br />
 
-        <div class="heading">
-          Ashland Development
-        </div>
+        <div class="heading">Ashland Development</div>
         <br />
         <div class="preface">
           Accounts Receivable Management (ARM) innovation has been very slow
@@ -54,9 +46,7 @@
 
         <br /><br />
 
-        <div class="preface">
-          Areas of Focus and Challenges:
-        </div>
+        <div class="preface">Areas of Focus and Challenges:</div>
 
         <div class="list">
           <ul class="ulitem">
@@ -228,8 +218,8 @@
         <br /><br />
 
         <div class="preface">
-          We found a tangible savings of $32,360.00 annually in payroll plus the
-          cost was the countless repetitive tasks
+          We found a tangible savings of $32,360.00 annually in payroll, not to
+          mention cost of countless repetitive tasks
         </div>
 
         <br />
@@ -324,7 +314,7 @@
 
 <script>
 export default {
-  name: "case-study"
+  name: "case-study",
 };
 </script>
 
