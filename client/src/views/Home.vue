@@ -4,7 +4,7 @@
     <!-- subtext="Get back the time you spend on repetitive tasks. Grow your business larger than you had ever imagined." -->
     <FrontPage
       headline="Time is your most valuable asset"
-      subtext="Dramatically increase your productivity with automation"
+      subtext="Protect it with automation"
     />
     <Footer />
   </div>
@@ -16,8 +16,8 @@ import FrontPage from "@/components/FrontPage.vue";
 export default {
   name: "home",
   components: {
-    FrontPage
-  }
+    FrontPage,
+  },
 };
 </script>
 

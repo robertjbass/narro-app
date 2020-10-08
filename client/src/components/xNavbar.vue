@@ -1,42 +1,33 @@
+<template>
+  <div class="toolbar">
+    <!-- <slot> </slot> -->
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Navbar",
+};
+</script>
+
+<style scoped>
 * {
   font-size: 10px;
   font-family: sans-serif;
-  font-family: 'Open Sans',Helvetica,arial,sans-serif;
-  display: block;
+  font-family: "Open Sans", Helvetica, arial, sans-serif;
   color: -internal-root-color;
   box-sizing: border-box;
 }
 
-header {
-  align-items: stretch;
-  display: grid;
-  grid-template-columns: max-content auto max-content;
-  position: relative;
-  z-index: 950;
-  width: 100%;
-  background-color: #ffffff;
-  border-bottom: 1px solid rgb(230, 230, 230);
-}
-
-footer {
-  order: 3;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #f1f4f5;
-  border-top: 1px solid #f1f4f5;
-  align-items: center;
-}
-
 a {
-  color: #9bd5ff;
+  color: #30bfe0;
 }
 
 .toolbar {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
-  gap: inherit;
+  gap: unset;
 }
 
 hr {
@@ -67,10 +58,9 @@ h3 {
 
 a,
 h3 {
-  color: #136bf5
+  color: #333333;
 }
 
-/* dark-orange-logo */
 .logo {
   color: #fd7622;
 }
@@ -81,30 +71,26 @@ h3 {
 }
 .btn-black {
   background-color: #000000;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .btn-orange {
   background-color: #fc4700;
-  color: #ffffff
+  color: #ffffff;
 }
 
-/* area 1 */
 .body-section-white {
   background-color: #fde3ef;
 }
 
-/* area 2 */
 .body-section-blue {
   background-color: #f3f8ff;
 }
 
 .text-box {
-  /* placeholder-text */
   color: #8c8c8c;
   border-color: #e6e6e6;
 }
-
 
 .h3-background {
   background-color: #f2f2f2;
@@ -122,8 +108,6 @@ h3 {
   background-image: linear-gradient(to top right, #edeafb, #fde3ef);
 }
 
-
-
 .subtext-area {
   display: flex;
   flex-direction: column;
@@ -138,9 +122,8 @@ h3 {
 }
 
 .blue-highlight {
-  background-color: #e5effd;
+  background-color: #f6f6f6;
 }
-
 
 .light-blue-highlight {
   background-color: #f3f8ff;
@@ -169,7 +152,7 @@ h3 {
   border-radius: 2rem;
   border-style: solid;
   border-width: 1px;
-  border-color: #666666
+  border-color: #666666;
 }
 
 /* fake screenshot */
@@ -199,22 +182,8 @@ h3 {
 /* section header */
 .learn-more {
   /* salmon */
-  background-color: #ffe1d5; 
+  background-color: #ffe1d5;
   padding: 40px 20px 50px;
   overflow: hidden;
 }
-
-/* unused */
-
-/* top-area
-background
-#fafafa
-gray-lines-design
-#e6e6e6
-gray-lines-around-boxes
-#e2e2e2
-workspace-canvas-background
-#f2f2f2
-built-in-app
-dark
-#666666 */
+</style>

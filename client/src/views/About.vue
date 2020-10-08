@@ -1,12 +1,16 @@
 <template>
-  <div>
+  <div class="contact">
     <div class="about">
-      <div>
-        <h1>Contact us today</h1>
-        <h2>AUTOMATION - PRODUCTIVITY - INTEGRATION - STRATEGIC PLANNING</h2>
-        <br /><br />
+      <div class="remove-padding">
+        <!-- <h1>Contact us today</h1> -->
+        <h1 class="remove-padding">Contact us today</h1>
+        <h3>AUTOMATION - PRODUCTIVITY - INTEGRATION - STRATEGY</h3>
+        <!-- <br /><br /> -->
       </div>
-      <div class="contact-info">
+
+      <TypeForm />
+
+      <!-- <div class="contact-info">
         <div class="address">
           <h3 class="contact-title">
             Address
@@ -25,7 +29,7 @@
           <h3 class="contact-title">Phone</h3>
           <p class="contact">‪716.256.3060‬</p>
         </div>
-      </div>
+      </div> -->
       <br />
       <div class="body">
         <h4>Can Narro Automation help my company?</h4>
@@ -78,8 +82,15 @@
 </template>
 
 <script>
+import TypeForm from "@/components/TypeForm.vue";
 export default {
-  name: "about"
+  name: "about",
+  components: {
+    TypeForm,
+  },
+  components: {
+    TypeForm,
+  },
 };
 </script>
 
@@ -88,6 +99,7 @@ export default {
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 10%;
 }
 
 h1 {
@@ -107,12 +119,14 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
-  font-weight: 525;
+  font-weight: bolder;
+  padding: 0;
+  margin-top: 0;
 }
 
 h4 {
   text-align: left;
-  margin-left: 115px;
+  /* margin-left: 115px; */
   font-size: 24px;
 }
 hr {
@@ -129,6 +143,16 @@ p {
   padding: 0 30px;
   padding: 10px 8% 0 8%;
   text-align: left;
+}
+
+.remove-padding {
+  padding: 0;
+  margin-top: 0;
+}
+
+.contact {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .request {
@@ -184,12 +208,13 @@ p {
 }
 
 .body {
-  padding: 40px;
+  padding: 0 40px;
   margin: auto;
 }
 
 .inline-link {
   text-decoration: none;
   color: darkorange;
+  padding: 0;
 }
 </style>

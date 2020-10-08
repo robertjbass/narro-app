@@ -1,10 +1,33 @@
 <template>
   <div id="app">
-    <!-- <ModalBackground v-onclick="(modalOn = false)" /> -->
-    <!-- <div class="nav-spacer"></div> -->
-    <!-- <div class="logo" align="left">Ν▶</div> -->
     <div id="nav">
       <div class="logo">
+        <div class="actualLogo" v-show="this.windowWidth > 600">
+          <a href="/">
+            <img
+              class="logo-img"
+              src="./assets/Narro Logo Clear.png"
+              alt="Ν▶"
+              align="left"
+            />
+          </a>
+        </div>
+        <div class="routerLinks">
+          <router-link to="/">Home</router-link>
+          <router-link to="/services">Services</router-link>
+          <router-link to="/case">Case Study</router-link>
+          <router-link to="/about">Contact</router-link>
+          <router-link to="/saas">Partners</router-link>
+        </div>
+        <span class="narro-automation" v-show="this.windowWidth >= 600">
+          <div class="company-name-orange">Narro</div>
+          <div class="company-name-white">Automation</div>
+        </span>
+      </div>
+      <hr />
+    </div>
+    <span v-show="this.windowWidth < 600">
+      <div class="smallHeader">
         <a href="/">
           <img
             class="logo-img"
@@ -13,33 +36,23 @@
             align="left"
           />
         </a>
-        <div class="logo-box"></div>
-        <span class="narro-automation">
+        <div class="narAuto">
           <div class="company-name-orange">Narro</div>
-          <div class="company-name-white">Automation</div>
-        </span>
+          <div class="company-name-gray">Automation</div>
+        </div>
       </div>
-      <Navbar>
-        <router-link to="/">Home</router-link>
-        <router-link to="/services">Services</router-link>
-        <router-link to="/case">Case Study</router-link>
-        <router-link to="/about">Contact</router-link>
-        <router-link to="/saas">Partners</router-link>
-      </Navbar>
-      <hr />
-    </div>
+    </span>
     <router-view />
-    <h2 class="call-to-action">
-      Ready to streamline your business?
-    </h2>
+    <h2 class="call-to-action">Ready to streamline your business?</h2>
     <br />
-    <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank">
+    <TypeForm />
+    <!-- <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank">
       <div class="contact-us">
         Contact Us
       </div>
-    </a>
+    </a> -->
     <br />
-    <a href="https://airtable.com/shrCDJbvIga3NMRZS" target="blank">
+    <a href="https://narrollc.typeform.com/to/TwEEDK7V" target="blank">
       <img
         class="request"
         src="https://dl.airtable.com/.attachments/30ca4e36abbae0daca2f01097d4e95cb/288d03f7/envelope.svg"
@@ -52,29 +65,52 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+// import Navbar from "@/components/Navbar.vue";
 import FooterBar from "@/components/FooterBar.vue";
+import TypeForm from "@/components/TypeForm.vue";
 // import ModalBackground from "@/components/ModalBackground.vue";
 import { EventBus } from "./main";
 
 export default {
   name: "app",
+  data() {
+    return {
+      selectedService: this.selectedService,
+      windowWidth: this.windowSize || this.windowWidth,
+    };
+  },
   components: {
-    Navbar,
-    FooterBar
+    // Navbar,
+    FooterBar,
     // ModalBackground
   },
 
+  computed: {
+    windowSize() {
+      return window.innerWidth;
+    },
+    windowWidth2() {
+      return (window.onresize = () => {
+        this.windowWidth = window.innerWidth;
+      });
+    },
+  },
   created() {
-    EventBus.$on("changeSvc", data => {
+    EventBus.$on("changeSvc", (data) => {
       this.selectedService = data;
     });
   },
-  data() {
-    return {
-      selectedService: this.selectedService
+  created() {
+    this.windowWidth = window.innerWidth;
+  },
+  mounted() {
+    window.onresize = () => {
+      this.windowWidth = window.innerWidth;
     };
-  }
+  },
+  components: {
+    TypeForm,
+  },
 };
 </script>
 
@@ -93,22 +129,25 @@ export default {
   left: 0;
 }
 #nav {
-  border-bottom: thick;
+  /* border-bottom: thick; */
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
 }
 
 #nav a {
-  font-weight: bold;
-  color: #666666;
-  font-size: 2em;
+  color: whitesmoke;
+  font-weight: bolder;
+  /* color: #666666; */
+  /* font-size: 2em; */
   text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
   /* color: #30bfe0; */
-  color: #06548c;
-  background-color: #99999950;
+  /* color: #06548c;
+  background-color: #99999950; */
+  text-decoration: underline;
+  color: darkorange;
 }
 
 hr {
@@ -117,6 +156,25 @@ hr {
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 50px;
+  font-weight: 525;
+}
+
+.smallHeader {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.narAuto {
+  padding-top: 10px;
 }
 
 .logo {
@@ -158,6 +216,17 @@ a {
   flex-wrap: wrap;
   align-content: center;
   color: #fd7622;
+  width: 100px;
+  font-weight: bold;
+  padding-right: 5%;
+  justify-content: center;
+}
+
+.company-name-gray {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #666666;
   width: 100px;
   font-weight: bold;
   padding-right: 5%;
@@ -243,5 +312,13 @@ footer {
   background-color: #06548c;
   box-shadow: 1px 1px 5px #666666;
   text-decoration: none;
+}
+.routerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10%;
 }
 </style>

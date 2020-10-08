@@ -6,16 +6,18 @@
       <div class="blue-highlight"></div>
       <div class="spacer" />
       <div class="certifications">
-        <div class="certification  partner-item">
+        <div class="certification partner-item">
           <div class="zapier-badge">
-            <a
-              href="https://zapier.com/experts/?utm_source=Expert%20Program%20Referral&utm_medium=Referral&utm_campaign=Experts%20Badge"
-              ><img
-                src="https://cl.ly/2H1B2a3s0A26/3a315ef0851771fa6ed346823cabb7110ec74369.png"
+            <a href="https://experts.zapier.com/narro-llc/" target="_blank">
+              <img
+                class="zapierImage"
+                src="https://dl.airtable.com/.attachments/b99545e12d00d8351312f4b097ed7fb6/d06c9ebc/Zapier2.png"
                 alt="Zapier Certified Expert"
-                height="150"
-                width="150"
-            /></a>
+                width="100"
+              />
+              <strong class="certified">Certified Expert</strong>
+              <!-- width="150" -->
+            </a>
           </div>
         </div>
         <div class="certification partner-item">
@@ -160,14 +162,14 @@ export default {
   name: "front-page",
   props: {
     headline: {
-      type: String
+      type: String,
     },
     subtext: {
-      type: String
+      type: String,
     },
     selectedService: {
-      type: String
-    }
+      type: String,
+    },
   },
   components: {
     // ServiceCard,
@@ -179,8 +181,8 @@ export default {
       this.selectedService = svc;
       EventBus.$emit("changeSvc", this.selectedService);
       return this.selectedService;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -597,7 +599,7 @@ footer {
   align-content: center;
   color: white;
   width: fit-content;
-  border-radius: 2rem;
+  border-radius: 2.5px;
   padding: 5px 10px;
   background-color: #06548c;
   box-shadow: 1px 1px 5px #666666;
@@ -610,5 +612,13 @@ footer {
 
 .zapier-badge {
   margin: auto;
+}
+
+.zapierImage {
+  display: flex;
+  margin: auto;
+}
+.certified {
+  color: black;
 }
 </style>
